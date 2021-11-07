@@ -1,0 +1,1 @@
+# kurou-kun.github.io
