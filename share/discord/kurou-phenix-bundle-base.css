@@ -7,12 +7,12 @@
 
 /* Variables */
 :root {
-  --theme-version: "1.5";
+  --theme-version: "1.4";
   --main-color: #16356d;
   --hover-color: #1c4faf;
-  --online: #43b581;
+  --online: #ff0000;
   --idle: #faa61a;
-  --dnd: #f04747;
+  --dnd: #cc0099;
   --offline: #636b75;
   --invisible: #747f8d;
   --streaming: #643da7;
