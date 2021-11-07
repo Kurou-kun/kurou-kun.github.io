@@ -6114,11 +6114,11 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 
 ::-webkit-scrollbar,
 #app-mount ::-webkit-scrollbar {
-	width: 8px;
+	width: 5px;
 	height: 8px;
 }
 #app-mount .scroller-3vODG7::-webkit-scrollbar {
-	width: 6px;
+	width: 5px;
 	height: 6px;
 }
 #app-mount .scroller--qpKGq::-webkit-scrollbar,
