@@ -3851,11 +3851,11 @@ foreignObject[mask*="mobile"]::after {
 
 .scroller-wrap .scroller::-webkit-scrollbar,
 .stageSection-3mAD8V .container-24CyRY::-webkit-scrollbar {
-  width: 11px;
+  width: 5px;
 }
 
 .scroller-2FKFPG::-webkit-scrollbar {
-  width: 12px;
+  width: 5px;
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb, 
@@ -3870,7 +3870,7 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .rolesList-22qj2L::-webkit-scrollbar {
-  height: 8px;
+  height: 5px;
   width: 12px;
 }
 
