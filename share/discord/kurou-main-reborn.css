@@ -70,7 +70,7 @@
     pointer-events: none;
     filter: blur(var(--background-blur));
   }
-  
+   
   .app-2rEoOp {
     background-color: var(--primary-color);
   }
