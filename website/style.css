@@ -148,12 +148,16 @@ footer {
 	font-size: 15px;
 }
 
-#footer-link {
-	color: #fdfdfd;
+#footer-privacy {
+	color: #fdfdfd; /* WHITE */
+	
 	text-decoration: none;
+	text-align: right;
 }
 
-#footer-link:hover {
+#footer-privacy:hover {
 	color: #ff0000; /* RED */
+	
 	text-decoration: none;
+	text-align: right;
 }
