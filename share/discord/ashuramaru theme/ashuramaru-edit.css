@@ -60,27 +60,6 @@
 	--update-notice-0: none;
 }
 
-/* BACKGROUND BLUR*/
-#app-mount .layers-OrUESM:before {
-  content: "";
-  background: var(--background-image);
-  background-position: var(--background-image-position, center);
-  background-size: var(--background-image-size, cover);
-  background-repeat: var(--background-image-repeat, no-repeat);
-  height: calc(100vh + var(--background-image-blur) * 2);
-  width: calc(100vw + var(--background-image-blur) * 2);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  filter: blur(var(--background-image-blur));
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
 /* CHANNEL UNREAD */
 .wrapper-2jXpOf:hover .content-1x5b-n:before {
   background: rgba(255, 255, 255, 0.1);
@@ -170,6 +149,27 @@
   background-color: var(--main-color);
   color: #fff;
 }
+}
+
+/* BACKGROUND BLUR*/
+#app-mount .layers-OrUESM:before {
+  content: "";
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+  background-repeat: var(--background-image-repeat, no-repeat);
+  height: calc(100vh + var(--background-image-blur) * 2);
+  width: calc(100vw + var(--background-image-blur) * 2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  filter: blur(var(--background-image-blur));
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #app-mount [role=menu],
