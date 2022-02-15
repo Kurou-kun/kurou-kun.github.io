@@ -1,8 +1,64 @@
 /* IMPORTS */
 
-url(https://kurou-kun.github.io/share/discord/ashuramaru%20theme/ashuramaru-base.css);	/* BASE */
+@import url(https://kurou-kun.github.io/share/discord/ashuramaru%20theme/ashuramaru-base.css);	/* BASE */
 @import url(https://kurou-kun.github.io/share/discord/ashuramaru%20theme/ashuramaru-modal-layout.css);	/* USER MODAL LAYOUT */
 @import url(https://kurou-kun.github.io/share/discord/ashuramaru%20theme/ashuramaru-bd.css);	/* BD ONLY FEATURES */
+
+/* CONFIG */
+
+:root {
+	--background-image: url(https://wallpaperaccess.com/full/6537378.png);
+	
+	--background-image-blur: 3px;
+	
+	--serverlist-brightness: 0.7;
+	--left-brightness: 0.4;
+	--middle-brightness: 0.4;
+	--right-brightness: 0.4;
+	--popout-modal-brightness: 0.75;
+	--tint: rgba(var(--tint-colour), var(--tint-brightness));
+	
+	--user-modal-image: var(--background-image);
+	--user-popout-image: var(--background-image);
+	
+	--home-icon: url(https://icon-library.com/images/discord-transparent-server-icon/discord-transparent-server-icon-10.jpg);
+	
+	--background-attachment: fixed;
+	--user-modal-attachment: var(--background-attachment);
+	--user-popout-attachment: var(--background-attachment);
+	
+	--primary-color: #FF0000;
+	--secondary-color: #F00000;
+	--hover-color: #b00404;
+	--tooltip-color: #000000;
+	
+	--green-color: #FF0000;
+	--yellow-color: #f9a719;
+	--red-color: #ec4144;
+	--link-color: #FF0000;
+	--live-color:  #583594;
+	--offline-color: #737e8c;
+	
+	--mention-background: var(--primary-color);
+	--mention-opacity: 0.3;
+	
+	--code-font: Monaco, Consolas, Courier, monospace;
+	--body-font: Whitney, Helvetica Neue, Helvetica, sans-serif;
+	
+	--user-modal-width: 900px;
+	--user-modal-height: 600px;
+	
+	--gradient: to bottom right, var(--primary-color);
+	
+	--hide-member-list: 1;
+	--hide-active-now: 1;
+	
+	--win-min-max-close-button-width: 28px;
+	
+	--channel-tabs-enabled: 0;
+	
+	--update-notice-0: none;
+}
 
 /* BACKGROUND BLUR*/
 #app-mount .layers-OrUESM:before {
