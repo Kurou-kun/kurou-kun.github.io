@@ -1,0 +1,236 @@
+/* IMPORTS */
+
+url(https://kurou-kun.github.io/share/discord/ashuramaru%20theme/ashuramaru-base.css);	/* BASE */
+@import url(https://kurou-kun.github.io/share/discord/ashuramaru%20theme/ashuramaru-modal-layout.css);	/* USER MODAL LAYOUT */
+@import url(https://kurou-kun.github.io/share/discord/ashuramaru%20theme/ashuramaru-bd.css);	/* BD ONLY FEATURES */
+
+/* BACKGROUND BLUR*/
+#app-mount .layers-OrUESM:before {
+  content: "";
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+  background-repeat: var(--background-image-repeat, no-repeat);
+  height: calc(100vh + var(--background-image-blur) * 2);
+  width: calc(100vw + var(--background-image-blur) * 2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  filter: blur(var(--background-image-blur));
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#app-mount [role=menu],
+#app-mount .autocompleteInner-y1mjDl,
+#app-mount .container-2McqkF,
+#app-mount .container-enaOkj,
+#app-mount .container-8Futzw,
+#app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
+#app-mount .emojiPicker-6YCk8a,
+#app-mount .messagesPopoutWrap-1MQ1bW,
+#app-mount .modal-2RrUKJ:not(.slide-2pHaq5),
+#app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
+#app-mount .root-8LYsGj,
+#app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
+#app-mount [class*=userPopout][aria-modal=true],
+#app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
+#app-mount .quickswitcher-pKcM9U,
+#app-mount .root-1gCeng.wrapper-2ZbzR9,
+#app-mount .modalRoot-1Kx4Hb,
+#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt,
+#app-mount .popoutContainer-2wbmiM,
+#app-mount .root-1gCeng:not(.modal-3Crloo),
+#app-mount .container-2O1UgZ,
+#app-mount .container-18GwIk,
+#app-mount .popout-TdhJ6Z {
+  overflow: hidden !important;
+  position: relative;
+  border-radius: 3px;
+}
+
+/* BRIGHTNESS */
+#app-mount [role=menu]:before,
+#app-mount .autocompleteInner-y1mjDl:before,
+#app-mount .container-2McqkF:before,
+#app-mount .container-enaOkj:before,
+#app-mount .container-8Futzw:before,
+#app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG):before,
+#app-mount .emojiPicker-6YCk8a:before,
+#app-mount .messagesPopoutWrap-1MQ1bW:before,
+#app-mount .modal-2RrUKJ:not(.slide-2pHaq5):before,
+#app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y):before,
+#app-mount .root-8LYsGj:before,
+#app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd:before,
+#app-mount [class*=userPopout][aria-modal=true]:before,
+#app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before,
+#app-mount .quickswitcher-pKcM9U:before,
+#app-mount .root-1gCeng.wrapper-2ZbzR9:before,
+#app-mount .modalRoot-1Kx4Hb:before,
+#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt:before,
+#app-mount .popoutContainer-2wbmiM:before,
+#app-mount .root-1gCeng:not(.modal-3Crloo):before,
+#app-mount .container-2O1UgZ:before,
+#app-mount .container-18GwIk:before,
+#app-mount .popout-TdhJ6Z:before {
+  content: "";
+  background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
+  background-position: var(--popout-modal-position, center);
+  background-size: var(--popout-modal-size, cover);
+  background-attachment: var(--popout-modal-attachment, fixed);
+  background-repeat: var(--popout-modal-repeat, no-repeat);
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--popout-modal-brightness));
+  height: calc(100% + var(--popout-modal-blur) * 5);
+  width: calc(100% + var(--popout-modal-blur) * 5);
+  top: calc(var(--popout-modal-blur) / -1 * 2.5);
+  left: calc(var(--popout-modal-blur) / -1 * 2.5);
+  position: absolute;
+  filter: blur(var(--popout-modal-blur));
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: -1;
+}
+
+/* POPUP BLUR */
+app-mount .popout-TdhJ6Z:before {
+  content: "";
+  background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
+  background-position: var(--popout-modal-position, center);
+  background-size: var(--popout-modal-size, cover);
+  background-attachment: var(--popout-modal-attachment, fixed);
+  background-repeat: var(--popout-modal-repeat, no-repeat);
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--popout-modal-brightness));
+  height: calc(100% + var(--popout-modal-blur) * 5);
+  width: calc(100% + var(--popout-modal-blur) * 5);
+  top: calc(var(--popout-modal-blur) / -1 * 2.5);
+  left: calc(var(--popout-modal-blur) / -1 * 2.5);
+  position: absolute;
+  filter: blur(var(--popout-modal-blur));
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: -1;
+}
+
+/* SCROLLBAR */
+#app-mount .guilds-2JjMmN {
+  background-color: transparent;
+}
+
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
+  background-color: rgba(0, 0, 0, var(--serverlist-brightness));
+}
+
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt::-webkit-scrollbar {
+  display: none;
+}
+
+#app-mount [aria-label*=SETTINGS] .sidebarRegionScroller-FXiQOh {
+  background-color: rgba(0, 0, 0, var(--left-brightness));
+}
+
+/* SIDEBAR */
+#app-mount .sidebar-1tnWFu {
+  border-radius: 0;
+  background: rgba(0, 0, 0, var(--left-brightness));
+}
+
+#app-mount .sidebar-1tnWFu .container-1NXEtd,
+#app-mount .sidebar-1tnWFu .privateChannels-oVe7HL,
+#app-mount .sidebar-1tnWFu .scroller-WSmht3 {
+  background-color: transparent;
+}
+
+#app-mount .sidebar-1tnWFu [role=list] > div[style="width: 100%; height: 84px; visibility: hidden;"] {
+  height: 120px !important;
+}
+
+/* MESSAGES */
+#app-mount .chat-2ZfjoI {
+  background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+#app-mount .messages-3amgkR {
+  background-color: transparent;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, var(--text-shadow));
+}
+
+#app-mount .newMessagesBar-1hF-9G {
+  background: var(--gradient);
+  opacity: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* THREAD SIDEBAR */
+#app-mount .threadSidebar-1o3BTy {
+  background: rgb(0, 0, 0, var(--middle-brightness));
+}
+
+/* UPLOAD BRIGHTNESS / BLUR */
+#app-mount .uploadModal-2ifh8j:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, var(--popout-modal-brightness));
+  box-shadow: var(--tint);
+  z-index: 1;
+  -webkit-backdrop-filter: blur(var(--popout-modal-blur));
+          backdrop-filter: blur(var(--popout-modal-blur));
+}
+
+/* MIDDLE BRIGHTNESS */
+#app-mount .container-36u7Lw {
+  background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+#app-mount .applicationStore-2nk7Lo {
+  background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+#app-mount .contentRegion-3HkfJJ {
+  background: rgba(0, 0, 0, var(--middle-brightness));
+}
+
+/* RIGHT BRIGHTNESS */
+#app-mount .container-2cd8Mz .nowPlayingColumn-1eCBCN {
+  background: rgba(0, 0, 0, var(--right-brightness));
+}
+
+/* HEADER */
+#app-mount .header-2o-2hj {
+  background: transparent;
+  box-shadow: none;
+}
+
+/* DARK MODE */
+
+.theme-dark,
+.theme-dark :not(.previewContainer-1xQAsw) .theme-light {
+  --card-background: rgba(0,0,0,0.5);
+  --side-shading: rgba(0,0,0,0.5);
+  --middle-shading: rgba(0,0,0,0.3);
+  --header-shading: rgba(0,0,0,0.7);
+}
+
+/* LIGHT MODE */
+
+.theme-light,
+.theme-light :not(.previewContainer-1xQAsw) .theme-dark:not(.sidebar-1tnWFu):not(.guilds-2JjMmN):not(.sidebarRegion-1VBisG) {
+  --card-background: rgba(255,255,255,0.05);
+  --side-shading: rgba(255,255,255,0.4);
+  --middle-shading: rgba(255,255,255,0.3);
+  --header-shading: rgba(255,255,255,0.5);
+}
