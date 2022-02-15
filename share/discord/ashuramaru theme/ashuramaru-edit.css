@@ -40,7 +40,7 @@
 	--offline-color: #737e8c;
 	
 	--mention-background: var(--primary-color);
-	--mention-opacity: 0.3;
+	--mention-opacity: 0.1;
 	
 	--code-font: Monaco, Consolas, Courier, monospace;
 	--body-font: Whitney, Helvetica Neue, Helvetica, sans-serif;
@@ -383,6 +383,7 @@ app-mount .popout-TdhJ6Z:before {
   display: none;
 }
 
+/* VOICE CHANGE */
 .voiceUser-1K6Xox {
   z-index: 1;
 }
