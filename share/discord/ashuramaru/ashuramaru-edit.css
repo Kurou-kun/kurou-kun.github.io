@@ -27,7 +27,7 @@
 	/* BACKGROUND */
 		--background-shading: 100%;
 		--background-overlay: #00000099;
-		--background-image: url('https://wallpaperaccess.com/full/6537378.png');
+		--background-image: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
 		--background-size: cover;
 		--background-position: center;
 		--background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 		--home-position: center;
 		--home-size: 50px;
 	/* BACKDROP */
-		--backdrop-image: url('https://wallpaperaccess.com/full/6537378.png');
+		--backdrop-image: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
 		--backdrop-image: center;
 		--backdrop-size: cover;
 		--backdrop-repeat: repeat;
@@ -58,7 +58,7 @@
 		--backdrop-sepia: 0%;
 		--backdrop-blur: 2px;
 	/* USER POPOUT */
-		--user-popout-image: url('https://wallpaperaccess.com/full/6537378.png');
+		--user-popout-image: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
 		--user-popout-image: center;
 		--user-popout-size: cover;
 		--user-popout-repeat: repeat;
@@ -72,7 +72,7 @@
 		--user-popout-blur: 2px;
 		--user-popout-overlay: #000000a6;
 	/* USER MODAL */
-		--user-modal-image: url('https://wallpaperaccess.com/full/6537378.png');
+		--user-modal-image: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
 		--user-modal-image: center;
 		--user-modal-size: cover;
 		--user-modal-repeat: repeat;
