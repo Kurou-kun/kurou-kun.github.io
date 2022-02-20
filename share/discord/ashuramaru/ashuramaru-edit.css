@@ -32,7 +32,7 @@
 		--background-position: center;
 		--background-repeat: no-repeat;
 		--background-attachment: fixed;
-		--background-brightness: 90%;
+		--background-brightness: 100%;
 		--background-constrast: 100%;
 		--background-saturation: 100%;
 		--background-invert: 0%;
@@ -50,7 +50,7 @@
 		--backdrop-size: cover;
 		--backdrop-repeat: repeat;
 		--backdrop-attachment: fixed;
-		--backdrop-brightness: 90%;
+		--backdrop-brightness: 100%;
 		--backdrop-constrast: 100%;
 		--backdrop-saturation: 100%;
 		--backdrop-invert: 0%;
@@ -63,7 +63,7 @@
 		--user-popout-size: cover;
 		--user-popout-repeat: repeat;
 		--user-popout-attachment: fixed;
-		--user-popout-brightness: 90%;
+		--user-popout-brightness: 100%;
 		--user-popout-constrast: 100%;
 		--user-popout-saturation: 100%;
 		--user-popout-invert: 0%;
@@ -77,7 +77,7 @@
 		--user-modal-size: cover;
 		--user-modal-repeat: repeat;
 		--user-modal-attachment: fixed;
-		--user-modal-brightness: 90%;
+		--user-modal-brightness: 100%;
 		--user-modal-constrast: 100%;
 		--user-modal-saturation: 100%;
 		--user-modal-invert: 0%;
