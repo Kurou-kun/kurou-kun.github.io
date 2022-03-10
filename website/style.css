@@ -1,163 +1,154 @@
-/* Page main parts */
 body {
-	background-color: #23272A;	/* DARK GREY */
-	
-	color: #fdfdfd;	/* DIMMED WHITE */
-	font-style: normal;
-	font-family: 'Dongle', sans-serif;
-	
-	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-footer {
-	width: 100%;
-	height: 7%;
+/* BACKGROUND */
+
+.background-image {
+	background-image: url("https://raw.githubusercontent.com/Kurou-kun/kurou-kun.github.io/main/website/images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: fixed;
+	widht: 110%;
+	height: 110%;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
 	position: fixed;
-	bottom: 0;
+	left: -5%;
+	top: -5%;
+	right: -5%;
+	z-index: 1;
+}
+
+.background {
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	margin-top: 100px;
 	left: 0;
-	
-	background-color: #2e3438;
-	
-	text-decoration: none;
-	text-align: center;
+	right: 0;
+	z-index: 9999;
+	display: block;
 }
 
-/* DIVS */
-.main {
-	height: 500px;
-	width: 800px;
-	
-	border-top: 1px solid #ffffff;	/* WHITE */
-	
-	margin: -2% auto;
-}
+/* HEADER */
 
-.top-part {
-	height: 50%;
+.background-header {
+	background-color: black;
+	opacity: 0.9;
 	width: 100%;
-	
-	
-	text-align: center;
+	height: 5%;
 }
 
-.center-part {
-	height: 35%;
+#background-header-logo {
+	width: 2.5%;
+	height: 65%;
+	margin-left: 10px;
+	margin-top: 7px;
+	float: left;
+}
+
+#background-header-title {
+	text-align: center;
+	color: red;
+	font-family: Arial;
+	margin-top: -35px;
+}
+
+/* BACKGROUND-BODY */
+
+.background-body {
+	background-color: black;
+	opacity: 0.6;
 	width: 100%;
-	
+	height: 80%;
 }
 
-.bottom-part {
-	height: 15%;
-	width: 100%;
-	
-	
-	text-align: center;
+/* SIDEBAR */
+
+.background-body-sidebar {
+	width: 25%;
+	height: 95%;
+	float: left;
 }
 
-/* IMAGES */
-#logo {
-	height: 98%;
-	width: auto;
-	
-	margin-top: 2%;
-}
-
-/* TEXTS */
-#desc {
-	font-size: 30px;
-	font-variant: normal;
-	
-	text-align: center;
-	
-	margin-left: 1%;
-	margin-right: 1%;
-}
-
-#h1-title {
+#sidebar-label-1 {
+	font-family: Arial;
+	color: white;
+	text-align: right;
 	font-size: 40px;
-	
-	text-align: center;
-	
-	margin-top: -0.01%;
+	opacity: 1;
+	margin-left: 70px;
+	margin-top: 10px;
+	float: left;
 }
 
-/* BUTTONS */
-#redirect {
-	background-color: #646464;	/* LIGHTLY DIMMED GREY */
-	padding: 15px 32px;
-	display: inline-block;
-	transition: all .2s ease-in-out;
-	
-	border: none;
-	border-radius: 5px;
-  
+#sidebar-label-2 {
+	font-family: Arial;
 	color: white;
-	font-size: 16px;
-
-	text-align: center;
-	text-decoration: none;
-	
-	margin-top: -10%;
-
+	text-align: right;
+	font-size: 40px;
+	opacity: 1;
+	margin-left: 85px;
+	margin-top: -20px;
+	float: left;
 }
 
-#redirect:hover {
-	background-color: #ff0000;	/* RED */
-	padding: 15px 32px;
-	display: inline-block;
-	transform: scale(1.1);
-	
-	cursor: pointer;
-	
-	border: none;
-	border-radius: 5px;
-  
-	color: white;
-	font-size: 16px;
-
-	text-align: center;
-	text-decoration: none;
-
-	margin-top: -10%;
+.background-body-sidebar-empty {
+	width: 30%;
+	height: 5%;
 }
 
-#redirect:visited {
-	background-color: #323232;	/* DARK GREY */
-	padding: 15px 32px;
-	display: inline-block;
-	
-	cursor: pointer;
-	
-	border: none;
-	border-radius: 5px;
-  
-	color: white;
-	font-size: 16px;
-
-	text-align: center;
-	text-decoration: none;
-
-	maring-bottom: -10%;
-	
-	margin-top: -10%;
+.background-body-sidebar-seperator {
+	height: 93%;
+	width: 1%;
+	background-color: white;
+	margin-left: 100%;
+	opacity: 0.4;
 }
 
-#footer-text {
-	font-family: Century Gothic, sans-serif; 
-	font-style: normal;
+/* CONTENT */
+
+.background-body-content {
+	height: 100%;
+	width: 74.5%;
+	float: right;
+	margin-top: -3%;
+}
+
+/* FOOTER */
+
+.background-footer {
+	background-color: black;
+	opacity: 0.6;
+	width: 100%;
+	height: 3%;
+	margin-top: -10px;
+}
+
+#background-footer-version {
+	text-align: left;
+	color: #4a4a4a; /* GREY COLOR */
+	font-family: Arial;
 	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
-#footer-privacy {
-	color: #fdfdfd; /* WHITE */
-	
-	text-decoration: none;
+#background-footer-copyright {
 	text-align: right;
-}
-
-#footer-privacy:hover {
-	color: #ff0000; /* RED */
-	
-	text-decoration: none;
-	text-align: right;
+	color: #4a4a4a; /* GREY COLOR */
+	font-family: Arial;
+	font-size: 15px;
+	margin-top: -25px;
+	margin-right: 5px;
 }
