@@ -1,9 +1,30 @@
 <!DOCTYPE html>
+
+<!--
+
+Name: kurou-kun.github.io - website for github.com
+Author: Kurou
+License: CC BY-NC-SA 3.0 US
+
+-->
+
 <html>
 	<head>
+		<!-- Settings -->
 		<title> Kurou-Kun.GitHub.Io </title>
+		
+		<!-- Imports -->
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="stylesheet" href="style.css">
+		<!-- JavaScript -->
+		<script>
+			var url = 'page.html';
+			var el = document.getElementById('main-content');
+			el.src = url; // assign url to src property
+			
+			window.frames['main-content'].location = url;
+			window.frames['main-content'].location.replace(url);
+		</script>
 	</head>
 	<body>
 		<!-- Background Image -->
@@ -19,19 +40,19 @@
 				<!-- Sidebar -->
 				<div class="background-body-sidebar-empty"></div>
 					<div class="background-body-sidebar">
-						<a href="index.html"><h2 id="sidebar-label-1">Welcome</h2></a>
-						<a href="subpages\projects.html"><h2 id="sidebar-label-2">Projects</h2></a>
+						<a href="include\welcome.html" target="main-content"><h2 id="sidebar-label-1">Welcome</h2></a>
+						<a href="include\projects.html" target="main-content"><h2 id="sidebar-label-2">Projects</h2></a>
 						<div class="background-body-sidebar-seperator">
 					</div>
 				</div>
 				<!-- Content -->
 				<div class="background-body-content">
-					
+					<iframe name="main-content" src="include\welcome.html" scrolling="no" id="background-body-content-welcome"></iframe>
 				</div>
 			</div>
 			<!-- Footer -->
 			<div class="background-footer">
-				<h1 id="background-footer-version">v. 1.0.0</h1>
+				<h1 id="background-footer-version">v. 1.0.1</h1>
 				<h1 id="background-footer-copyright">&copy; <script>document.write(new Date().getFullYear())</script> Kurou</h1>
 			</div>
 		</div>
