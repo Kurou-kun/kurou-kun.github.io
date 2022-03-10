@@ -2,14 +2,68 @@
 <html>
 	<head>
 		<style>
+			body {
+				overflow-y: scroll;
+				overflow-x: hidden;
+				overflow: hidden;
+			}
 			h1 {
 				color: white;
-				font-family: Arial;
+				font-family: 'Fredoka', sans-serif;
 				text-align: center;
+			}
+			.project-1 {
+				background-color: rgb(0,0,0,0.2);
+				height: 30%;
+				float: left;
+			}
+			#project-1-preview {
+				height: 100%;
+				width: 25%;
+				float: left;
+				margin-left: 1%;
+				margin-top: 5%;
+			}
+			#project-1-title {
+				color: red;
+				font-family: 'Fredoka', sans-serif;
+				font-size: 30px;
+				float: left;
+				margin-left: 10%;
+			}
+			#project-1-description {
+				color: white;
+				font-family: 'Nunito', sans-serif;
+				font-size: 20px;
+				float: left;
+				margin-left: 30%;
+				margin-top: -20%;
+			}
+			.project-1-area {
+				height: 44%;
+				width: 100%;
+				background-color: rgb(0,0,0,0);
+				position: absolute;
+			}
+			.project-2 {
+				background-color: blue;
+				width: 100%;
+				height: 20%;
 			}
 		</style>
 	</head>
 	<body>
 		<h1>Projects</h1>
+		<div class="project-1">
+			<img id="project-1-preview" src="..\images\ashuramaru-bundle.png">
+			<h1 id="project-1-title">Ashuramaru-Bundle</h1>
+			<p id="project-1-description">Ashuramaru Bundle is a skin suite designed to connect every supported skin with the custome panel made by Kurou to have as much customization possible withing this system. Every skin was modified and connected with the panel to give a no expierienced users easy way to change default looking skin to their own imagination within limitations of the panel.</p>
+			<a href="ashuramaru-bundle.html">
+				<div class="project-1-area"></div>
+			</a>
+		</div>
+		<div class="project-2">
+			
+		</div>
 	</body>
 </html>

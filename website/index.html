@@ -12,12 +12,24 @@ License: CC BY-NC-SA 3.0 US
 	<head>
 		<!-- Settings -->
 		<title> Kurou-Kun.GitHub.Io </title>
-		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Imports -->
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="stylesheet" href="style.css">
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Syne Mono', monospace -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
+		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Fredoka', sans-serif -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Nunito', sans-serif -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet"> 
 		<!-- JavaScript -->
 		<script>
+			//	Content Script
 			var url = 'page.html';
 			var el = document.getElementById('main-content');
 			el.src = url; // assign url to src property
@@ -40,19 +52,21 @@ License: CC BY-NC-SA 3.0 US
 				<!-- Sidebar -->
 				<div class="background-body-sidebar-empty"></div>
 					<div class="background-body-sidebar">
-						<a href="include\welcome.html" target="main-content"><h2 id="sidebar-label-1">Welcome</h2></a>
-						<a href="include\projects.html" target="main-content"><h2 id="sidebar-label-2">Projects</h2></a>
+						<ul class="background-body-sidebar-list">
+							<li><a href="include\welcome.html"  id="sidebar-text" target="main-content">Welcome</a></li>
+							<li><a href="include\projects.html"  id="sidebar-text" target="main-content">Projects</a></li>
+						</ul>
 						<div class="background-body-sidebar-seperator">
 					</div>
 				</div>
 				<!-- Content -->
 				<div class="background-body-content">
-					<iframe name="main-content" src="include\welcome.html" scrolling="no" id="background-body-content-iframe"></iframe>
+					<iframe name="main-content" src="include\welcome.html" id="background-body-content-iframe"></iframe>
 				</div>
 			</div>
 			<!-- Footer -->
 			<div class="background-footer">
-				<h1 id="background-footer-version">v. 1.0.2</h1>
+				<h1 id="background-footer-version">v. 1.0.3</h1>
 				<h1 id="background-footer-copyright">&copy; <script>document.write(new Date().getFullYear())</script> Kurou</h1>
 			</div>
 		</div>
