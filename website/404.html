@@ -16,15 +16,6 @@ License: CC BY-NC-SA 3.0 US
 		<!-- Imports -->
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="stylesheet" href="style.css">
-		<!-- JavaScript -->
-		<script>
-			var url = 'page.html';
-			var el = document.getElementById('main-content');
-			el.src = url; // assign url to src property
-			
-			window.frames['main-content'].location = url;
-			window.frames['main-content'].location.replace(url);
-		</script>
 	</head>
 	<body>
 		<!-- Background Image -->
@@ -47,12 +38,12 @@ License: CC BY-NC-SA 3.0 US
 				</div>
 				<!-- Content -->
 				<div class="background-body-content">
-					<iframe name="main-content" src="include\welcome.html" scrolling="no" id="background-body-content-iframe"></iframe>
+					<h1 id="background-body-content-error-404">ERROR 404</h1>
 				</div>
 			</div>
 			<!-- Footer -->
 			<div class="background-footer">
-				<h1 id="background-footer-version">v. 1.0.2</h1>
+				<h1 id="background-footer-version">v. 1.0.1</h1>
 				<h1 id="background-footer-copyright">&copy; <script>document.write(new Date().getFullYear())</script> Kurou</h1>
 			</div>
 		</div>

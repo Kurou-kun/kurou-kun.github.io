@@ -130,10 +130,18 @@ body {
      overflow-y: auto;
 }
 
-#background-body-content-welcome {
+#background-body-content-iframe {
 	width: 100%;
 	height: 90%;
 	border: none;
+}
+
+#background-body-content-error-404 {
+	color: white;
+	font-family: Arial;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 30%;
 }
 
 /* FOOTER */
