@@ -6,6 +6,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: black;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 /* BACKGROUND */
@@ -57,6 +63,7 @@ body {
 	margin-left: 10px;
 	margin-top: 7px;
 	float: left;
+	pointer-events: none;
 }
 
 #background-header-title {
@@ -64,6 +71,7 @@ body {
 	color: red;
 	font-family: 'Syne Mono', monospace;
 	margin-top: -35px;
+	cursor: default;
 }
 
 /* BACKGROUND-BODY */
@@ -141,6 +149,12 @@ body {
 	font-size: 100px;
 	margin-top: 30%;
 	margin-left: -30%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 #background-body-content-error-404-description {
@@ -150,6 +164,12 @@ body {
 	font-size: 30px;
 	margin-top: 10%;
 	margin-left: -30%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 /* FOOTER */
