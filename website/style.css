@@ -5,6 +5,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: black;
 }
 
 /* BACKGROUND */
@@ -129,6 +130,8 @@ body {
 	width: 100%;
 	height: 95%;
 	border: none;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 #background-body-content-error-404 {

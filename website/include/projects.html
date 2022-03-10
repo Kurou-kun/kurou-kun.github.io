@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script>
+			document.addEventListener('contextmenu', event => event.preventDefault());
+		</script>
 		<style>
 			body {
 				overflow-y: scroll;
 				overflow-x: hidden;
-				overflow: hidden;
 			}
 			h1 {
 				color: white;
 				font-family: 'Fredoka', sans-serif;
 				text-align: center;
 			}
+			
+			/* Project 1 */
 			.project-1 {
 				background-color: rgb(0,0,0,0.2);
 				height: 30%;
+				width: 100%;
 				float: left;
 			}
 			#project-1-preview {
@@ -23,6 +28,7 @@
 				float: left;
 				margin-left: 1%;
 				margin-top: 5%;
+				filter: drop-shadow(0px 5px 5px black);
 			}
 			#project-1-title {
 				color: red;
@@ -49,21 +55,113 @@
 				background-color: blue;
 				width: 100%;
 				height: 20%;
+				margin-top: 2%;
+			}
+			
+			/* Project 2 */
+			.project-2 {
+				background-color: rgb(0,0,0,0.2);
+				height: 30%;
+				width: 100%;
+				float: left;
+			}
+			#project-2-preview {
+				height: 100%;
+				width: 25%;
+				float: left;
+				margin-left: 1%;
+				margin-top: 5%;
+				filter: drop-shadow(0px 5px 5px black);
+			}
+			#project-2-title {
+				color: red;
+				font-family: 'Fredoka', sans-serif;
+				font-size: 30px;
+				float: left;
+				margin-left: 10%;
+			}
+			#project-2-description {
+				color: white;
+				font-family: 'Nunito', sans-serif;
+				font-size: 20px;
+				float: left;
+				margin-left: 30%;
+				margin-top: -20%;
+			}
+			.project-2-area {
+				height: 44%;
+				width: 100%;
+				background-color: rgb(0,0,0,0);
+				position: absolute;
+			}
+			
+			/* Project 3 */
+			.project-3 {
+				background-color: rgb(0,0,0,0.2);
+				height: 30%;
+				width: 100%;
+				float: left;
+				margin-top: 2%;
+			}
+			#project-3-preview {
+				height: 100%;
+				width: 25%;
+				float: left;
+				margin-left: 1%;
+				margin-top: 5%;
+				filter: drop-shadow(0px 5px 5px black);
+			}
+			#project-3-title {
+				color: red;
+				font-family: 'Fredoka', sans-serif;
+				font-size: 30px;
+				float: left;
+				margin-left: 10%;
+			}
+			#project-3-description {
+				color: white;
+				font-family: 'Nunito', sans-serif;
+				font-size: 20px;
+				float: left;
+				margin-left: 30%;
+				margin-top: -20%;
+			}
+			.project-3-area {
+				height: 44%;
+				width: 100%;
+				background-color: rgb(0,0,0,0);
+				position: absolute;
 			}
 		</style>
 	</head>
 	<body>
 		<h1>Projects</h1>
+		<!-- Project 1 -->
 		<div class="project-1">
 			<img id="project-1-preview" src="..\images\ashuramaru-bundle.png">
 			<h1 id="project-1-title">Ashuramaru-Bundle</h1>
-			<p id="project-1-description">Ashuramaru Bundle is a skin suite designed to connect every supported skin with the custome panel made by Kurou to have as much customization possible withing this system. Every skin was modified and connected with the panel to give a no expierienced users easy way to change default looking skin to their own imagination within limitations of the panel.</p>
+			<p id="project-1-description">Ashuramaru Bundle is a skin suite designed to connect every supported skin with the custome panel made by Kurou to have as much customization possible withing this system...</p>
 			<a href="ashuramaru-bundle.html">
 				<div class="project-1-area"></div>
 			</a>
 		</div>
+		<!-- Project 2 -->
 		<div class="project-2">
-			
+			<img id="project-2-preview" src="..\images\ashuramaru-bundle.png">
+			<h1 id="project-2-title">Ashuramaru Theme</h1>
+			<p id="project-2-description">Theme created for BetterDiscord to change look of default appearance. It was made from combining CrystalVision into FrostedGlass kinda look but with a little bit of twist from my previous attempts in making this theme.</p>
+			<a href="ashuramaru-theme.html">
+				<div class="project-2-area"></div>
+			</a>
+		</div>
+		<!-- Project 3 -->
+		<div class="project-3">
+			<img id="project-3-preview" src="..\images\ashuramaru-bundle.png">
+			<h1 id="project-3-title">Ashuramaru-NULL</h1>
+			<p id="project-3-description">Theme created for BetterDiscord to change look of default appearance. It was made from combining CrystalVision into FrostedGlass kinda look but with a little bit of twist from my previous attempts in making this theme</p>
+			<a href="#">
+				<div class="project-3-area"></div>
+			</a>
 		</div>
 	</body>
 </html>
