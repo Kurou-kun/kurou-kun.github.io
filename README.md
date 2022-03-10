@@ -1,1 +1,1 @@
-This repository is just for hosting my files online and to point here from my main domain. (https://renproject.epizy.com)
+This repository represent my entire website hosted on github with use of github pages system.
