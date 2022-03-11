@@ -66,6 +66,15 @@ body {
 	pointer-events: none;
 }
 
+#background-header-event {
+	width: 15%;
+	height: 20%;
+	position: absolute;
+	left: -0.5%;
+	top: -5%;
+	pointer-events: none;
+}
+
 #background-header-title {
 	text-align: center;
 	color: red;
