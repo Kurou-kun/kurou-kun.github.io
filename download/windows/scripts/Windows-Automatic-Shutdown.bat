@@ -1,5 +1,5 @@
 @echo off
-title Shutdown Schedule Script by Kurou
+title Windows Automatic Shutdown by Kurou
 color 0A
 
 :: Start-up
@@ -7,7 +7,7 @@ cls
 echo 				##################################################################
 echo 				#								 #
 echo 				#		Activation script created by Kurou.		 #
-echo 				#	     Website: https://www.ren-project.epizy.com/	 #
+echo 				#	     Website: https://kurou-kun.github.io		 #
 echo 				#								 #
 echo 				##################################################################
 echo 				#								 #
