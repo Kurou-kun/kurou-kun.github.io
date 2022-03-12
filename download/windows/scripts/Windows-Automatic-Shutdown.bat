@@ -6,7 +6,7 @@ color 0A
 cls
 echo 				##################################################################
 echo 				#								 #
-echo 				#		Activation script created by Kurou.		 #
+echo 				#		Automatic Shutdown script created by Kurou.	 #
 echo 				#	     Website: https://kurou-kun.github.io		 #
 echo 				#								 #
 echo 				##################################################################
