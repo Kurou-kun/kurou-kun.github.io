@@ -9,33 +9,36 @@ Description: HTML file to redirect all trafic from https://kurou-kun.github.io t
 -->
 <html>
 	<head>
+		<!-- Imports -->
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<!-- Settings -->
 		<title> Kurou-Kun.GitHub.Io </title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="height=device-height, initial-scale=1.0">
 		<!-- Redirect to website folder 
 		<meta http-equiv="refresh" content="0; url=https://kurou-kun.github.io/website/index.html">
 		-->
-	<style>
-		html {
-			overflow: auto;
-		}
- 
-		html, body, div, iframe {
-			margin: 0px; 
-			padding: 0px; 
-			height: 100%; 
-			border: none;
-		}
+		<style>
+			html {
+				overflow: auto;
+			}
+	 
+			html, body, div, iframe {
+				margin: 0px; 
+				padding: 0px; 
+				height: 100%; 
+				border: none;
+			}
 
-		.iframe-main {
-			display: block; 
-			width: 100%; 
-			border: none; 
-			overflow-y: auto; 
-			overflow-x: hidden;
-		}
-	</style>
+			.iframe-main {
+				display: block; 
+				width: 100%; 
+				border: none; 
+				overflow-y: auto; 
+				overflow-x: hidden;
+			}
+		</style>
 	</head>
 	<body>
 		<iframe class="iframe-main" src="https://kurou-kun.github.io/website/index.html" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto">></iframe>
