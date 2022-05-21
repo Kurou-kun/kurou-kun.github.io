@@ -31,11 +31,11 @@ License: CC BY-NC-SA 3.0 US
 		<script>
 			//	Content Script
 			var url = 'page.html';
-			var el = document.getElementById('background');
+			var el = document.getElementById('main-content');
 			el.src = url; // assign url to src property
 			
-			window.frames['background'].location = url;
-			window.frames['background'].location.replace(url);
+			window.frames['main-content'].location = url;
+			window.frames['main-content'].location.replace(url);
 		</script>
 		<script>
 			// Prevent Context Menu
