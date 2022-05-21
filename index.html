@@ -16,57 +16,6 @@ Description: HTML file to redirect all trafic from https://kurou-kun.github.io t
 		<!-- Redirect to website folder 
 		<meta http-equiv="refresh" content="0; url=https://kurou-kun.github.io/website/index.html">
 		-->
-		<!-- Imports -->
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-		<link rel="stylesheet" href="style.css">
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Syne Mono', monospace -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
-		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Fredoka', sans-serif -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Nunito', sans-serif -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet"> 
-		<!-- JavaScript -->
-		<script>
-			//	Content Script
-			var url = 'page.html';
-			var el = document.getElementById('main-content');
-			el.src = url; // assign url to src property
-			
-			window.frames['main-content'].location = url;
-			window.frames['main-content'].location.replace(url);
-		</script>
-		<script>
-			// Prevent Context Menu
-			document.addEventListener('contextmenu', event => event.preventDefault());
-		</script>
-		<script>
-			document.onkeydown = function (e) {
- 
-        			// disable F12 key
-        			if(e.keyCode == 123) {
-            				return false;
-        			}
- 
-        			// disable I key
-        			if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-           				return false;
-        			}
- 
-        			// disable J key
-        			if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-         		   		return false;
-        			}
- 
-        			// disable U key
-        			if(e.ctrlKey && e.keyCode == 85) {
-           				 return false;
-        			}
-    			}
-		</script>
 	<style>
 		html {
 			overflow: auto;
