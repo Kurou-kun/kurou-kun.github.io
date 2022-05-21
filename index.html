@@ -9,7 +9,30 @@ Description: HTML file to redirect all trafic from https://kurou-kun.github.io t
 -->
 <html>
 	<head>
-		<!-- Redirect to website folder -->
-		<meta http-equiv="refresh" content="0; url=https://kurou-kun.github.io/website/index.html">
+		<!-- Redirect to website folder 
+		<meta http-equiv="refresh" content="0; url=https://kurou-kun.github.io/website/index.html">-->
+	<style>
+		html {
+			overflow: auto;
+		}
+ 
+		html, body, div, iframe {
+			margin: 0px; 
+			padding: 0px; 
+			height: 100%; 
+			border: none;
+		}
+
+		.iframe-main {
+			display: block; 
+			width: 100%; 
+			border: none; 
+			overflow-y: auto; 
+			overflow-x: hidden;
+		}
+	</style>
 	</head>
+	<body>
+		<iframe class="iframe-main" src="https://kurou-kun.github.io/website/index.html"></iframe>
+	</body>
 </html>
