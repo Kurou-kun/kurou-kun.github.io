@@ -10,61 +10,6 @@ License: CC BY-NC-SA 3.0 US
 
 <html>
 	<head>
-		<!-- Settings -->
-		<title> Kurou-Kun.GitHub.Io </title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Imports -->
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-		<link rel="stylesheet" href="style.css">
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Syne Mono', monospace -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
-		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Fredoka', sans-serif -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Nunito', sans-serif -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet"> 
-		<!-- JavaScript -->
-		<script>
-			//	Content Script
-			var url = 'page.html';
-			var el = document.getElementById('main-content');
-			el.src = url; // assign url to src property
-			
-			window.frames['main-content'].location = url;
-			window.frames['main-content'].location.replace(url);
-		</script>
-		<script>
-			// Prevent Context Menu
-			document.addEventListener('contextmenu', event => event.preventDefault());
-		</script>
-		<script>
-			document.onkeydown = function (e) {
- 
-        			// disable F12 key
-        			if(e.keyCode == 123) {
-            				return false;
-        			}
- 
-        			// disable I key
-        			if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-           				return false;
-        			}
- 
-        			// disable J key
-        			if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-         		   		return false;
-        			}
- 
-        			// disable U key
-        			if(e.ctrlKey && e.keyCode == 85) {
-           				 return false;
-        			}
-    			}
-		</script>
 	</head>
 	<body>
 		<!-- Background Image -->
@@ -97,7 +42,7 @@ License: CC BY-NC-SA 3.0 US
 			</div>
 			<!-- Footer -->
 			<div class="background-footer">
-				<h1 id="background-footer-version">v. 1.0.9</h1>
+				<h1 id="background-footer-version">v. 1.1.1</h1>
 				<h1 id="background-footer-copyright">&copy; <script>document.write(new Date().getFullYear())</script> Kurou</h1>
 			</div>
 		</div>
