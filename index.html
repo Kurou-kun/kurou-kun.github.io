@@ -1,77 +1,106 @@
 <!DOCTYPE html>
 
-<!-- 
+<!--
 
-Name: Redirect - Github Repository - GH-Pages
+Name: kurou-kun.github.io - website for github.com
 Author: Kurou
-Description: HTML file to redirect all trafic from https://kurou-kun.github.io to https://kurou-kun.github.io/website/index.html
+License: CC BY-NC-SA 3.0 US
 
 -->
+
 <html>
 	<head>
 		<!-- Imports -->
 		<link rel="icon" type="image/x-icon" href="website/images/favicon.ico">
+				<link rel="stylesheet" href="website/style.css">
 		<!-- Settings -->
 		<title> Kurou-Kun.GitHub.Io </title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="viewport" content="height=device-height, initial-scale=1.0">
-		<!-- Redirect to website folder 
-		<meta http-equiv="refresh" content="0; url=https://kurou-kun.github.io/website/index.html">
-		-->
-		<style>
-			html {
-				overflow: auto;
-				animation: fadeIn 2s;
-				-webkit-animation: fadeIn 2s;
-				-moz-animation: fadeIn 2s;
-				-o-animation: fadeIn 2s;
-				-ms-animation: fadeIn 2s;
-				background-color: black;
-			}
-
-			@keyframes fadeIn {
-			  0% {opacity:0;}
-			  100% {opacity:1;}
-			}
-
-			@-moz-keyframes fadeIn {
-			  0% {opacity:0;}
-			  100% {opacity:1;}
-			}
-
-			@-webkit-keyframes fadeIn {
-			  0% {opacity:0;}
-			  100% {opacity:1;}
-			}
-
-			@-o-keyframes fadeIn {
-			  0% {opacity:0;}
-			  100% {opacity:1;}
-			}
-
-			@-ms-keyframes fadeIn {
-			  0% {opacity:0;}
-			  100% {opacity:1;}
-			}
-				
-			html, body, div, iframe {
-				margin: 0px; 
-				padding: 0px; 
-				height: 100%; 
-				border: none;
-			}
-
-			.iframe-main {
-				display: block; 
-				width: 100%; 
-				border: none; 
-				overflow-y: auto; 
-				overflow-x: hidden;
-			}
-		</style>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Syne Mono', monospace -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
+		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Fredoka', sans-serif -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Nunito', sans-serif -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet"> 
+		<!-- JavaScript -->
+		<script>
+			//	Content Script
+			var url = 'page.html';
+			var el = document.getElementById('main-content');
+			el.src = url; // assign url to src property
+			
+			window.frames['main-content'].location = url;
+			window.frames['main-content'].location.replace(url);
+		</script>
+		<script>
+			// Prevent Context Menu
+			document.addEventListener('contextmenu', event => event.preventDefault());
+		</script>
+		<script>
+			document.onkeydown = function (e) {
+			
+        		// disable F12 key
+        		if(e.keyCode == 123) {
+            			return false;
+        		}
+ 
+        		// disable I key
+        		if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+           			return false;
+        		}
+ 
+        		// disable J key
+        		if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+         		   	return false;
+        		}
+ 
+        		// disable U key
+        		if(e.ctrlKey && e.keyCode == 85) {
+           			 return false;
+        		}
+    		}
+		</script>
 	</head>
 	<body>
-		<iframe class="iframe-main" src="https://kurou-kun.github.io/website/index.html" loading="lazy" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto">></iframe>
+		<!-- Background Image -->
+		<div class="background-image"></div>
+		<!-- Background Main -->
+		<div class="background">
+			<!-- Header -->
+			<div class="background-header">
+				<img id="background-header-logo" src="website\images\white.png"/>
+				<img id="background-header-event" src="https://raw.githubusercontent.com/Kurou-kun/Ashuramaru-Bundle/main/Resources/Event/event.png"/>
+				<h1 id="background-header-title"> KUROU-KUN.GITHUB.IO </h1>
+			</div>
+			<!-- Body -->
+			<div class="background-body">
+				<!-- Sidebar -->
+				<div class="background-body-sidebar-empty"></div>
+					<div class="background-body-sidebar">
+						<ul class="background-body-sidebar-list">
+							<li><a href="website\include\welcome.html"  id="sidebar-text" target="main-content">Welcome</a></li>
+							<li><a href="website\include\projects.html"  id="sidebar-text" target="main-content">Projects</a></li>
+							<li><a href="website\include\repositories.html"  id="sidebar-text" target="main-content">Repositories</a></li>
+						</ul>
+						<div class="background-body-sidebar-seperator">
+					</div>
+				</div>
+				<!-- Content -->
+				<div class="background-body-content">
+					<iframe name="main-content" loading="lazy" src="website\include\welcome.html" scrolling="yes" id="background-body-content-iframe"></iframe>
+				</div>
+			</div>
+			<!-- Footer -->
+			<div class="background-footer">
+				<h1 id="background-footer-version">v. 1.1.2</h1>
+				<h1 id="background-footer-copyright">&copy; <script>document.write(new Date().getFullYear())</script> Kurou</h1>
+			</div>
+		</div>
 	</body>
 </html>

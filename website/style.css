@@ -12,6 +12,36 @@ body {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	animation: fadeIn 2s;
+	-webkit-animation: fadeIn 2s;
+	-moz-animation: fadeIn 2s;
+	-o-animation: fadeIn 2s;
+	-ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+	% {opacity:0;}
+	00% {opacity:1;}
 }
 
 /* BACKGROUND */
@@ -73,6 +103,7 @@ body {
 	left: -0.5%;
 	top: -5%;
 	pointer-events: none;
+	text-decoration: none;
 }
 
 #background-header-title {
@@ -80,7 +111,7 @@ body {
 	color: red;
 	font-family: 'Syne Mono', monospace;
 	margin-top: -35px;
-	cursor: default;
+	text-decoration: none;
 }
 
 /* BACKGROUND-BODY */
