@@ -14,10 +14,10 @@ License: CC BY-NC-SA 3.0 US
 		<title> Kurou-Kun.GitHub.Io </title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="refresh" content="5; url=.\index.html">
+		<meta http-equiv="refresh" content="5; url=https://kurou-kun.github.io">
 		<!-- Imports -->
-		<link rel="icon" type="image/x-icon" href="https://kurou-kun.github.io/website/images/favicon.ico">
-		<link rel="stylesheet" href="https://kurou-kun.github.io/website/style.css">
+		<link rel="icon" type="image/x-icon" href="website/images/favicon.ico">
+		<link rel="stylesheet" href="website/style.css">
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Syne Mono', monospace -->
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +33,30 @@ License: CC BY-NC-SA 3.0 US
 			// Prevent Context Menu
 			document.addEventListener('contextmenu', event => event.preventDefault());
 		</script>
+		<script>
+			document.onkeydown = function (e) {
+			
+        		// disable F12 key
+        		if(e.keyCode == 123) {
+            			return false;
+        		}
+ 
+        		// disable I key
+        		if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+           			return false;
+        		}
+ 
+        		// disable J key
+        		if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+         		   	return false;
+        		}
+ 
+        		// disable U key
+        		if(e.ctrlKey && e.keyCode == 85) {
+           			 return false;
+        		}
+    		}
+		</script>
 	</head>
 	<body>
 		<!-- Background Image -->
@@ -41,7 +65,7 @@ License: CC BY-NC-SA 3.0 US
 		<div class="background">
 			<!-- Header -->
 			<div class="background-header">
-				<img id="background-header-logo" src="https://kurou-kun.github.io/website/images/white.png"/>
+				<img id="background-header-logo" src="website/images/white.png"/>
 				<h1 id="background-header-title"<> KUROU-KUN.GITHUB.IO </h1>
 			</div>
 			<div class="background-body">
@@ -55,7 +79,7 @@ License: CC BY-NC-SA 3.0 US
 			</div>
 			<!-- Footer -->
 			<div class="background-footer">
-				<h1 id="background-footer-version">v. 1.0.9</h1>
+				<h1 id="background-footer-version">v. 1.1.3</h1>
 				<h1 id="background-footer-copyright">&copy; <script>document.write(new Date().getFullYear())</script> Kurou</h1>
 			</div>
 		</div>
