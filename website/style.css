@@ -212,6 +212,36 @@ body {
 	user-select: none;
 }
 
+#background-body-content-nojava {
+	color: white;
+	font-family: 'Fredoka', sans-serif;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 30%;
+	margin-left: -40%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#background-body-content-nojava-description {
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10%;
+	margin-left: -40%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 /* FOOTER */
 
 .background-footer {

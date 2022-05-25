@@ -2,7 +2,7 @@
 
 <!--
 
-Name: kurou-kun.github.io - website for github.com
+Name: kurou-kun.github.io - no java website for github.com
 Author: Kurou
 License: CC BY-NC-SA 3.0 US
 
@@ -10,17 +10,14 @@ License: CC BY-NC-SA 3.0 US
 
 <html>
 	<head>
+		<!-- Imports -->
+		<link rel="icon" type="image/x-icon" href="website/images/favicon.ico">
+		<link rel="stylesheet" href="website/style.css">
 		<!-- Settings -->
 		<title> Kurou-Kun.GitHub.Io </title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="refresh" content="5; url=https://kurou-kun.github.io">
-		<noscript>
-			<meta http-equiv="refresh" content="0; url=nojava.html"/>
-		</noscript>
-		<!-- Imports -->
-		<link rel="icon" type="image/x-icon" href="website/images/favicon.ico">
-		<link rel="stylesheet" href="website/style.css">
+		<meta http-equiv="refresh" content="5">
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">	<!-- 'Syne Mono', monospace -->
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,32 +30,7 @@ License: CC BY-NC-SA 3.0 US
 		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet"> 
 		<!-- JavaScript -->
 		<script>
-			// Prevent Context Menu
-			document.addEventListener('contextmenu', event => event.preventDefault());
-		</script>
-		<script>
-			document.onkeydown = function (e) {
-			
-        		// disable F12 key
-        		if(e.keyCode == 123) {
-            			return false;
-        		}
- 
-        		// disable I key
-        		if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-           			return false;
-        		}
- 
-        		// disable J key
-        		if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-         		   	return false;
-        		}
- 
-        		// disable U key
-        		if(e.ctrlKey && e.keyCode == 85) {
-           			 return false;
-        		}
-    		}
+			window.location = "https://kurou-kun.github.io/"
 		</script>
 	</head>
 	<body>
@@ -68,16 +40,18 @@ License: CC BY-NC-SA 3.0 US
 		<div class="background">
 			<!-- Header -->
 			<div class="background-header">
-				<img id="background-header-logo" src="website/images/white.png"/>
-				<h1 id="background-header-title"<> KUROU-KUN.GITHUB.IO </h1>
+				<img id="background-header-logo" src="website\images\white.png"/>
+				<img id="background-header-event" src="https://raw.githubusercontent.com/Kurou-kun/Ashuramaru-Bundle/main/Resources/Event/event.png"/>
+				<h1 id="background-header-title"> KUROU-KUN.GITHUB.IO </h1>
 			</div>
+			<!-- Body -->
 			<div class="background-body">
 				<!-- Sidebar -->
 				<div class="background-body-sidebar-empty"></div>
 				<!-- Content -->
 				<div class="background-body-content">
-					<h1 id="background-body-content-error-404">ERROR 404</h1>
-					<h2 id="background-body-content-error-404-description">Home page will be loaded in 5 seconds...</h2>
+					<h1 id="background-body-content-nojava"> JAVA DISABLED </h1>
+					<h1 id="background-body-content-nojava-description"> This website requires java to run </h1>
 				</div>
 			</div>
 			<!-- Footer -->
