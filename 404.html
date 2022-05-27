@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <!--
 
@@ -32,34 +32,10 @@ License: CC BY-NC-SA 3.0 US
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Nunito:wght@300&display=swap" rel="stylesheet"> 
 		<!-- JavaScript -->
-		<script>
-			// Prevent Context Menu
-			document.addEventListener('contextmenu', event => event.preventDefault());
-		</script>
-		<script>
-			document.onkeydown = function (e) {
-			
-        		// disable F12 key
-        		if(e.keyCode == 123) {
-            			return false;
-        		}
- 
-        		// disable I key
-        		if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-           			return false;
-        		}
- 
-        		// disable J key
-        		if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-         		   	return false;
-        		}
- 
-        		// disable U key
-        		if(e.ctrlKey && e.keyCode == 85) {
-           			 return false;
-        		}
-    		}
-		</script>
+		<script type="text/javascript" src="website\javascript\context-menu.js"></script>
+		<script type="text/javascript" src="website\javascript\content-script.js"></script>
+		<script type="text/javascript" src="website\javascript\keyboard-keys.js"></script>
+		<script type="text/javascript" src="website\javascript\variables.js"></script>
 	</head>
 	<body>
 		<!-- Background Image -->
@@ -82,7 +58,7 @@ License: CC BY-NC-SA 3.0 US
 			</div>
 			<!-- Footer -->
 			<div class="background-footer">
-				<h1 id="background-footer-version">v. 1.1.4</h1>
+				<h1 id="background-footer-version"> <script> document.getElementById("background-footer-version").innerHTML = htmlversion; </script> </h1>
 				<h1 id="background-footer-copyright">&copy; <script>document.write(new Date().getFullYear())</script> Kurou</h1>
 			</div>
 		</div>
