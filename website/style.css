@@ -131,13 +131,6 @@ body {
 	float: left;
 }
 
-.background-body-sidebar-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	margin-right: 5%;
-}
-
 .nav {
 	text-decoration: none;
 	text-align: right;
