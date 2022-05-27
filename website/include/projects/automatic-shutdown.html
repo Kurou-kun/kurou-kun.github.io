@@ -1,33 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
 	<head>
-		<script>
-			document.addEventListener('contextmenu', event => event.preventDefault());
-		</script>
-		<script>
-			document.onkeydown = function (e) {
- 
-        			// disable F12 key
-        			if(e.keyCode == 123) {
-            				return false;
-        			}
- 
-        			// disable I key
-        			if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-           				return false;
-        			}
- 
-        			// disable J key
-        			if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-         		   		return false;
-        			}
- 
-        			// disable U key
-        			if(e.ctrlKey && e.keyCode == 85) {
-           				 return false;
-        			}
-    			}
-		</script>
+		<!-- JavaScript -->
+		<script type="text/javascript" src="..\..\javascript\context-menu.js"></script>
+		<script type="text/javascript" src="..\..\javascript\keyboard-keys.js"></script>
 		<style>
 			body {
 				overflow-y: scroll;
@@ -38,6 +15,7 @@
 				-moz-user-select: none;
 				-ms-user-select: none;
 				user-select: none;
+				width: 96.8%;
 			}
 			#title {
 				font-family: 'Fredoka', sans-serif;
@@ -81,7 +59,7 @@
 		<br>
 		<br>
 		<div class="content-buttons">
-			<a href="http://kurou-kun.github.io/download/windows/scripts/Windows-Automatic-Shutdown.bat" target="_blank"><button id="content-download">Download</button></a>
+			<a href="https://drive.google.com/file/d/1-XjS7wzWJfzvY8-MRoBzGXEMHI32teD7/view?usp=sharing" target="_blank"><button id="content-download">Download</button></a>
 		</div>
 	</body>
 </html>
