@@ -271,3 +271,8 @@ body {
 	margin-top: -25px;
 	margin-right: 5px;
 }
+
+#background-footer-copyright a {
+	color: #711400;
+	text-decoration: none;
+}

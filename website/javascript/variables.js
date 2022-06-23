@@ -1,1 +1,1 @@
-let htmlversion = "v. 1.1.5"
+let htmlversion = "v. 1.1.6"
