@@ -1,0 +1,15 @@
+/* Content */
+section {
+	right: 50%;
+	bottom: 50%;
+	transform: translate(50%,50%);
+	position: absolute;
+}
+
+section img {
+	display: block;
+	margin: auto;
+	height: auto;
+	width: auto;
+	width-max: 512px;
+}

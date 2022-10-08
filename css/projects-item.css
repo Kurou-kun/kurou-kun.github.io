@@ -1,0 +1,44 @@
+/* Content */
+section img {
+	display: block;
+	margin: auto;
+	height: auto;
+	width: 1200px;
+	margin-top: 50px;
+}
+
+section p {
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	width: 1200px;
+}
+
+section a button {
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #000000;
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	color: #ffffff;
+	width: 200px;
+	height: 40px;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	padding: 10px;
+	transition: all .2s ease-in-out;
+}
+
+section a button:hover {
+	transform: scale(1.1);
+	color: #ff0000;
+	border-radius: 15px;
+}
