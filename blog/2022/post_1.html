@@ -32,11 +32,11 @@ Description: Website made for github.
 	<meta property="og:image" content="../../img/self/banners/small-banner.png">
 
 	<!-- JavaScript -->
-	<script src="..\..\js\block\context-menu.js"></script>
+	<script src="../..\js\block\context-menu.js"></script>
 
 	<!-- Css -->
 	<link rel="stylesheet" type="text/css" href="../../css/main.css">
-	<link rel="stylesheet" type="text/css" href="../../css/projects-item.css">
+	<link rel="stylesheet" type="text/css" href="../../css/post.css">
 
 	<!-- Icons -->
 	<link rel="icon" href="../../img/self/icons/kinmokusei.ico">
@@ -67,15 +67,22 @@ Description: Website made for github.
 		
 		<!-- Content -->
 		<section>
+			<!-- Post Banner -->
+			<img src="../../img/blog/post_1/banner.png" alt="Post Banner" />
 
-			<!-- Display Image -->
-			<a href="../../img/projects/scripts/win-activation.png" target="_blank"> <img src="../../img/projects/scripts/win-activation.png" alt="Display Image"/> </a>
+			<!-- Post Title -->
+			<h2> The Akamatsu Clan History </h2>
 
-			<!-- Description -->
-			<p> Script for automatic windows 10 or 11 activation via KMS servers. </p>
-			
-			<!-- Buttons -->
-			<a href="https://drive.google.com/open?id=1-ZYoGUPq6L9pboRPD6hIclm-amlJXRp_&authuser=shadowkillq%40gmail.com&usp=drive_fs" target="_blank"> <button> DOWNLOAD </button> </a>
+			<!-- Post Text -->
+			<div><p id="output"> </p></div>
+			<script type="text/javascript">
+                const xhttp = new XMLHttpRequest();
+                xhttp.onload = function () {
+                    document.getElementById("output").innerHTML = this.responseText;
+                }
+                xhttp.open("GET", 'post_1.txt');
+                xhttp.send();
+			</script>
 		</section>
 		
 		<!-- Footer -->

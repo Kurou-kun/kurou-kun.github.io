@@ -1,3 +1,14 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap'); /* font-family: 'Silkscreen', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap'); /* font-family: 'Mukta', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); /* font-family: 'Josefin Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /* font-family: 'Bebas Neue', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap'); /* font-family: 'Syne Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap'); /* font-family: 'Fredoka', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); /* font-family: 'Nunito', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap'); /* font-family: 'Noto Serif JP', serif; */
+
 /* Body */
 body {
 	background-color: #000000;

@@ -29,6 +29,8 @@ section div {
 	border: 1px solid #090909;
 	margin: auto;
 	margin-top: 10px;
+	border-radius: 5px;
+	padding: 2px;
 }
 
 section div p {
