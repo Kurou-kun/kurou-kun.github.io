@@ -57,3 +57,17 @@ section article #img {
 	background-size: cover;
 	transition: all .2s ease-in-out;
 }
+
+/* No Posts */
+.noposts {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	text-align: center;
+}
+
+.noposts h1 {
+	font-size: 100px;
+	padding: 50px;
+	font-family: 'Syne Mono', monospace;
+}
