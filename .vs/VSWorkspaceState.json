@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\blog",
-    "\\css"
+    "\\blog\\2022",
+    "\\css",
+    "\\projects\\ashuramaru",
+    "\\projects\\plugins",
+    "\\projects\\scripts"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\css\\main.css",
   "PreviewInSolutionExplorer": false
 }
