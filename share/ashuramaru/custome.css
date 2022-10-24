@@ -3668,11 +3668,11 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 /* URL Color */
 .markup-eYLPri a {
-  color: rgb(var(--linkcolor));
+  color: var(--linkcolor);
 }
 .markup-eYLPri code {
   background-color: var(--maincolor);
-  border-radius: var(--card-radius);
+  border-radius: 5px;
   border: none;
 }
 
