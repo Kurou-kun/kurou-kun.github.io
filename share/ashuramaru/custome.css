@@ -3204,3 +3204,56 @@ divider-2rZFJK.hasContent-31hcsn {							/* divider				hascontent							*/
 #app-mount .placeholder-T1Tuu8 {							/* gifpicker			result placeholder					*/
 	background-color: rgba(var(--transparencycolor), .3);
 }
+
+/* ----		6.7.	CHAT SIDEBAR							---- */
+
+.container-3XgAHv {											/* chat					sidebar								*/ 
+	border-radius: 0;
+}
+.container-3XgAHv.floating-3M3WeH::before,
+.container-3XgAHv.floating-3M3WeH::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: unset;
+	height: unset;
+	pointer-events: none;
+	z-index: -1;
+}
+.container-3XgAHv.floating-3M3WeH::before {
+	background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+	background-attachment: fixed;
+}
+.container-3XgAHv.floating-3M3WeH::after {
+	background-color: rgba(var(--transparencycolor), var(--transparencyalpha));
+	backdrop-filter: blur(var(--backgroundblur));
+}
+.chatTarget-3H6mpC.notFloating-cIl-vp ~ .container-3XgAHv {
+	overflow: visible;
+}
+.chatTarget-3H6mpC.notFloating-cIl-vp ~ .container-3XgAHv .container-ZMc96U.themed-Hp1KC_::before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: -8px;
+	width: 8px;
+	background: inherit;
+	box-shadow: inherit;
+	pointer-events: none;
+}
+.chatTarget-3H6mpC.notFloating-cIl-vp ~ .container-3XgAHv .container-ZMc96U.themed-Hp1KC_::after {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 10px;
+	bottom: 10px;
+	left: -3.5px;
+	width: 1px;
+	background: var(--background-modifier-accent);
+	pointer-events: none;
+}
