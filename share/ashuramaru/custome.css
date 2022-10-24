@@ -14,12 +14,18 @@
 	--secondarycolor: #900000FF;
 	--accentcolor: #FF0000FF;
 	--linkcolor: #FF0000FF;
+	--mentioncolor: #FF0000FF;
+	
+	/* Other Colors */
 	--textbrightest: 255,255,255;
 	--textbrighter: 222,222,222;
 	--textbright: 200,200,200;
 	--textdark: 160,160,160;
 	--textdarker: 125,125,125;
 	--textdarkest: 90,90,90;
+	--successcolor: 59,165,92;
+	--warningcolor: 250,166,26;
+	--dangercolor: 237,66,69;
 	
 	/* Fonts */
 	--customFont: 'Open Sans';
@@ -48,6 +54,21 @@
 	--messagetransparency: 0.5;
 	--transparencycolor: 0,0,0;
 	--transparencyalpha: 0.15;
+	
+	/* Plugin Support */
+	--popout:	var(--backgroundImage);
+	--popoutposition: var(--backgroundPosition);
+	--popoutsize: var(--backgroundSize);
+	--popoutblur: var(--backgroundBlur);
+	
+	--backdrop: rgba(0,0,0,0.85);
+	--backdropposition:	center;
+	--backdropsize: cover;
+	--backdropblur: unset;
+	
+	--bdfdb-green:	rgb(var(--successcolor));
+	--bdfdb-yellow: rgb(var(--warningcolor));
+	--bdfdb-red: rgb(var(--dangercolor));
 }
 
 .appMount-2yBXZl,
