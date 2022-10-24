@@ -8,21 +8,28 @@
 
 /* Config */
 :root {
-    --maincolor: #FF0000FF;
-    --secondarycolor: #900000FF;
-    --customFont: 'Open Sans';
-    --font-display: var(--customFont);
-    --homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord-logo.png');
-    --homeImageSize: cover;
-    --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
-    --backgroundPosition: center;
-    --backgroundSize: cover;
-    --backgroundRepeat: no-repeat;
-    --backgroundBlur: 10px;
-    --backgroundOpacity: .65;
-    --backgroundCode: rgba(0,0,0,.5);
-    --backgroundName: rgba(0,0,0,.5);
+	--maincolor: #FF0000FF;
+	--secondarycolor: #900000FF;
+	--accentcolor: #FF0000FF;
+	--linkcolor: #FF0000FF;
+	--customFont: 'Open Sans';
+	--font-display: var(--customFont);
+	--homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord-logo.png');
+	--homeImageSize: cover;
+	--backgroundColor: #0d0d0d;
+	--backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
+	--backgroundPosition: center;
+	--backgroundSize: cover;
+	--backgroundRepeat: no-repeat;
+	--backgroundBlur: 10px;
+	--backgroundOpacity: .65;
+	--backgroundCode: rgba(0,0,0,.5);
+	--backgroundName: rgba(0,0,0,.5);
+		
+	--usechatbubbles: calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
+	--guildchanneltransparency: 0.15;
+	--chatinputtransparency: 0.0;
+	--memberlisttransparency: 0.0;
 }
 
 .appMount-2yBXZl,
@@ -3346,7 +3353,7 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUES
 }
 
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > nav.sidebar-nqHbhN > div.side-2ur1Qk > div.info-3pQQBb::after {
-	content: "Custome by" !important;
+	content: "Ashuramaru by" !important;
 	font-size: 12px !important;
 	color: var(--text-muted) !important;
 	cursor: pointer !important;
@@ -3386,9 +3393,9 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUES
 
 /* Update Notice */
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
-	content: "Your Version of Custome Theme is outdated. Please download the latest Version:	https://mwittrien.github.io/downloader/?theme=BasicBackground" !important;
-	display: var(--version1_0_5, block) !important;
-	background-color: #4a90e2 !important;
+	content: "Update your Ashuramaru Theme:	https://mwittrien.github.io/downloader/?theme=BasicBackground" !important;
+	display: var(--updatenotice, block) !important;
+	background-color: var(--backgroundColor) !important;
 	box-shadow: 0 1px 5px 0 rgba(var(--transparencycolor), .3) !important;
 	color: var(--header-primary) !important;
 	flex-grow: 0 !important;
