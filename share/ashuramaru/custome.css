@@ -32,6 +32,8 @@
 	--chatinputtransparency: 0.0;
 	--memberlisttransparency: 0.0;
 	--messagetransparency: 0.5;
+	--transparencycolor: 0,0,0;
+	--transparencyalpha: 0.15;
 }
 
 .appMount-2yBXZl,
@@ -3808,7 +3810,7 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUES
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	content: "Update your Ashuramaru Theme:	https://mwittrien.github.io/downloader/?theme=BasicBackground" !important;
 	display: var(--updatenotice, block) !important;
-	background-color: var(--backgroundColor) !important;
+	background-color: rgba(var(--backgroundColor), .8) !important;
 	box-shadow: 0 1px 5px 0 rgba(var(--transparencycolor), .3) !important;
 	color: var(--header-primary) !important;
 	flex-grow: 0 !important;
