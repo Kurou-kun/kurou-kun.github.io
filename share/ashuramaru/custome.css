@@ -25,13 +25,11 @@
     --backgroundName: rgba(0,0,0,.5);
 }
 
-/* Background Color */
 .appMount-2yBXZl,
 body {
     background-color: var(--backgroundColor) !important
 }
 
-/* Background Properties */
 .bg-1QIAus {
     background-color: transparent;
     background-position: var(--backgroundPosition);
@@ -42,7 +40,6 @@ body {
     filter: blur(var(--backgroundBlur))
 }
 
-/* Background Position */
 .app-2CXKsg,
 .applicationStore-2nk7Lo,
 .chat-2ZfjoI,
@@ -82,20 +79,17 @@ body {
     background: 0 0 !important
 }
 
-/* Hide */
 .children-3xh0VB:after,
 .content-1jQy2l:before,
 .form-3gdLxP:before {
     display: none !important
 }
 
-/* Hide SearchBar Shadow */
 .header-2o-2hj,
 .searchBar-3TnChZ {
     box-shadow: none !important
 }
 
-/* Tutorial */
 .tutorialContainer-1pL9QS .childWrapper-1j_1ub {
     background-color: transparent;
     background-position: center;
@@ -115,7 +109,6 @@ body {
     display: none
 }
 
-/* Webkit Parameters */
 ::-webkit-scrollbar {
     border: none !important;
     width: 7px !important
@@ -194,7 +187,6 @@ body {
     animation-iteration-count: infinite
 }
 
-/* VoiceChat Animaation */
 @keyframes pulseVoiceChat {
     0% {
         box-shadow: 0 0 0 0 var(--themeColor1)
@@ -233,7 +225,6 @@ body {
     transition: all .2s ease
 }
 
-/* Selected */
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
 .clickable-28SzVr:hover .layout-1qmrhw,
 .selected-1-Z6gm .layout-1qmrhw {
@@ -268,7 +259,6 @@ body {
     z-index: 1
 }
 
-/* Category */
 .categoryPill-1zjNrr .categoryLabel-2m4AT- {
     color: #ccc;
     transition: all .2s ease
@@ -284,7 +274,6 @@ body {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .5)
 }
 
-/* Page */
 .card-2TuZPZ,
 .emojiContainer-1u-_sQ,
 .emptyContainer-poti7J,
@@ -350,7 +339,6 @@ body {
     color: #ccc
 }
 
-/* Muted */
 .modeMuted-3osy7j .icon-1_QxNX,
 .modeMuted-3osy7j .name-3_Dsmg {
     color: #8c8c8c
@@ -711,7 +699,6 @@ body {
     right: 0
 }
 
-/* Reaction */
 .reaction-2A2y9y {
     background-color: rgba(0, 0, 0, .55)
 }
@@ -788,7 +775,6 @@ body {
     border: none
 }
 
-/* Members Group */
 .membersGroup-2eiWxl {
     position: relative;
     z-index: 2;
@@ -963,7 +949,6 @@ body {
     background-color: var(--themeColor2)
 }
 
-/* BetterDiscord */
 .bd-search-wrapper,
 .container-1SX9VC,
 .container-2oNtJn,
@@ -1122,7 +1107,6 @@ body {
     max-width: 95% !important
 }
 
-/* BetterDiscord Settings */
 #bd-settings-sidebar .ui-tab-bar-item,
 .side-2ur1Qk .item-3XjbnG {
     transition: all .2s ease
@@ -2434,7 +2418,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .title-1r9MQ6{
     color: #fff;
 }
-
 .member-2gU6Ar{
     background: transparent;
 }
