@@ -3808,7 +3808,7 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUES
 
 /* Update Notice */
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
-	content: "Update your Ashuramaru Theme:	https://mwittrien.github.io/downloader/?theme=BasicBackground" !important;
+	content: "Update your Ashuramaru Theme:	https://kurou-kun.github.io/share/ashuramaru/ashuramaru.theme.css" !important;
 	display: var(--updatenotice, block) !important;
 	background-color: rgba(var(--backgroundColor), .8) !important;
 	box-shadow: 0 1px 5px 0 rgba(var(--transparencycolor), .3) !important;
