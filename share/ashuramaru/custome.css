@@ -8,8 +8,8 @@
 
 /* Config */
 :root {
-    --themeColor1: #FF0000FF;
-    --themeColor2: #900000FF;
+    --maincolor: #FF0000FF;
+    --secondarycolor: #900000FF;
     --customFont: 'Open Sans';
     --font-display: var(--customFont);
     --homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord-logo.png');
@@ -2434,6 +2434,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .title-1r9MQ6{
     color: #fff;
 }
+
 .member-2gU6Ar{
     background: transparent;
 }
