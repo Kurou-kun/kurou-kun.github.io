@@ -9,14 +9,21 @@
 
 /* Config */
 :root {
+	/* Colors */
 	--maincolor: #FF0000FF;
 	--secondarycolor: #900000FF;
 	--accentcolor: #FF0000FF;
 	--linkcolor: #FF0000FF;
+	
+	/* Fonts */
 	--customFont: 'Open Sans';
 	--font-display: var(--customFont);
+	
+	/* Home Icon */
 	--homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord-logo.png');
 	--homeImageSize: cover;
+	
+	/* Background */
 	--backgroundColor: #0d0d0d;
 	--backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
 	--backgroundPosition: center;
@@ -26,7 +33,8 @@
 	--backgroundOpacity: .3;
 	--backgroundCode: rgba(0,0,0,.5);
 	--backgroundName: rgba(0,0,0,.5);
-		
+	
+	/* Chat */
 	--usechatbubbles: calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
 	--guildchanneltransparency: 0.15;
 	--chatinputtransparency: 0.0;
