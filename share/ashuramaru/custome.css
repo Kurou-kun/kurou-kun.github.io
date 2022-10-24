@@ -10,11 +10,11 @@
 /* Config */
 :root {
 	/* Colors */
-	--maincolor: #FF0000FF;
-	--secondarycolor: #900000FF;
-	--accentcolor: #FF0000FF;
-	--linkcolor: #FF0000FF;
-	--mentioncolor: #FF0000FF;
+	--maincolor: #ff0000ff;
+	--secondarycolor: #900000ff;
+	--accentcolor: #ff0000;
+	--linkcolor: #ff0000;
+	--mentioncolor: #ff0000;
 	
 	/* Other Colors */
 	--textbrightest: 255,255,255;
