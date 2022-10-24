@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\blog",
     "\\blog\\2022",
-    "\\css",
-    "\\projects\\ashuramaru",
-    "\\projects\\plugins",
-    "\\projects\\scripts"
+    "\\share",
+    "\\share\\discord",
+    "\\share\\discord\\ashuramaru"
   ],
-  "SelectedNode": "\\css\\main.css",
+  "SelectedNode": "\\share\\discord\\ashuramaru\\ashuramaru-edit.css",
   "PreviewInSolutionExplorer": false
 }
