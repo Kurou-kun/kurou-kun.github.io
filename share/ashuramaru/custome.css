@@ -2554,6 +2554,28 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	color: var(--ch-icon-color);
 }
 
+/* Unread Channel Colors */
+.wrapper-NhbLHG.modeUnread-3Cxepe
+  .content-1gYQeQ
+  .mainContent-20q_Hp
+  .channelName-3KPsGw {
+  color: var(--ch-name-color);
+}
+.unread-36eUEm {
+  background-color: var(--ch-icon-color);
+}
+.unreadPill-3nEWYM {
+  background-color: var(--ch-icon-color);
+}
+#app-mount .divider-2rZFJK.isUnread-3Lojb- {
+  border-top: 1px solid var(--ch-name-color);
+}
+
+.unreadPillCapStroke-1nE1Q8 {
+  color: var(--ch-icon-color);
+  fill: var(--ch-icon-color);
+}
+
 /* Chat */
 
 .chat-2ZfjoI.threadSidebarOpen-1LSXvU {						/* chat					threadsidebar open					*/
