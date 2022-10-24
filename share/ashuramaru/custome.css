@@ -15,6 +15,7 @@
 	--accentcolor: #ff0000;
 	--linkcolor: #ff0000;
 	--mentioncolor: #ff0000;
+	--ch-icon-color: #ff0000;
 	
 	/* Other Colors */
 	--textbrightest: 255,255,255;
@@ -2520,6 +2521,38 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 #app-mount .container-3wLKDe,	/* 	chat	upport			*/
 #app-mount .container-3XgAHv,	/* 	chat	thread sidebar 	*/
 #app-mount .wrapper-3HVHpV,	/* 	chat	messages loading 	*/
+
+/* Channel Icons */
+.icon-2W8DHg {	
+	color: var(--ch-icon-color);
+}
+.modeMuted-2T4MDZ .icon-2W8DHg {
+	color: var(--ch-icon-color);
+}
+.modeMuted-2T4MDZ:hover .icon-2W8DHg,
+.wrapper-NhbLHG:hover .icon-2W8DHg {
+	color: var(--ch-icon-color);
+}
+.modeConnected-NrO4cP .icon-2W8DHg,
+.modeConnected-NrO4cP:hover .icon-2W8DHg,
+.modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH:hover .icon-2W8DHg,
+.modeUnread-3Cxepe .icon-2W8DHg,
+.modeUnread-3Cxepe:hover .icon-2W8DHg,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .icon-2W8DHg,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .icon-2W8DHg {
+	color: var(--ch-icon-color);
+}
+.modeConnected-NrO4cP .subtitle-3PyFgf,	
+.modeConnected-NrO4cP:hover .subtitle-3PyFgf,
+.modeSelected-3DmyhH .subtitle-3PyFgf,
+.modeSelected-3DmyhH:hover .subtitle-3PyFgf,
+.modeUnread-3Cxepe .subtitle-3PyFgf,
+.modeUnread-3Cxepe:hover .subtitle-3PyFgf,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .subtitle-3PyFgf,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .subtitle-3PyFgf {
+	color: var(--ch-icon-color);
+}
 
 /* Chat */
 
