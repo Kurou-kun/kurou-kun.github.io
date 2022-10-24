@@ -3292,3 +3292,113 @@ root-8LYsGj .avatar-3QF_VA {								/* modal				avatar								*/
 .guildRow-3fJnG6:hover .guildName-3RzJ_H {
 	color: var(--header-primary);
 }
+
+/* ----		14.8.	EVERYONEMENTION					---- */
+
+#app-mount .everyonePopout-nEbJY3 {							/* popout				wrapper								*/
+	background-color: transparent;
+	box-shadow: 0 0 0 1px rgba(var(--transparencycolor), .3), 0 2px 10px 0 rgba(var(--transparencycolor), .3);
+	border: none;
+	border-radius: 3px;
+	overflow: hidden;
+	position: relative;
+}
+.everyonePopout-nEbJY3::before,
+.everyonePopout-nEbJY3::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: unset;
+	height: unset;
+	pointer-events: none;
+	z-index: -1;
+}
+.everyonePopout-nEbJY3::before {
+	background: var(--popout) var(--popoutposition)/var(--popoutsize);
+	background-attachment: fixed;
+}
+.everyonePopout-nEbJY3::after {
+	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.1));
+	backdrop-filter: blur(var(--popoutblur));
+}
+#app-mount .header-3_S6dz {
+	color: var(--header-primary);
+}
+#app-mount .body-2iXqIL {
+	color: var(--header-secondary);
+}
+#app-mount .body-2iXqIL .animation-3GofIz {
+	opacity: .5;
+}
+#app-mount .buttonHint-2OxJB8 {
+	color: var(--text-muted);
+}
+#app-mount .buttonHint-2OxJB8 strong {
+	color: var(--header-secondary);
+}
+#app-mount .footer-2aTx0s {
+	background-color: rgba(var(--transparencycolor), .2);
+	color: var(--text-muted);
+}
+#app-mount .footer-2aTx0s strong {
+	color: var(--header-secondary);
+}
+
+/* ----		15.1.	TEXT							---- */
+
+.description-1u9Qui {
+	color: var(--header-secondary);
+}
+
+#app-mount h1.title-338goq,
+#app-mount h2.title-338goq {
+	color: var(--header-primary);
+}
+#app-mount h3.title-338goq {
+	color: var(--text-normal);
+}
+#app-mount h4.title-338goq,
+#app-mount h5.title-338goq,
+#app-mount h6.title-338goq {
+	color: var(--header-secondary);
+}
+
+#app-mount .text-27cdrj,
+#app-mount .title-2CL_z0 {
+	color: var(--text-muted);
+}
+
+#app-mount .title-338goq {
+	color: var(--header-secondary);
+}
+
+#app-mount .markdown-19oyJN {
+	color: var(--text-normal);
+}
+#app-mount .markdown-19oyJN th {
+	background-color: var(--background-tertiary);
+	border-color: var(--interactive-muted);
+	color: var(--header-primary);
+}
+#app-mount .markdown-19oyJN td {
+	border-color: var(--interactive-muted);
+}
+#app-mount .markdown-19oyJN tr {
+	border-color: var(--interactive-muted);
+	color: var(--header-secondary);
+}
+#app-mount .markdown-19oyJN tr:nth-child(2n) {
+	background-color: var(--background-secondary);
+}
+#app-mount .markdown-19oyJN .blockquote-2mppuN {
+	border-left-color: var(--interactive-muted);
+}
+#app-mount .markdown-19oyJN code {
+	background-color: var(--background-secondary);
+}
+#app-mount .markdown-19oyJN .codeInline-1RFl81 {
+	color: var(--text-normal);
+}
