@@ -14,6 +14,12 @@
 	--secondarycolor: #900000FF;
 	--accentcolor: #FF0000FF;
 	--linkcolor: #FF0000FF;
+	--textbrightest: 255,255,255;
+	--textbrighter: 222,222,222;
+	--textbright: 200,200,200;
+	--textdark: 160,160,160;
+	--textdarker: 125,125,125;
+	--textdarkest: 90,90,90;
 	
 	/* Fonts */
 	--customFont: 'Open Sans';
@@ -2447,7 +2453,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 #app-mount .container-3XgAHv,	/* 	chat	thread sidebar 	*/
 #app-mount .wrapper-3HVHpV,	/* 	chat	messages loading 	*/
 
-/* ~~~~		6.		CHAT							~~~~ */
+/* Chat */
 
 .chat-2ZfjoI.threadSidebarOpen-1LSXvU {						/* chat					threadsidebar open					*/
 	border-radius: 0;
@@ -2495,7 +2501,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	color: var(--header-secondary) !important;
 }
 
-/* ----		6.1.	CHANNELHEADER					---- */
+/* Channelheader */
 
 .container-ZMc96U.themed-Hp1KC_ {							/* header				themedcontainer						*/
 	box-shadow: 0 1px 0 rgba(var(--transparencycolor), .2), 0 1.5px 0 rgba(var(--transparencycolor), .05), 0 2px 0 rgba(var(--transparencycolor), .05);
@@ -2535,7 +2541,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	text-shadow: 1px 1px var(--textshadow);
 }
 
-/* ----		6.2.	MESSAGES						---- */
+/* Messages */
 
 .emptyChannelIcon-1YdEz2 {									/* welcomemessage		empty channelicon					*/
 	background-color: rgba(var(--transparencycolor), .4);
@@ -3126,8 +3132,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 /* Embeds */
 #app-mount .embedFull-1HGV2S {								/* embed				wrapper								*/
-	background-color: rgba(var(--transparencycolor), .3);
-	border-left-color: rgb(var(--textdarkest));
+	background-color: rgba(var(--linkcolor), .3);
+	border-left-color: var(--linkcolor);
 }
 
 #app-mount .attachment-1PZZB2 {								/* attachment			container							*/
@@ -3151,7 +3157,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	background-color: rgba(var(--transparencycolor), .3);
 }
 
-/* ====		6.2.3.	NITROGIFT						==== */
+/* Nitrogift */
 
 #app-mount .tile-2mmK5T {									/* gift					container							*/
 	background-color: rgba(var(--transparencycolor), .2);
@@ -3170,7 +3176,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	color: var(--header-secondary);
 }
 
-/* ====		6.2.4.	INVITE							==== */
+/* Invite */
 
 #app-mount .wrapper-1HIH0j {								/* invite				container							*/
 	background-color: rgba(var(--transparencycolor), .3);
@@ -3209,7 +3215,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 
-/* ----		6.3.	TEXTAREA						---- */
+/* Textarea */
 
 .form-3gdLxP {
 	padding-top: 0;
@@ -3281,7 +3287,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	border-radius: 5px;
 }
 
-/* ----		6.4.	AUTOCOMPLETEMENU				---- */
+/* Autocompletemenu */
 
 #app-mount .autocomplete-3NRXG8 {							/* autocomplete			container							*/
 	background-color: transparent;
@@ -3351,7 +3357,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	background-color: rgba(var(--transparencycolor), .3);
 }
 
-/* ----		6.5.	MEMBERLIST						---- */
+/* Memberlist */
 
 .avatar-b5OQ1N::before {									/* emptyavatar												*/
 	background-color: rgba(var(--transparencycolor), .3);
@@ -3363,7 +3369,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	background-color: rgba(var(--transparencycolor), .4);
 }
 
-/* ----		6.6.	SEARCHPAGE						---- */
+/* Searchpage */
 
 .searchResultsWrap-5RVOkx {									/* searchpage			container							*/
 	background-color: transparent;
@@ -3396,7 +3402,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	text-shadow: 1px 1px var(--textshadow);
 }
 
-/* ----		6.7.	CHAT SIDEBAR							---- */
+/* 	Chat Sidebar */
 
 .container-3XgAHv {											/* chat					sidebar								*/ 
 	border-radius: 0;
@@ -3449,7 +3455,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	pointer-events: none;
 }
 
-/* ----		6.8.	CALL							---- */
+/* Call */
 
 #app-mount .wrapper-3X0c60 {
 	z-index: 1002;
@@ -3557,7 +3563,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	box-shadow: 0 1px 0 rgba(var(--transparencycolor), .2), 0 1.5px 0 rgba(var(--transparencycolor), .05), 0 2px 0 rgba(var(--transparencycolor), .05);
 }
 
-/* ----		6.9.	UNAVAILABLESCREEN				---- */
+/* Unavailablescreen */
 
 .category-2haXBH,											/* loadingplaceholders										*/
 .channelIcon-1TvDoP,
@@ -3568,8 +3574,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	opacity: 0.7;
 }
 
-
-/* ~~~~		7.		PEOPLES							~~~~ */
+/* Peoples */
 
 .addFriendInputWrapper-kkoSV9 {								/* peoples				add friend							*/
 	background-color: rgba(var(--transparencycolor), .1);
