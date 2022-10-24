@@ -22,6 +22,7 @@
 	--backgroundOpacity: .65;
 	--backgroundCode: rgba(0,0,0,.5);
 	--backgroundName: rgba(0,0,0,.5);
+	
 	--messagetransparency: 0.5;
 	--usechatbubbles: calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
 }
@@ -3438,11 +3439,6 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	animation: unset !important;
 	z-index: 101 !important;
 	pointer-events: none !important;
-}
-
-#app-mount .image-35kDIs {									/* app					errorscreen image					*/
-	background-image: url(https://discord.com/assets/e9baf4b505eb54129f832556ea16538e.svg);
-	opacity: 0.6;
 }
 
 
