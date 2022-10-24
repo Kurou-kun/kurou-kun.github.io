@@ -3411,7 +3411,7 @@ root-8LYsGj .avatar-3QF_VA {								/* modal				avatar								*/
 /* ~~~~		19.		UPDATENOTICE					~~~~ */
 
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
-	content: "Your Version of   BasicBackground   by DevilBro is outdated. Please download the newest Version:	https://mwittrien.github.io/downloader/?theme=BasicBackground" !important;
+	content: "Your Version of Custome by Kurou is outdated. Please download the newest Version:	https://mwittrien.github.io/downloader/?theme=BasicBackground" !important;
 	display: var(--version1_0_5, block) !important;
 	background-color: #4a90e2 !important;
 	box-shadow: 0 1px 5px 0 rgba(var(--transparencycolor), .3) !important;
@@ -3441,6 +3441,11 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	animation: unset !important;
 	z-index: 101 !important;
 	pointer-events: none !important;
+}
+
+#app-mount .image-35kDIs {									/* app					errorscreen image					*/
+	background-image: url(https://discord.com/assets/e9baf4b505eb54129f832556ea16538e.svg);
+	opacity: 0.6;
 }
 
 
@@ -3529,7 +3534,7 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUES
 	position: relative !important;
 }
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > nav.sidebar-nqHbhN > div.side-2ur1Qk > div.info-3pQQBb::after {
-	content: "BasicBackground by" !important;
+	content: "Custome by" !important;
 	font-size: 12px !important;
 	color: var(--text-muted) !important;
 	cursor: pointer !important;
@@ -3548,7 +3553,7 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUES
 	animation: unset !important;
 }
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j > div.sidebarRegion-1VBisG > div.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > nav.sidebar-nqHbhN > div.side-2ur1Qk > div.info-3pQQBb::before {
-	content: "DevilBro" !important;
+	content: "Kurou" !important;
 	font-size: 12px !important;
 	color: rgb(var(--accentcolor)) !important;
 	display: inline !important;
