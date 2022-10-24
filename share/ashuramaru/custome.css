@@ -2660,7 +2660,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	backdrop-filter: blur(var(--backgroundblur));
 }
 
-/* ====		6.2.1.	MESSAGE							==== */
+/* Message */
 
 #app-mount .message-G6O-Wv {								/* message				confirm modal						*/
 	background-color: rgba(var(--transparencycolor), .2);
@@ -3124,8 +3124,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	background: rgb(var(--accentcolor)) !important;
 }
 
-/* ====		6.2.2.	EMBEDS							==== */
-
+/* Embeds */
 #app-mount .embedFull-1HGV2S {								/* embed				wrapper								*/
 	background-color: rgba(var(--transparencycolor), .3);
 	border-left-color: rgb(var(--textdarkest));
@@ -3667,7 +3666,15 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 	background-color: rgba(var(--transparencycolor), .2);
 }
 
-
+/* URL Color */
+.markup-eYLPri a {
+  color: rgb(var(--linkcolor));
+}
+.markup-eYLPri code {
+  background-color: var(--maincolor);
+  border-radius: var(--card-radius);
+  border: none;
+}
 
 
 
