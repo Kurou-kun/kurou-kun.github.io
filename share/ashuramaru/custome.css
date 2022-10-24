@@ -4,6 +4,7 @@
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 :root {
 	--themeColor1: #FF0000FF;
@@ -2420,3 +2421,101 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background: transparent;
 }
 
+
+
+
+#app-mount .chat-2ZfjoI,									/* chat					container							*/
+#app-mount .container-3wLKDe,								/* chat					support								*/
+#app-mount .container-3XgAHv,								/* chat					thread sidebar						*/
+#app-mount .wrapper-3HVHpV,									/* chat					messages loading					*/
+
+/* ~~~~		3.		TITLEBAR						~~~~ */
+
+.titleBar-1it3bQ {
+	z-index: 5001;
+}
+.titleBar-1it3bQ::after {
+	content: "";
+	pointer-events: none;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(var(--transparencycolor), calc(0.1 + var(--guildchanneltransparency) * 2));
+}
+.titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::after {
+	height: 22px;
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE::after {
+	height: 28px;
+	width: calc(100% - 4px);
+	margin: 2px;
+	border-radius: 5px;
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE,
+.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e {
+	width: 72px;
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE.typeMacOSWithFrame-1XEpN7 .macButtons-eIdy0e {
+	margin-top: 0;
+	margin-right: 0;
+}
+.platform-osx .wrapper-1_HaEi {
+	margin-top: 0;
+	padding-top: 32px;
+}
+.platform-osx .standardSidebarView-E9Pc3j::before {
+	left: 72px;
+}
+.winButtonMinMax-3RsPUg:hover {
+	background-color: rgba(var(--transparencycolor), .2);
+}
+
+/* ~~~~		6.		CHAT							~~~~ */
+
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU {						/* chat					threadsidebar open					*/
+	border-radius: 0;
+}
+#app-mount .background-fkKrXt .container-2Hi7Km,
+#app-mount .background-fkKrXt .container-xwOzwi,
+#app-mount .background-fkKrXt .container-3rZ3XA,
+#app-mount .background-fkKrXt .icon-2IDTxf,
+#app-mount .background-fkKrXt .containerCard-2kwJKN,
+#app-mount .background-fkKrXt .containerCard-2kwJKN:hover,
+#app-mount .background-fkKrXt .interactiveCard-2iMtdk,
+#app-mount .container-3wLKDe .mainCard-3KBsBI,
+#app-mount .container-3wLKDe .sidebarCard-1Gn1ch {
+	background: var(--background-secondary);
+}
+@media (max-width: 1300px) {
+	.container-xwOzwi,
+	.container-3rZ3XA {
+		background: none !important;
+	}
+}
+#app-mount .background-fkKrXt .containerCard-2kwJKN {
+	border-color: var(--background-secondary);
+}
+#app-mount .background-fkKrXt .container-3HMTms:hover,
+#app-mount .container-3wLKDe .pill-3pRQlO {
+	background: var(--background-tertiary);
+}
+.container-3YcgdM {											/* forum				first message container				*/
+	border-color: var(--background-floating);
+}
+.divider-AZrXIA {											/* forum				fat divider							*/
+	background: var(--background-floating);
+}
+#app-mount .container-2qVG6q.isOpen-2OXbFs {				/* forum				selected post						*/
+	background-color: rgb(var(--accentcolor));
+    text-shadow: 1px 1px var(--textshadow);
+}
+#app-mount .container-2qVG6q.isOpen-2OXbFs .defaultColor-24IHKz,
+#app-mount .container-2qVG6q.isOpen-2OXbFs [style*="color: var(--header-secondary)"] {
+	color: var(--header-primary) !important;
+}
+#app-mount .container-2qVG6q.isOpen-2OXbFs .author-22H8ZU a,
+#app-mount .container-2qVG6q.isOpen-2OXbFs [style*="color: var(--text-muted)"] {
+	color: var(--header-secondary) !important;
+}
