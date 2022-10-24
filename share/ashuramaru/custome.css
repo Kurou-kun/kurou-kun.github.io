@@ -6,21 +6,21 @@
 @import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
 
 :root {
-    --themeColor1: #36D1DC;
-    --themeColor2: #5B86E5;
-    --customFont: 'Roboto', sans-serif;
-    --font-display: var(--customFont);
-    --homeImage: url('https://limeshark.dev/img/n/icon.png');
-    --homeImageSize: cover;
-    --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://limeshark.dev/img/n/background.jpg');
-    --backgroundPosition: center;
-    --backgroundSize: cover;
-    --backgroundRepeat: no-repeat;
-    --backgroundBlur: 100px;
-    --backgroundOpacity: .65;
-    --backgroundCode: rgba(0,0,0,.5);
-    --backgroundName: rgba(0,0,0,.5);
+	--themeColor1: #FF0000FF;
+	--themeColor2: #900000FF;
+	--customFont: 'Roboto', sans-serif;
+	--font-display: var(--customFont);
+	--homeImage: url('https://limeshark.dev/img/n/icon.png');
+	--homeImageSize: cover;
+	--backgroundColor: #0d0d0d;
+	--backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
+	--backgroundPosition: center;
+	--backgroundSize: cover;
+	--backgroundRepeat: no-repeat;
+	--backgroundBlur: 5px;
+	--backgroundOpacity: .65;
+	--backgroundCode: rgba(0,0,0,.5);
+	--backgroundName: rgba(0,0,0,.5);
 }
 
 .appMount-2yBXZl,
