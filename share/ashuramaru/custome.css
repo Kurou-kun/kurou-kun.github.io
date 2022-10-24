@@ -3257,3 +3257,38 @@ divider-2rZFJK.hasContent-31hcsn {							/* divider				hascontent							*/
 	background: var(--background-modifier-accent);
 	pointer-events: none;
 }
+
+root-8LYsGj .avatar-3QF_VA {								/* modal				avatar								*/
+	background-color: transparent;
+	border-color: transparent;
+	box-sizing: content-box;
+}
+#app-mount .body-1Ukv50 {									/* modal				body								*/
+	background-color: transparent;
+}
+.listRow-2nO1T6:hover {
+	background-color: rgba(var(--transparencycolor), .2);
+}
+.emptyIcon-uKVxYR {											/* body					emptypic							*/
+	opacity: .5;
+}
+
+/* ----		13.2.	GUILDADD/CREATION				----- */
+
+.container-x8Y1ix,											/* create modal			item								*/
+.guildRow-3fJnG6 {											/* hub modal			item								*/
+	background-color: rgb(var(--transparencycolor), .2);
+	border: none;
+}
+.container-x8Y1ix:hover,
+.guildRow-3fJnG6:hover {
+	background-color: rgb(var(--transparencycolor), .4);
+}
+.text-PdAsFQ,												/* create modal			text								*/
+.guildName-3RzJ_H {											/* hub modal			text								*/
+	color: var(--header-secondary);
+}
+.container-x8Y1ix:hover .text-PdAsFQ,
+.guildRow-3fJnG6:hover .guildName-3RzJ_H {
+	color: var(--header-primary);
+}
