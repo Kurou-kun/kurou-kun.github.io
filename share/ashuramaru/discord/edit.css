@@ -55,6 +55,20 @@
 	--elevation-high: 0 2px 10px 0 rgba(var(--transparencycolor), .3);
 }
 
+/* ~~~~		1.		TRANSPARENCY					~~~~ */
+
+body,														/* body														*/
+#app-mount .container-1NXEtd,								/* channels				inner								*/
+#app-mount .privateChannels-oVe7HL,							/* dmchannels												*/
+#app-mount .panels-3wFtMD > *,								/* account/voice		inner								*/
+#app-mount .chat-2ZfjoI,									/* chat					container							*/
+#app-mount .container-3wLKDe,								/* chat					support								*/
+#app-mount .container-3XgAHv,								/* chat					thread sidebar						*/
+#app-mount .wrapper-3HVHpV,									/* chat					messages loading					*/
+#app-mount .scroller-2FKFPG,								/* scroller old												*/
+	background: transparent;
+}
+
 /* 1. Title Bar */
   /* 1.a. Main Title Bar */
 .titleBar-1it3bQ {
@@ -2281,6 +2295,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 	background-color: rgba(var(--transparencycolor), var(--messagetransparency)) !important;
 	contain: unset;
 	font-family: var(--font-chat);
+	width: 88%;
 }
 .message-24k8JL .wrapper-30-Nkg {							/* message				searchpage							*/
 	background-color: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 0.8)) !important;
