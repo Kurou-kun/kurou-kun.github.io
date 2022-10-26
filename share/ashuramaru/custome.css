@@ -79,32 +79,6 @@
 	--bdfdb-red: rgb(var(--dangercolor));
 }
 
-.theme-light, .theme-dark, .theme-amoled {
-	--text-positive: rgb(var(--successcolor));
-	--text-warning: rgb(var(--warningcolor));
-	--text-danger: rgb(var(--dangercolor));
-	--info-positive-background: rgba(var(--successcolor),.1);
-	--info-positive-foreground: rgb(var(--successcolor));
-	--info-positive-text: #fff;
-	--info-warning-background: rgba(var(--warningcolor),.1);
-	--info-warning-foreground: rgb(var(--warningcolor));
-	--info-warning-text: #fff;
-	--info-danger-background: rgba(var(--dangercolor),.1);
-	--info-danger-foreground: rgb(var(--dangercolor));
-	--info-danger-text: #fff;
-	--status-positive: rgb(var(--successcolor));
-	--status-positive-background: rgb(var(--successcolor));
-	--status-positive-text: #fff;
-	--status-warning: rgb(var(--warningcolor));
-	--status-warning-background: rgb(var(--warningcolor));
-	--status-warning-text: #fff;
-	--status-danger: rgb(var(--dangercolor));
-	--status-danger-background: rgb(var(--dangercolor));
-	--status-danger-text: #fff;
-}
-
-
-
 /* Background */
 .appMount-2yBXZl,
 body {
