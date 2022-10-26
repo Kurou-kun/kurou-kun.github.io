@@ -11,6 +11,7 @@
 	
 	/* Colors */
 	--main-color: #ff0000;
+	--backgroundcolor: #909090;
 	--hover-color: #ff0000;
 	--online: #43b581;
 	--idle: #faa61a;
@@ -265,7 +266,7 @@
 .winButton-3UMjdg:hover {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  background-color: var(--hover-color) !important;
+  background-color: var(--backgroundcolor) !important;
   border-radius: 3px;
   opacity: 1 !important;
 }
