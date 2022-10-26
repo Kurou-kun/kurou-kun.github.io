@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');	/* 'Roboto', sans-serif */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');		/* 'Lato', sans-serif */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');	/* 'Inter', sans-serif */
+
 /* Config */
 :root {
 	/* Colors */
@@ -32,9 +33,8 @@
 	--dangercolor: 237,66,69;
 	
 	/* Fonts */
-	--font-memberslist: 'Open Sans';
-	--font-chat: 'Open Sans';
-	--font-channellist: 'Open Sans';
+	--font-chat: 'Roboto', sans-serif;
+	--font-channellist: 'Inter', sans-serif;
 	--font-other: 'Open Sans';
 	--font-display: var(--font-other);
 	
@@ -2531,6 +2531,11 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 #app-mount .container-3XgAHv,	/* 	chat	thread sidebar 	*/
 #app-mount .wrapper-3HVHpV,	/* 	chat	messages loading 	*/
 
+/* Channel Font */
+.channelName-3KPsGw {
+    font-family: var(--font-channellist);
+}
+
 /* Channel Icons */
 .icon-2W8DHg {	
 	color: var(--ch-icon-color);
@@ -2800,11 +2805,12 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 /* Message */
-
 #app-mount .message-G6O-Wv {								/* message				confirm modal						*/
 	background-color: rgba(var(--transparencycolor), .2);
 	box-shadow: none;
 }
+
+/* Chat Font, etc. */
 .message-2CShn3,											/* message				container							*/
 .messagesWrapper-RpOMA3 .wrapper-30-Nkg,					/* message				upload placeholder					*/
 .card-3x20HF .wrapper-30-Nkg,								/* message				home								*/
@@ -2816,6 +2822,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .message-24k8JL .wrapper-30-Nkg {							/* message				searchpage							*/
 	background-color: rgba(var(--transparencycolor), var(--messagetransparency)) !important;
 	contain: unset;
+	font-family: var(--font-chat);
 }
 .message-24k8JL .wrapper-30-Nkg {							/* message				searchpage							*/
 	background-color: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 0.8)) !important;
