@@ -170,6 +170,23 @@ body {
   display: none;
 }
 
+.base-2jDfDU {
+  border-radius: 0 !important;
+}
+
+.platform-osx .base-2jDfDU {
+  margin-top: 32px;
+}
+
+.guilds-2JjMmN {
+  border-radius: 0;
+}
+
+#app-mount .wrapper-28eC3z .childWrapper-1j_1ub {
+  background-color: transparent;
+}
+
+
 ::-webkit-scrollbar {
     border: none !important;
     width: 7px !important
