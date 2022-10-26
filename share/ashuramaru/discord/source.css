@@ -154,7 +154,7 @@ body {
 
 .tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
   background-color: var(--home-color);
-  -webkit-mask: url(--homeImage);
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/home.svg);
   -webkit-mask-size: var(--home-size);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
