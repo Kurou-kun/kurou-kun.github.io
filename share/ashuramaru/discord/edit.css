@@ -1,5 +1,5 @@
 /* Imports */
-@import "https://kurou-kun.github.io/share/ashuramaru/discord/source.css";
+@import url("https://kurou-kun.github.io/share/ashuramaru/discord/source.css");
 
 .theme-light, .theme-dark, .theme-amoled {
 	--text-positive: rgb(var(--successcolor));
