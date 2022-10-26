@@ -1242,122 +1242,6 @@ color: var(--main-color) !important;
   display: none;
 }
 
-  /* 20.a. Plugin Optimization */
-    /* 20.a.1. BetterFormatting */
-.bf-toolbar:before {
-  background: var(--quaternary-color) !important;
-}
-
-  /* 20.a.2. Permission Viewer */
-#permissions-modal-wrapper #permissions-modal {
-  border-color: var(--primary-color);
-}
-
-#permissions-modal-wrapper .perm-side {
-  background: transparent !important
-}
-
-#permissions-modal-wrapper .role-item {
-  border: 1px solid transparent;
-}
-
-#permissions-modal-wrapper .role-item:hover {
-  background-color: transparent !important;
-  border-color: var(--hover-color);
-}
-
-  /* 20.a.3. Character Counter */
-span#charcounter {
-  color: rgba(255, 255, 255, .3);
-  right: 10px;
-  bottom: 0em;
-}
-
-.message-1PNnaP span#charcounter {
-  bottom: -.5em;
-}
-
-  /* 20.a.4. Reply System */
-div.reply-list {
-  background: var(--primary-color)
-}
-
-div.reply-item {
-  background: transparent;
-  border: 1px solid var(--main-color)
-}
-
-  /* 20.a.5. Server Folders */
-
-.guilds-2JjMmN.foldercontentclosed {
-  width: 0;
-}
-
-.guilds-2JjMmN.foldercontent {
-  transition: all .2s ease-in-out;
-}
-
-.guilds-2JjMmN.foldercontent .scrollerWrap-1IAIlv .scroller-3X7KbA {
-  border-top: 2px solid var(--main-color);
-  box-sizing: border-box;
-  margin-top: -2px;
-}
-
-  /* 20.a.6. Share Button Plugin */
-.sb-button:hover {
-  background-color: var(--main-color) !important;
-}
-
-.metalloriff-changelog-scroller::-webkit-scrollbar {
-  display: none;
-}
-
-  /* 20.a.7. Theme & Plugon Repo */
-.themerepo-modal .themeEntry.downloadable .btn-download,
-.pluginrepo-modal .pluginEntry.downloadable .btn-download {
-  background-color: var(--main-color) !important;
-}
-
-  /* 20.a.8. Personal Pins */
-.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.popout-personalpins-notes {
-  margin-top: 12px;
-}
-
-  /* 20.a.9. Detailed Tooltip */
-.layerContainer-2v_Sit .dst-tooltip.tooltip-14MtrL.tooltipRight-2TSb42 {
-  background-color: var(--main-color) !important;
-}
-
-  /* 20.a.10. Ghost Ping */
-  #ghostping-panel {
-    top: 48px !important;
-    height: calc(100% - 48px) !important;
-    width: 100% !important;
-    padding: 30px !important;
-    box-sizing: border-box;
-  }
-  
-  #ghostping-panel[style*="opacity: 0.9"] {
-    opacity: 1 !important;
-  }
-  
-  #ghostping-panel #ghostping-panel-close-button ~ div {
-    background-color: var(--quaternary-color) !important;
-    width: calc(100% - 80px) !important;
-    padding: 20px !important;
-    box-shadow: 0 2px 20px var(--shadow) !important;
-  }
-
-  /* 20.a.11. Display Servers to Channels */
-  .DSAC-styled .guilds-2JjMmN:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-3X7KbA>.listItem-3SmSlK:first-child {
-    margin-top: -42px !important;
-  }
-
-  /* 20.a.12 Permissions Viewer */
-  #permissions-modal-wrapper .callout-backdrop {
-    z-index: 999;
-  }
-
 /* 20.b. Addon Optimization */
   /* 20.b.1. Custom Popouts */
 
@@ -1370,7 +1254,7 @@ div.reply-item {
   height: 600px; /*Height of modal header*/
   opacity:.5;
   pointer-events:none;
-  background: var(--user-background) center/cover no-repeat;
+  background: var(--backgroundImage) center/cover no-repeat;
   -webkit-mask: linear-gradient(black, transparent 80%);
 }
 
@@ -1424,7 +1308,7 @@ div.reply-item {
 
 /* When Clicking and Dragging through the codes to highlight them */
 .ace-monokai .ace_marker-layer .ace_selection {
-  background: var(--main-color);
+  background: var(--maincolor);
 }
 
 /* Long Highlight Line */
@@ -1435,7 +1319,7 @@ div.reply-item {
 /* Bracket Border */
 .ace-monokai .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
-  border: 1px solid var(--hover-color);
+  border: 1px solid var(--hovercolor);
 }
 
 /* Comment Code */
@@ -4014,3 +3898,4 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 .members-3WRCEx {
   box-shadow: 0 -2px 10px var(--shadow) !important;
 }
+
