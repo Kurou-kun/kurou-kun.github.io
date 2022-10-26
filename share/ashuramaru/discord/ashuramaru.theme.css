@@ -1,0 +1,75 @@
+/**
+ * @name Ashuramaru Theme
+ * @description Death, loss, separation and abandonment – the many symbolisms of one flower (Manjushage)
+ * @author Kurou
+ * @version 1.0.4
+ * @website https://kurou-kun.github.io/
+ * @updateUrl https://kurou-kun.github.io/share/ashuramaru/discord/Ashuramaru.theme.css
+ */
+
+/* Imports */
+@import url(https://kurou-kun.github.io/share/ashuramaru/custome.css);
+
+/* Config */
+:root {
+	/* Colors */
+	--maincolor: #FF0000FF;
+	--secondarycolor: #900000FF;
+	--accentcolor: #FF0000FF;
+	--linkcolor: #FF0000FF;
+	--mentioncolor: #FFFFFFFF;
+	--successcolor: 59,165,92;
+	--warningcolor: 250,166,26;
+	--dangercolor: 237,66,69;
+	
+	/* Background */
+	--backgroundColor: #0d0d0d;
+	--backgroundBlur: 5px;
+	--backgroundOpacity: .3;
+	--backgroundPosition: center;
+	--backgroundSize: cover;
+	--backgroundRepeat: no-repeat;
+	--backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
+	
+	/* Home Icon */
+	--homeImageSize: cover;
+	--homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord-logo.png');
+	
+	/* Custome Font */
+	--customFont: 'Open Sans';
+	
+	/* Update */
+	--updatenotice: none;
+}
+
+/* Default Config
+
+	Colors
+	--maincolor: #FF0000FF;		RED
+	--secondarycolor: #900000FF;	DARK GREY
+	--accentcolor: #FF0000FF;	RED
+	--linkcolor: #FF0000FF;		RED
+	--mentioncolor: #FF0000FF;	RED
+	--successcolor: 0, 255, 0;	GREEN
+	--warningcolor: 255, 255, 0;	YELOW
+	--dangercolor: 255,0,0;		RED
+	
+	Background
+	--backgroundColor: #0d0d0d;	DARK GREY
+	--backgroundBlur: 5px;
+	--backgroundOpacity: .3;
+	--backgroundPosition: center;
+	--backgroundSize: cover;
+	--backgroundRepeat: no-repeat;
+	--backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
+	
+	Home Icon
+	--homeImageSize: cover;
+	--homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord-logo.png');
+	
+	Custome Font
+	--customFont: 'Open Sans';
+	
+	Update
+	--updatenotice: none;
+*/
