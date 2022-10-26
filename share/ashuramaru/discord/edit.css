@@ -3962,3 +3962,100 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
   box-shadow: 0 -2px 10px var(--shadow) !important;
 }
 
+/* 14. Scrollbars */
+#autocomplete-popout .scroller::-webkit-scrollbar,
+#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar {
+  display: none;
+}
+
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar,
+.titleContainer-3fPic2 + .side-2ur1Qk::-webkit-scrollbar {
+  width: 5px;
+}
+
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+  border-radius: 40px;
+}
+
+#bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+  border: none !important;
+  background-color: rgba(225, 225, 225, 0.2) !important;
+  display: initial;
+}
+
+.friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
+.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece,
+.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-track-piece,
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track,
+.sb-menu-scroller:hover::-webkit-scrollbar-track-piece,
+.scrollerWrap-2su1QI::-webkit-scrollbar-track-piece,
+.scrollerWrap-2su1QI::-webkit-scrollbar-track,
+.scroller-2FKFPG::-webkit-scrollbar-track,
+.scroller-2FKFPG::-webkit-scrollbar-track-piece,
+.scroller-kQBbkU::-webkit-scrollbar-track,
+.scroller-kQBbkU::-webkit-scrollbar-track-piece,
+.contentRegionScroller-2_GT_N::-webkit-scrollbar-track,
+.contentRegionScroller-2_GT_N::-webkit-scrollbar-track-piece,
+.scroller-14hecM::-webkit-scrollbar-track,
+.scroller-29cQFV::-webkit-scrollbar-track,
+.peopleList-2VBrVI::-webkit-scrollbar-track,
+.stageSection-3mAD8V .container-24CyRY::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.friends-table .scroller-wrap ::-webkit-scrollbar-thumb, 
+.messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb, 
+.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb, 
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, 
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, 
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scroller::-webkit-scrollbar-thumb,
+.scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-thumb,
+.chat-2ZfjoI .textArea-2Spzkt::-webkit-scrollbar-thumb,
+.sb-menu-scroller::-webkit-scrollbar-thumb,
+.scroller-kQBbkU::-webkit-scrollbar-thumb,
+.contentRegionScroller-2_GT_N::-webkit-scrollbar-thumb,
+.titleContainer-3fPic2 + .side-2ur1Qk::-webkit-scrollbar-thumb,
+.scroller-14hecM::-webkit-scrollbar-thumb,
+.scroller-29cQFV::-webkit-scrollbar-thumb,
+.peopleList-2VBrVI::-webkit-scrollbar-thumb,
+.stageSection-3mAD8V .container-24CyRY::-webkit-scrollbar-thumb {
+  background-color: var(--maincolor) !important;
+  border-color: transparent !important;
+  border-radius: 40px;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-track, 
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+  border-radius: 0px;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar,
+.stageSection-3mAD8V .container-24CyRY::-webkit-scrollbar {
+  width: 11px;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, 
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+  visibility: hidden !important;
+  transition: .2s visibility linear;
+}
+
+.scroller-wrap .scroller:hover::-webkit-scrollbar-thumb, 
+.scroller-wrap .scroller:hover::-webkit-scrollbar-track-piece {
+  visibility: visible !important;
+}
+
+.rolesList-22qj2L::-webkit-scrollbar {
+  height: 8px;
+  width: 12px;
+}
