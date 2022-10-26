@@ -956,11 +956,11 @@ svg[name="Activity"] {
 .message-G6O-Wv,
 .optionContainer-yOpaLq,
 .item-2idW98 {
-  background-color: var(--tertiary-color) !important;
+  background-color: var(--terytiarycolor) !important;
 }
 
 .updateBadge-3I6jaw {
-  background: var(--main-color);
+  background: var(--maincolor);
   -webkit-mask: url(https://discordapp.com/assets/2da087637693ad611a1ac582115eea91.svg)
 }
 
@@ -969,7 +969,7 @@ svg[name="Activity"] {
 .icon-2yhmi8,
 #app-mount .header-3i_Csh,
 .item-2idW98[aria-checked=true] {
-  background-color: var(--quaternary-color);
+  background-color: var(--backgroundColor);
 }
 
 
@@ -978,7 +978,7 @@ svg[name="Activity"] {
 }
 
 .button-3WOKuZ {
-  background-color: var(--main-color);
+  background-color: var(--maincolor);
 }
 
 .botTagRegular-kpctgU,
@@ -988,7 +988,7 @@ svg[name="Activity"] {
 #pubslayer .ui-tab-bar-item.selected,
 .bd-server-card.bd-server-card-pinned:after,
 .keybindShortcut-3zF1P9 span {
-  background-color: var(--main-color) !important;
+  background-color: var(--maincolor) !important;
 }
 
 .mediaBarInteractionDragging-3XLL8k .mediaBarGrabber-FvJKJg,
@@ -999,11 +999,11 @@ svg[name="Activity"] {
 #app-mount .barForeground-2kwBa_,
 .theme-dark .categoryFadeBlurple-1HuV1x, 
 .theme-light .categoryFadeBlurple-1HuV1x {
-  background-color: var(--main-color);
+  background-color: var(--maincolor);
 }
 
 .content-N9xlZF {
-  background: var(--main-color);
+  background: var(--maincolor);
 }
 
 .theme-dark .categoryFadeBlurple-1HuV1x, 
@@ -1014,23 +1014,23 @@ svg[name="Activity"] {
 .elevationHigh-28Pty4,
 .styleFixed-2_NfVL,
 .styleFlexible-x0_sIC {
-  background-color: var(--primary-color) !important;
+  background-color: var(--backgroundColor) !important;
 }
 
 .bubble-3we2di,
 #pubslayer .ui-tab-bar-item.selected:hover,
 .theme-dark .categoryFadeBlurple-1HuV1x:hover, 
 .theme-light .categoryFadeBlurple-1HuV1x:hover {
-  background-color: var(--hover-color) !important;
+  background-color: var(--hovercolor) !important;
 }
 
 .bubble-3we2di:before {
-  border-top-color: var(--hover-color) !important;
+  border-top-color: var(--hovercolor) !important;
 }
 
 .input-2g-os5:focus,
 .input-2g-os5.focused-1AtTHC {
-  border-color: var(--main-color) !important;
+  border-color: var(--maincolor) !important;
 }
 
 .connectedAccountVerifiedIcon-3aZz_K g path:nth-child(2),
@@ -1043,14 +1043,14 @@ svg[name="Activity"] {
 .verifiedIcon-3oz8wo path[fill="#7289da"]
 .gameVerifiedIcon-3t4jtr path[fill="#7289da"],
 .gameVerifiedIcon-3t4jtr .flowerStar-2tNFCR path {
-  fill: var(--main-color) !important;
+  fill: var(--maincolor) !important;
 }
 
 .verifiedIcon-3oz8wo,
 .verified-1Jv_7P,
 .lookInverted-2mDUMi.colorBrand-I6CyqQ,
 .selectedIcon-19TbzU {
-color: var(--main-color) !important;
+color: var(--maincolor) !important;
 }
 
 .lookInverted-2mDUMi.colorGreen-3y-Z79 {
@@ -1073,7 +1073,7 @@ color: var(--main-color) !important;
 }
 
 #app-mount .header-13P3fr {
-  background: var(--quaternary-color);
+  background: var(--backgroundColor);
 }
 
 .channelContainer-3YAhb_ {
@@ -1083,29 +1083,29 @@ color: var(--main-color) !important;
 .input-autosize-input:focus,
 .themeDefault-24hCdX,
 .channel-k2TVLQ {
-  background-color: var(--quaternary-color) !important;
+  background-color: var(--backgroundColor) !important;
 }
 
 .number-3ceIrJ {
-  background-color: var(--quaternary-color) !important;
-  border-color: var(--tertiary-color) !important;
+  background-color: var(--backgroundColor) !important;
+  border-color: var(--terytiarycolor) !important;
 }
 
 .foreground-2JnqVD {
-  stroke: var(--main-color) !important;
+  stroke: var(--maincolor) !important;
 }
 
 #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B:disabled {
-  background: var(--primary-color);
+  background: var(--backgroundColor);
 }
 
 #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B {
-  background: var(--secondary-color);
+  background: var(--secondarycolor);
 }
 
 .lookGhost-2Fn_0-.colorGrey-2iAG-B .contents-3ca1mk {
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), var(--main-color);
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), var(--maincolor);
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -1117,7 +1117,7 @@ color: var(--main-color) !important;
 }
 
 .lookGhost-2Fn_0-.colorGrey-2iAG-B {
-  background: var(--main-color);
+  background: var(--maincolor);
 }
 
 .lookGhost-2Fn_0-::before {
@@ -1127,19 +1127,19 @@ color: var(--main-color) !important;
   width: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), var(--primary-color);
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), var(--backgroundColor);
   opacity: .9;
   transition: all 500ms ease-in-out;
 }
 
 .lookGhost-2Fn_0-.colorBrand-I6CyqQ .contents-3ca1mk {
   position: relative;
-  color: var(--main-color);
+  color: var(--maincolor);
   z-index: 1;
 }
 
 .lookGhost-2Fn_0-.colorBrand-I6CyqQ {
-  background: var(--main-color);
+  background: var(--maincolor);
 }
 
 .lookGhost-2Fn_0-.colorBrand-I6CyqQ::before {
@@ -1147,20 +1147,20 @@ color: var(--main-color) !important;
 }
 
 .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
-  background: var(--primary-color);
+  background: var(--backgroundColor);
 }
 
 .path2-F-M5gP,
 .path-lhsLSV {
-  stroke: var(--hover-color) !important;
+  stroke: var(--hovercolor) !important;
 }
 
 .path3-3tVOpU {
-  stroke: var(--main-color) !important;
+  stroke: var(--maincolor) !important;
 }
 
 .bda-slist .bda-footer a {
-  color: var(--main-color);
+  color: var(--maincolor);
 }
 
 .actionRed-gYn8D3 {
@@ -1180,15 +1180,15 @@ color: var(--main-color) !important;
 }
 
 .themeDark-3Ap_7i {
-  background-color: var(--primary-color);
+  background-color: var(--backgroundColor);
 }
 
 .ragingDemon-10qP1U {
-  background-color: var(--primary-color);
+  background-color: var(--backgroundColor);
 }
 
 .symbol-34PJsf {
-  background-color: var(--main-color);
+  background-color: var(--maincolor);
   -webkit-mask-image: url(https://monstrousdev.github.io/themes/assets/svgs/demon-fill.svg);
   -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
@@ -1228,13 +1228,13 @@ color: var(--main-color) !important;
 }
 
 .attachment-16cAbS, .avatar-l9Txm5, .blob-1uHjdp {
-  background-color: var(--main-color);
+  background-color: var(--maincolor);
 }
 
 .mulitplePlaceholderUsername-2T3DCI, 
 .placeholderAvatar-1qAcRZ, 
 .placeholderUsername-3iQi_D {
-  background-color: var(--main-color);
+  background-color: var(--maincolor);
   opacity: .3;
 }
 
