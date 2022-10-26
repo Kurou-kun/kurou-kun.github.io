@@ -1,10 +1,6 @@
 /* Imports */
 @import "https://kurou-kun.github.io/share/ashuramaru/discord/source.css";
 
-:root{
-	
-}
-
 .theme-light, .theme-dark, .theme-amoled {
 	--text-positive: rgb(var(--successcolor));
 	--text-warning: rgb(var(--warningcolor));
@@ -53,20 +49,6 @@
 	--input-background: rgba(var(--transparencycolor), .1);
 	--elevation-low: 0 1px 5px 0 rgba(var(--transparencycolor), .3);
 	--elevation-high: 0 2px 10px 0 rgba(var(--transparencycolor), .3);
-}
-
-/* ~~~~		1.		TRANSPARENCY					~~~~ */
-
-body,														/* body														*/
-#app-mount .container-1NXEtd,								/* channels				inner								*/
-#app-mount .privateChannels-oVe7HL,							/* dmchannels												*/
-#app-mount .panels-3wFtMD > *,								/* account/voice		inner								*/
-#app-mount .chat-2ZfjoI,									/* chat					container							*/
-#app-mount .container-3wLKDe,								/* chat					support								*/
-#app-mount .container-3XgAHv,								/* chat					thread sidebar						*/
-#app-mount .wrapper-3HVHpV,									/* chat					messages loading					*/
-#app-mount .scroller-2FKFPG,								/* scroller old												*/
-	background: transparent;
 }
 
 /* 1. Title Bar */
@@ -265,6 +247,21 @@ svg[name="Activity"] {
   background-color: currentColor;
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
+
+/* ~~~~		1.		TRANSPARENCY					~~~~ */
+
+body,														/* body														*/
+#app-mount .container-1NXEtd,								/* channels				inner								*/
+#app-mount .privateChannels-oVe7HL,							/* dmchannels												*/
+#app-mount .panels-3wFtMD > *,								/* account/voice		inner								*/
+#app-mount .chat-2ZfjoI,									/* chat					container							*/
+#app-mount .container-3wLKDe,								/* chat					support								*/
+#app-mount .container-3XgAHv,								/* chat					thread sidebar						*/
+#app-mount .wrapper-3HVHpV,									/* chat					messages loading					*/
+#app-mount .scroller-2FKFPG,								/* scroller old												*/
+	background: transparent;
+}
+
 /* 2. Chat Header */
   /* 2.a. Coloring and Spacing */
 .platform-win .toolbar-3_r2xA {
