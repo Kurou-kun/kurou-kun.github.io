@@ -198,6 +198,68 @@ svg[name="Activity"] {
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
 
+/* 4. Guilds Wrapper */
+ /* 4.a. Main Guilds Wrapper */
+ #app-mount .guilds-2JjMmN .scroller-3X7KbA {
+  contain: initial;
+  background: transparent;
+}
+
+#app-mount .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS+.listItem-3SmSlK+div,
+#app-mount .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS+div:not(.listItem-3SmSlK) {
+  margin-top: 58px;
+}
+
+.guilds-2JjMmN {
+  z-index: 6;
+}
+
+#app-mount .guilds-2JjMmN {
+  overflow: visible;
+}
+
+.guilds-2JjMmN .scrollerWrap-1IAIlv .scroller-3X7KbA .friendsOnline-2JkivW {
+  margin-top: 10px;
+}
+
+.theme-light .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM,
+.theme-light .guilds-2JjMmN .scrollerWrap-1IAIlv .scroller-3X7KbA .friendsOnline-2JkivW {
+  color: #000;
+}
+
+.guildSeparator-33mFX6 {
+  display: none;
+}
+
+.guildSeparator-33mFX6::after {
+  background-color: transparent !important;
+}
+
+  /* 4.d. Badges */
+#app-mount .iconBadge-2wi9r4 {
+  background-color: var(--maincolor);
+}
+
+.badge-_BgAUQ {
+  background-color: var(--dnd);
+}
+
+  /* 4.e. Unread Indicator */
+.unreadMentionsIndicatorBottom-BXS58x {
+  z-index: 1000;
+}
+
+.unreadMentionsIndicatorTop-gA6RCh {
+  top: 46px;
+}
+
+.mention-3XBnnZ {
+  background-color: var(--maincolor);
+}
+
+.mention-3XBnnZ:hover {
+  background-color: var(--hovercolor);
+}
 /* ~~~~		1.		TRANSPARENCY					~~~~ */
 
 body,														/* body														*/
