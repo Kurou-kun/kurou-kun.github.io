@@ -103,31 +103,9 @@
 	--status-danger-text: #fff;
 }
 
-/* Window Title*/
-.wordmark-2u86JB svg {
-	color: var(--maincolor);
-}
 
-.titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::after {
-	content: "Ashuramaru Theme";
-	position: absolute;
-	top: 5px;
-	left: 70px;
-	color: rgba(255, 255, 255);
-	display: block;
-	height: 16px;
-	pointer-events: none;
-	font-size: 14px;
-}
 
-.winButtonMinMax-3RsPUg:hover {
-	background-color: #292929;
-}
-
-.titleBar-1it3bQ {
-	background-color: var(--backgroundColor);
-}
-
+/* Background */
 .appMount-2yBXZl,
 body {
     background-color: var(--backgroundColor) !important
@@ -1198,7 +1176,7 @@ body {
 }
 
 .sidebarRegion-1VBisG {
-    background-color: rgba(0, 0, 0, .25)
+    background-color: rgba(0, 0, 0, .30)
 }
 
 .contentRegion-3HkfJJ {
