@@ -228,7 +228,7 @@ body,														/* body														*/
 
 .container-1-ERn5 {
   height: 46px;
-  background-color: transparent;
+  background-color: var(--backgroundColor);
 }
 
 .clickable-vvKY2q .header-3OsQeK:hover {
