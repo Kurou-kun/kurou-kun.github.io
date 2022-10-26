@@ -165,9 +165,9 @@ body {
     background-color: var(--maincolor) !important;
 }
 
-.tutorialContainer-1pL9QS .childWrapper-1j_1ub > svg,
-.tutorialContainer-1pL9QS .childWrapper-1j_1ub .homeIcon-tEMBK1 {
-    display: none
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg defs,
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg g {
+  display: none;
 }
 
 ::-webkit-scrollbar {
