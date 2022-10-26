@@ -2058,7 +2058,8 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 
 /* Channel Font */
 .channelName-3KPsGw {
-    font-family: var(--font-channellist);
+	font-family: var(--font-channellist);
+	font-size: 16px;
 }
 
 /* Channel Icons */
@@ -3968,4 +3969,48 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	animation: unset !important;
 	z-index: 101 !important;
 	pointer-events: auto !important;
+}
+
+/* 12. Shadows */
+.popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
+.title-31SJ6t,
+.headerBar-UHpsPw,
+.elevationBorderHigh-3drnJX,
+.form-3gdLxP .inner-NQg18Y {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.channel-members-wrap,
+.guildsWrapper-5TJh6A:not(.foldercontent),
+.guilds-2JjMmN,
+.channels-wrap .flexChild-3PzYmX,
+#friends .friends-header,
+.chat-2ZfjoI .title-wrap,
+.chat-2ZfjoI form .channel-text-area-default,
+.searchResultsWrap-2DKFzt,
+.embed-hKpSrO,
+.channels-Ie2l6A,
+.wrapper-1HIH0j,
+.cardPrimary-3qRT__,
+.cardPrimaryEditable-2mz_3i,
+.authedApp-1tw-eT,
+.modal-3HD5ck .message-G6O-Wv,
+.theme-dark .autocomplete-3NRXG8,
+#app-mount .menu-Sp6bN1,
+#permissions-modal-wrapper .role-side,
+.sidebar-1tnWFu,
+.inner-NQg18Y,
+.peopleColumn-1wMU14,
+.container-3O_wAf,
+.icon-1SdhiF {
+  box-shadow: 0 2px 10px var(--shadow) !important;
+}
+
+.sidebar-1tnWFu {
+  z-index: 2;
+}
+
+.members-3WRCEx {
+  box-shadow: 0 -2px 10px var(--shadow) !important;
 }
