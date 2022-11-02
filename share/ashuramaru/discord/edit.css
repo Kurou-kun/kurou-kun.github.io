@@ -1,46 +1,6 @@
 /* Imports */
 @import url("https://kurou-kun.github.io/share/ashuramaru/discord/source.css");
 
-/* 1. Title Bar */
-  /* 1.a. Main Title Bar */
-.titleBar-1it3bQ {
-  transform: translateY(-6px);
-  height: 0px;
-  margin-top: 0px;
-}
-
-.titleBar-1it3bQ:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 6px;
-  height: 14px;
-  z-index: 3002;
-  -webkit-app-region: drag !important;
-	pointer-events: none;
-}
-
-.titleBar-1it3bQ:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 6px;
-  z-index: 3002 !important;
-	pointer-events: none;
-}
-
-.titleBar-1it3bQ div {
-	transform: scale(0.8) !important;
-}
-
-.title-31SJ6t,
-.titleCall-_b9o8P {
-  height: 46px;
-}
-
   /* 1.b. Mac Main Title Bar*/
 .typeMacOS-3V4xXE.titleBar-1it3bQ { 
 	transform: none; 
