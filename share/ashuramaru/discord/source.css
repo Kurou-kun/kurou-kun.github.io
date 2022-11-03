@@ -1886,15 +1886,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--mentioncolor);
-    background-image: linear-gradient(to bottom right, var(--mentioncolor), var(--secondarycolor));
+    background-color: transparent;
     z-index: -1;
     opacity: .15
 }
 
 .mentioned-Tre-dv:before {
-    background-color: var(--mentioncolor);
-    background-image: linear-gradient(to right, var(--mentioncolor), var(--secondarycolor))
+    background-color: transparent;
 }
 
 .botTagInvert-1nKcq_,
