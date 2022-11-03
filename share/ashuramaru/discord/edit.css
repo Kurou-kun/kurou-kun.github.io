@@ -15,206 +15,6 @@ body,														/* body														*/
 	background: transparent;
 }
 
-/* 2. Chat Header */
-  /* 2.a. Coloring and Spacing */
-.platform-win .toolbar-3_r2xA {
-  margin-right: 96px;
-}
-
-.title-31SJ6t,
-.header-2o-2hj,
-.headerBar-UHpsPw,
-.container-1-ERn5 {
-  box-shadow: none;
-  border-bottom: 2px solid var(--maincolor) !important;
-}
-
-.container-1-ERn5 {
-  height: 46px;
-  background-color: var(--backgroundColor);
-}
-
-.clickable-vvKY2q .header-3OsQeK:hover {
-  background-color: transparent;
-}
-
-#app-mount .title-31SJ6t.transparent-1lUmft {
-  background: transparent !important;
-  border-bottom: 2px solid transparent !important;
-}
-
-.headerBar-UHpsPw.titleCall-_b9o8P {
-  border-bottom: none !important;
-}
-
-.title-31SJ6t, 
-.titleCall-_b9o8P {
-  height: 48px;
-}
-
-.children-3xh0VB:after {
-  display: none;
-}
-
-#app-mount .container-ZMc96U {
-  box-shadow: none;
-  border-bottom: 2px solid var(--maincolor);
-}
-
-.headerBar-UHpsPw {
-  height: 48px;
-  padding: 0 8px 0 12px;
-}
-
-.header-2o-2hj .name-3YKhmS {
-  line-height: unset;
-  position: relative;
-  top: 4px;
-  left: 2%;
-}
-
-.tutorialContainer-1pL9QS {
-  margin-top: -6px;
-  width: 72px;
-  position: fixed;
-  z-index: 2;
-  height: 46px;
-  margin-bottom: 15px
-}
-
-.tutorialContainer-1pL9QS .pill-3N7f9r {
-  display: none;
-}
-
-.tutorialContainer-1pL9QS>.listItem-3SmSlK {
-  border-bottom: 2px solid var(--maincolor);
-  border-radius: 0px !important;
-  width: 100%;
-  transition: all 1s ease-in-out;
-}
-
-#app-mount .guilds-2JjMmN .scrollerWrap-1IAIlv .scroller-3X7KbA>.listItem-3SmSlK:first-child .listItemWrapper-3X98Pc {
-  height: 100%;
-  width: 100%;
-}
-
-#app-mount .guilds-2JjMmN .scrollerWrap-1IAIlv .scroller-3X7KbA>.listItem-3SmSlK:first-child .wrapper-28eC3z .svg-2zuE5p {
-  height: 100% !important;
-  width: 100% !important;
-}
-
-#app-mount foreignObject {
-  mask: none !important;
-  -webkit-mask: none !important;
-  overflow: hidden;
-}
-
-#app-mount .button-OhfaWu {
-  background-color: transparent;
-}
-
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
-  -webkit-mask-position: center;
-}
-
-#app-mount .tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg path {
-  display: none;
-}
-
-  /* 2.b. Search Bars */
-
-.search-1FM8Qc .searchBar-zdmu7v .icon-1nNws_ {
-  margin-top: 23px;
-  transform: translateY(-50%);
-}
-
-#app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-  background-color: transparent;
-}
-
-.search-1FM8Qc .DraftEditor-root {
-  line-height: 42px;
-}
-
-#app-mount .container-2oNtJn {
-  background-color: transparent;
-}
-
-.search .searchBarIcon-1J6sKG {
-  width: 35px;
-}
-
-.searchBarTag-2xRzm8 {
-  background: transparent !important;
-  border: 1px solid var(--maincolor);
-}
-
-.browseSearch-e9jF-f .browseSearchInput-Jt8kg0.input-2g-os5 {
-  background: transparent !important;
-  color: white;
-}
-
-.search-1FM8Qc .searchBar-zdmu7v {
-  background-color: transparent !important;
-  height: 46px;
-  border-radius: 0px;
-}
-
-.titleCall-_b9o8p .search .search-bar,
-.searchBar-2_Yu-C,
-.searchBar-2_Yu-C .searchBarInner-1_Tg2R {
-  background-color: transparent !important;
-}
-
-.search-bar .search-bar-inner {
-  background: transparent;
-  border-color: transparent;
-}
-
-.search-1FM8Qc .DraftEditor-root {
-  line-height: 39px;
-}
-
-.search-1FM8Qc .DraftEditor-root .public-DraftEditorPlaceholder-root {
-  color: #cecece !important;
-  padding-left: 17px;
-}
-
-.searchAnswer-23w-CH,
-.searchFilter-2UfsDk {
-  height: 30px;
-  line-height: 30px;
-  background-color: var(--secondarycolor) !important;
-}
-
-.searchAnswer-23w-CH {
-  padding: 0px 6px 1px 0px;
-}
-
-.searchFilter-2UfsDk {
-  border-radius: 3px;
-  padding: 0px 8px 1px 6px;
-}
-
-.privateChannels-oVe7HL .searchBar-3TnChZ {
-  border-bottom: 2px solid var(--maincolor);
-  padding: 0px;
-  height: 46px;
-  box-shadow: 0px 0px transparent !important
-}
-
-.privateChannels-oVe7HL .searchBar-3TnChZ input,
-.search-1FM8Qc .DraftEditor-root .DraftEditor-editorContainer {
-  height: 100%;
-}
-
-.privateChannels-oVe7HL .searchBar-3TnChZ .searchBarInner-1_Tg2R {
-  border: 0px solid transparent;
-  border-radius: 0px;
-  padding: 0px;
-  height: 100%;
-}
-
 /* 5.f. Categories */
 .containerDefault-3GGEv_, 
 .containerDragAfter-3TEhpe, 
@@ -1262,15 +1062,6 @@ color: var(--maincolor) !important;
   
 }
 
-/* Home Icon */
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
-  background-color: var(--home-color);
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/home.svg);
-  -webkit-mask-size: var(--home-size);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-}
-
 /* 11. Avatars */
   /* 11.a. Remove Mask */
 .mask-3OgeRz,
@@ -2037,7 +1828,6 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 .messagesWrapper-RpOMA3 .wrapper-30-Nkg,					/* message				upload placeholder					*/
 .card-3x20HF .wrapper-30-Nkg,								/* message				home								*/
 .wrapper-15CKyy,											/* message				loading 							*/
-.message-3g3FYR,											/* message				mention popout						*/
 .message-372Ods,											/* message				inbox popout						*/
 .message-G6O-Wv .wrapper-30-Nkg,							/* message				settings preview					*/
 .messageGroupCozy-3v_RqN,									/* message				pin popout							*/
@@ -2078,19 +1868,10 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 .message-2CShn3.replying-eZ7p5z {							/* message				replying							*/
 	background-image: linear-gradient(rgba(var(--accentcolor), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--accentcolor), calc(0.2 * (1 - var(--usechatbubbles)))));
 }
-.message-2CShn3.mentioned-Tre-dv {							/* message				mentioned							*/
-	background-image: linear-gradient(rgba(var(--mentioncolor), calc(0.2 * (1 - var(--usechatbubbles)))), rgba(var(--accentcolor), calc(0.2 * (1 - var(--usechatbubbles)))));
-}
+
 .message-2CShn3.ephemeral-2nDdnn::before,
 .message-2CShn3.replying-eZ7p5z::before {
 	background-color: rgb(var(--accentcolor));
-}
-.message-2CShn3.mentioned-Tre-dv::before {
-	background-color: rgb(var(--mentioncolor));
-}
-.message-2CShn3.mentioned-Tre-dv .contents-2MsGLg .messageContent-2t3eCI {
-	border-radius: 3px;
-	background-color: rgba(var(--mentioncolor), calc(0.3 * var(--usechatbubbles)));
 }
 #app-mount .avatar-2e8lTP,									/* message				container avatar					*/
 #app-mount .avatar-l9Txm5 {									/* message				loading avatar						*/
@@ -2201,9 +1982,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 #app-mount .cozy-VmLDNB.hasThread-3h-KJV::after {
 	border-color: rgba(var(--transparencycolor), calc(0.5 * var(--usechatbubbles)));
 }
-#app-mount .message-2CShn3.mentioned-Tre-dv.hasThread-3h-KJV::before {
-	background-color: transparent;
-}
+
 #app-mount .compact-2Nkcau.hasThread-3h-KJV::after {
 	left: calc(var(--avatar-size) + 11px);
 	width: calc(var(--avatar-size) - 13px);
@@ -2279,9 +2058,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 .mouse-mode.full-motion .message-2CShn3.cozy-VmLDNB:hover .iconContainer-2rPbqG::after {
 	border-right-color: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 1.2));
 }
-#app-mount .mentioned-Tre-dv.cozy-VmLDNB .header-2jRmjb::after {
-	border-right-color: rgba(var(--mentioncolor), calc(var(--messagetransparency) * 100000000000000000000000000000));
-}
+
 #app-mount .ephemeral-2nDdnn.cozy-VmLDNB .header-2jRmjb::after,
 #app-mount .replying-eZ7p5z.cozy-VmLDNB .header-2jRmjb::after {
 	border-right-color: rgba(var(--accentcolor), calc(var(--messagetransparency) * 100000000000000000000000000000));
