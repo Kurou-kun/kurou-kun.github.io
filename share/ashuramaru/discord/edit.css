@@ -1,8 +1,33 @@
+/*
+
+Table of Contents
+
+1. Title Bar
+	a. Wordmark erase
+	b. Custome text
+	c. Windows buttons swap
+	
+2. Colors
+	a. Url colors
+	b. Channels icon color
+	c. Channels unread color
+	
+3. Fonts
+
+4. Home icon
+	a. Properties
+
+*/
+
+/*#####################################################################################################*/
+
 /* Title Bar */
+/* a. Wordmark erase */
 .wordmark-2u86JB svg {
   display: none;
 }
 
+/* b. Custome text */
 .titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::before {
   content: "Ａｓｈｕｒａｍａｒｕ Ｔｈｅｍｅ" " v."var(--theme-version);
   position: absolute;
@@ -17,7 +42,7 @@
   font-weight: bold;
 }
 
-  /* Windows Buttons */
+  /* c. Windows buttons swap */
   .winButton-3UMjdg {
   top: -8px;
   height: 30px;
@@ -57,7 +82,6 @@
 	top: -10px;
 }
 
- /* Erase & Change SVGs of windows buttons*/
 .titleBar-1it3bQ rect,
 .wordmark-2u86JB,
 .winButton-3UMjdg svg,
@@ -156,7 +180,8 @@ svg[name="Activity"] {
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
 
-/* URL Color */
+/* 2. Colors */
+/* a. URl color */
 .markup-eYLPri a {
   color: var(--color-link);
 }
@@ -166,13 +191,7 @@ svg[name="Activity"] {
   border: none;
 }
 
-/* Channels Font */
-.channelName-3KPsGw {
-	font-family: var(--font-channels);
-	font-size: 16px;
-}
-
-/* Channels Icon Colors */
+/* b. Channels icon colors */
 .icon-2W8DHg {	
 	color: var(--color-channel-icon);
 }
@@ -204,7 +223,7 @@ svg[name="Activity"] {
 	color: var(--color-channel-icon);
 }
 
-/* Unread Channel Colors */
+/* c. Unread channel colors */
 .wrapper-NhbLHG.modeUnread-3Cxepe
   .content-1gYQeQ
   .mainContent-20q_Hp
@@ -225,6 +244,32 @@ svg[name="Activity"] {
 .unreadPillCapStroke-1nE1Q8 {
   color: var(--color-channel-icon);
   fill: var(--color-channel-icon);
+}
+
+/* Fonts */
+/* a. Channels font */
+.channelName-3KPsGw {
+	font-family: var(--font-channels);
+	font-size: 16px;
+}
+
+/* Home icon */
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
+  background-color: transparent;
+  -webkit-mask: url(--homeImage);
+  -webkit-mask-size: var(--homeImageSize);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg defs,
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg g {
+  display: none;
+}
+
+.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: transparent !important;
 }
 
 /* CHAT */
