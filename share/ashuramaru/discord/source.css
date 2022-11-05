@@ -4,24 +4,52 @@
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');	/* Open Sans */
 
 :root {
-    --color-main: #ff0000;
-    --color-secondary: #900000;
-    --customFont: 'Roboto', sans-serif;
-    --font-display: var(--customFont);
-    --homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord/home-icon.svg');
-    --homeImageSize: cover;
-    --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
-    --backgroundPosition: center;
-    --backgroundSize: cover;
-    --backgroundRepeat: no-repeat;
-    --backgroundBlur: 100px;
-    --backgroundOpacity: .65;
-    --backgroundCode: rgba(0,0,0,.5);
-    --backgroundName: rgba(0,0,0,.5);
+	/* Colors */
+	--color-main: #ff0000;
+	--color-secondary: #900000;
+	--color-tertiary: #ffffff;
+	--color-channel-icon: #ff0000;
+	--color-channel-unread: #ff0000;
+	--color-link: #ff0000;
+	--color-online: ;
+	--color-offline: ;
+	--color-busy: ;
+	--color-stream: ;
+	--color-dnd: #ff0000;
+	
+	/* Fonts */
+	--font-channels: ;
+	--font-chat: ;
+	--font-members: ;
+	--font-other: 'Open Sans';
+	--font-display: var(--font-other);
+	
+	/* Background Properties */
+	--backgroundColor: #0d0d0d;
+     --backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
+     --backgroundPosition: center;
+     --backgroundSize: cover;
+     --backgroundRepeat: no-repeat;
+     --backgroundBlur: 100px;
+     --backgroundOpacity: .65;
+     --backgroundCode: rgba(0,0,0,.5);
+     --backgroundName: rgba(0,0,0,.5);
+	
+	/* Home Icon Properties */
+     --homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord/home-icon.svg');
+     --homeImageSize: cover;
+	
+	/* Chat Properties */
+	--transparencycolor: 0,0,0;
+	--transparencyalpha: 0.15;
+	--messagetransparency: 0.5;
+	--usechatbubbles: calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
+	--guildchanneltransparency: 0.15;
+	--chatinputtransparency: 0.0;
+	--memberlisttransparency: 0.0;
 }
 
 .appMount-2yBXZl,
