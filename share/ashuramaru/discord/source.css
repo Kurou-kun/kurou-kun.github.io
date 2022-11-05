@@ -7,7 +7,8 @@
 @import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
 
 /* Font Imports */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans');	/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');			/* Open Sans 	|	'Open Sans' 		*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');	/* Exo 2		| 	'Exo 2', sans-serif 	*/
 
 :root {
 	/* Colors */
@@ -24,10 +25,10 @@
 	--color-danger: 237,66,69;
 	
 	/* Fonts */
-	--font-channels: ;
-	--font-chat: ;
-	--font-members: ;
-	--font-other: 'Open Sans';
+	--font-channels: 'Exo 2', sans-serif;
+	--font-chat: 'Exo 2', sans-serif;
+	--font-members: 'Exo 2', sans-serif;
+	--font-other: 'Exo 2', sans-serif;
 	--font-display: var(--font-other);
 	
 	/* Background Properties */
