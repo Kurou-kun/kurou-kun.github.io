@@ -44,7 +44,7 @@
 	
 	/* Home Icon Properties */
 	--homeImage: url('https://kurou-kun.github.io/share/ashuramaru/discord/home-icon.svg');
-	--homeImageSize: cover;
+	--homeImageSize: 24px;
 	
 	/* Theme */
 	--theme-version: "1.1.1";
