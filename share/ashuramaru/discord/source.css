@@ -193,7 +193,7 @@ body {
     background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: transparent;
+    background-image: var(--homeImage);
     background-size: var(--homeImageSize);
     background-clip: border-box
 }

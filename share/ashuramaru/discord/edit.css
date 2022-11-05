@@ -182,25 +182,6 @@ svg[name="Activity"] {
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
 
-/* ###############################[ 2. Home Icon ]############################### */
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
-  background-color: transparent;
-  -webkit-mask: url(--homeImage);
-  -webkit-mask-size: var(--homeImageSize);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-}
-
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg defs,
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg g {
-  display: none;
-}
-
-.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-.tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background-color: transparent !important;
-}
-
 /* ###############################[ 3. Colors ]############################### */
 /* a. URl color */
 .markup-eYLPri a {
@@ -280,7 +261,7 @@ svg[name="Activity"] {
 	padding-top: 0;
 	margin-top: 0;
 }
-.form-3gdLxP {												/* textarea				form								*/
+.form-3gdLxP {
 	background: rgba(var(--transparencycolor), var(--chatinputtransparency));
 	margin-top: 0;
 	padding-top: 8px;
@@ -294,44 +275,44 @@ svg[name="Activity"] {
 	display: none;
 }
 
-.channelTextArea-1FufC0 {									/* textarea				channeltextarea						*/
+.channelTextArea-1FufC0 {
 	background-color: transparent;
 	border-top-color: var(--background-modifier-accent);
 }
 
-.container-A2jo65 {											/* textarea				reply								*/
+.container-A2jo65 {
 	background: rgba(var(--transparencycolor), .3);
 	border: none;
 	border-bottom: 1px solid var(--background-modifier-accent);
 }
 
-.scrollableContainer-15eg7h {								/* textarea				container							*/
+.scrollableContainer-15eg7h {
 	background-color: rgba(var(--transparencycolor), .3);
 }
 
-.sprite-2lxwfc {											/* textarea				emojibutton							*/
+.sprite-2lxwfc {
 	transform: none !important;
 }
 
-.wrapper-2SplAX {											/* textarea				placeholder							*/
+.wrapper-2SplAX {
 	background-color: rgba(var(--transparencycolor), .3);
 	color: var(--text-normal);
 }
 
-.toolbar-37BrJ5 {											/* textarea				formattoolbar						*/
+.toolbar-37BrJ5 {
 	background-color: var(--color-main);
 }
 .toolbar-37BrJ5::before {
 	border-top-color: var(--color-main);
 }
-.divider-3NY7PF {											/* textarea				formattoolbar divider				*/
+.divider-3NY7PF {
 	border-left-color: hsla(0, 0%,100%, .1);
 }
-.active-136ioF,												/* textarea				buttonactive						*/
-.hover-3OQb9Y:hover {										/* textarea				buttonhover							*/
+.active-136ioF,
+.hover-3OQb9Y:hover {
 	background-color: hsla(0, 0%, 100%, .2);
 }
-.icon-3g7qdA {												/* textarea				buttonicon							*/
+.icon-3g7qdA {
 	color: #fff;
 	opacity: .7;
 }
@@ -341,7 +322,7 @@ svg[name="Activity"] {
 	opacity: 1;
 }
 
-#app-mount .pill-1HLSrc {									/* textarea				command query pill					*/
+#app-mount .pill-1HLSrc {
 	background-color: rgba(var(--transparencycolor), .5);
 	border-radius: 5px;
 }
