@@ -273,8 +273,8 @@ svg[name="Activity"] {
     background-color: transparent !important;
 }
 
-/* TEXTAREA */
-
+/* ###############################[ 4. Chat ]############################### */
+/* a. Textarea */
 .form-3gdLxP {
 	padding-top: 0;
 	margin-top: 0;
@@ -345,8 +345,7 @@ svg[name="Activity"] {
 	border-radius: 5px;
 }
 
-/* CHAT SIDEBAR */
-
+/* b. Sidebar */
 .container-3XgAHv {											/* chat					sidebar								*/ 
 	border-radius: 0;
 }
@@ -398,7 +397,7 @@ svg[name="Activity"] {
 	pointer-events: none;
 }
 
-/* Scrollbars */
+/* ###############################[ 5. Scrollbars ]############################### */
 #autocomplete-popout .scroller::-webkit-scrollbar,
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
 #bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar {
@@ -496,18 +495,17 @@ svg[name="Activity"] {
   width: 12px;
 }
 
-/* Unavailablescreen */
-
-.category-2haXBH,											/* loadingplaceholders										*/
+/* ###############################[ 6. Unavailablescreen ]############################### */
+.category-2haXBH,
 .channelIcon-1TvDoP,
 .channelName-2wrHHc {
 	background: rgba(var(--transparencycolor), .4);
 }
-.splashImage-3x240k {										/* screen				image								*/
+.splashImage-3x240k {	
 	opacity: 0.7;
 }
 
-/* Update Notice */
+/* ###############################[ 7. Update Notice ]############################### */
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	content: "Ashuramaru Theme is outdated, please download the latest one." !important;
 	display: var(--updatenotice, block) !important;
