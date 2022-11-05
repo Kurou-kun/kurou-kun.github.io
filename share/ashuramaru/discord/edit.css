@@ -181,7 +181,26 @@ svg[name="Activity"] {
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
 
-/* ###############################[ 2. Colors ]############################### */
+/* ###############################[ 2. Home Icon ]############################### */
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
+  background-color: transparent;
+  -webkit-mask: url(--homeImage);
+  -webkit-mask-size: var(--homeImageSize);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg defs,
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg g {
+  display: none;
+}
+
+.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: transparent !important;
+}
+
+/* ###############################[ 3. Colors ]############################### */
 /* a. URl color */
 .markup-eYLPri a {
   color: var(--color-link);
@@ -247,33 +266,14 @@ svg[name="Activity"] {
   fill: var(--color-channel-icon);
 }
 
-/* ###############################[ 3. Fonts ]############################### */
+/* ###############################[ 4. Fonts ]############################### */
 /* a. Channels font */
 .channelName-3KPsGw {
 	font-family: var(--font-channels);
 	font-size: 16px;
 }
 
-/* Home icon */
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
-  background-color: transparent;
-  -webkit-mask: url(--homeImage);
-  -webkit-mask-size: var(--homeImageSize);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-}
-
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg defs,
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg g {
-  display: none;
-}
-
-.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-.tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background-color: transparent !important;
-}
-
-/* ###############################[ 4. Chat ]############################### */
+/* ###############################[ 5. Chat ]############################### */
 /* a. Textarea */
 .form-3gdLxP {
 	padding-top: 0;
@@ -397,7 +397,7 @@ svg[name="Activity"] {
 	pointer-events: none;
 }
 
-/* ###############################[ 5. Scrollbars ]############################### */
+/* ###############################[ 6. Scrollbars ]############################### */
 #autocomplete-popout .scroller::-webkit-scrollbar,
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
 #bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar {
@@ -495,7 +495,7 @@ svg[name="Activity"] {
   width: 12px;
 }
 
-/* ###############################[ 6. Unavailablescreen ]############################### */
+/* ###############################[ 7. Unavailablescreen ]############################### */
 .category-2haXBH,
 .channelIcon-1TvDoP,
 .channelName-2wrHHc {
