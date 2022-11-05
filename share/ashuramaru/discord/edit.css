@@ -1,4 +1,21 @@
+/* Title Bar */
+.wordmark-2u86JB svg {
+  display: none;
+}
 
+.titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::before {
+  content: "Ashuramaru Theme" " v."var(--theme-version);
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: var(--color-main);
+  display: block;
+  height: 16px;
+  width: fit-content;
+  pointer-events: none;
+  font-size: 14px;
+  font-weight: bold;
+}
 
 /* URL Color */
 .markup-eYLPri a {

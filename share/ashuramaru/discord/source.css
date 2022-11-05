@@ -65,7 +65,8 @@
 	--backdropsize:	cover;
 	--backdropblur:	unset;
 	
-	/* Update Notice */
+	/* Theme */
+	--theme-version: "1.0.9";
 	--version: none;		
 }
 
