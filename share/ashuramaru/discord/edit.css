@@ -1058,5 +1058,5 @@ html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	transform: unset !important;
 	animation: unset !important;
 	z-index: 101 !important;
-	pointer-events: auto !important;
+	pointer-events: none !important;
 }
