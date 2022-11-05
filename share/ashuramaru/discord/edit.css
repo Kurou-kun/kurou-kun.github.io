@@ -20,7 +20,9 @@ TABLE OF CONTENTS
 	a. Textarea
 	b. Sidebar
 6. Scrollbars
-7. Update Notice
+7. Shadows
+9. Unavailablescreen
+10. Update Notice
 
 ##################################################################################################### */
 
@@ -347,59 +349,7 @@ svg[name="Activity"] {
 	border-radius: 5px;
 }
 
-/* b. Sidebar */
-.container-3XgAHv {											/* chat					sidebar								*/ 
-	border-radius: 0;
-}
-.container-3XgAHv.floating-3M3WeH::before,
-.container-3XgAHv.floating-3M3WeH::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	width: unset;
-	height: unset;
-	pointer-events: none;
-	z-index: -1;
-}
-.container-3XgAHv.floating-3M3WeH::before {
-	background: var(--backgroundImage) var(--backgroundPosition)/var(--backgroundSize);
-	background-attachment: fixed;
-}
-.container-3XgAHv.floating-3M3WeH::after {
-	background-color: rgba(var(--transparencycolor), var(--transparencyalpha));
-	backdrop-filter: blur(var(--backgroundBlur));
-}
-.chatTarget-3H6mpC.notFloating-cIl-vp ~ .container-3XgAHv {
-	overflow: visible;
-}
-.chatTarget-3H6mpC.notFloating-cIl-vp ~ .container-3XgAHv .container-ZMc96U.themed-Hp1KC_::before {
-	content: "";
-	position: absolute;
-	display: block;
-	top: 0;
-	bottom: 0;
-	left: -8px;
-	width: 8px;
-	background: inherit;
-	box-shadow: inherit;
-	pointer-events: none;
-}
-.chatTarget-3H6mpC.notFloating-cIl-vp ~ .container-3XgAHv .container-ZMc96U.themed-Hp1KC_::after {
-	content: "";
-	position: absolute;
-	display: block;
-	top: 10px;
-	bottom: 10px;
-	left: -3.5px;
-	width: 1px;
-	background: var(--background-modifier-accent);
-	pointer-events: none;
-}
-
-/* ###############################[ 6. Scrollbars ]############################### */
+/* ###############################[ 7. Scrollbars ]############################### */
 #autocomplete-popout .scroller::-webkit-scrollbar,
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
 #bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar {
@@ -497,7 +447,52 @@ svg[name="Activity"] {
   width: 12px;
 }
 
-/* ###############################[ 7. Unavailablescreen ]############################### */
+/* ###############################[ 8. Shadows ]############################### */
+.popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
+.title-31SJ6t,
+.headerBar-UHpsPw,
+.elevationBorderHigh-3drnJX,
+.form-3gdLxP .inner-NQg18Y {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.channel-members-wrap,
+.guildsWrapper-5TJh6A:not(.foldercontent),
+.guilds-2JjMmN,
+.channels-wrap .flexChild-3PzYmX,
+#friends .friends-header,
+.chat-2ZfjoI .title-wrap,
+.chat-2ZfjoI form .channel-text-area-default,
+.searchResultsWrap-2DKFzt,
+.embed-hKpSrO,
+.channels-Ie2l6A,
+.wrapper-1HIH0j,
+.cardPrimary-3qRT__,
+.cardPrimaryEditable-2mz_3i,
+.authedApp-1tw-eT,
+.modal-3HD5ck .message-G6O-Wv,
+.theme-dark .autocomplete-3NRXG8,
+#app-mount .menu-Sp6bN1,
+#permissions-modal-wrapper .role-side,
+.sidebar-1tnWFu,
+.inner-NQg18Y,
+.peopleColumn-1wMU14,
+.container-3O_wAf,
+.icon-1SdhiF {
+  box-shadow: 0 2px 20px var(--shadow) !important;
+}
+
+.sidebar-1tnWFu {
+  z-index: 2;
+}
+
+.members-3WRCEx {
+  box-shadow: 0 -2px 20px var(--shadow) !important;
+}
+
+
+/* ###############################[ 9. Unavailablescreen ]############################### */
 .category-2haXBH,
 .channelIcon-1TvDoP,
 .channelName-2wrHHc {
@@ -507,7 +502,7 @@ svg[name="Activity"] {
 	opacity: 0.7;
 }
 
-/* ###############################[ 7. Update Notice ]############################### */
+/* ###############################[ 10. Update Notice ]############################### */
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	content: "Ashuramaru Theme is outdated, please download the latest one." !important;
 	display: var(--updatenotice, block) !important;
