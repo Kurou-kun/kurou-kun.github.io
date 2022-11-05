@@ -185,6 +185,25 @@ body {
     box-shadow: none !important
 }
 
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub {
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--homeImage);
+    background-size: var(--homeImageSize);
+    background-clip: border-box
+}
+
+.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: var(--color-main) !important;
+}
+
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub > svg,
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub .homeIcon-tEMBK1 {
+    display: none
+}
+
 ::-webkit-scrollbar {
     border: none !important;
     width: 7px !important
