@@ -13,16 +13,13 @@ TABLE OF CONTENTS
 	c. Channels unread color
 4. Fonts
 	a. Channels font
-	b. Chat font
-	c. Members font
-	d. Other font
 5. Chat
 	a. Textarea
 	b. Sidebar
-6. Scrollbars
-7. Shadows
-9. Unavailablescreen
-10. Update Notice
+	c. Scrollbars
+6. Shadows
+7. Unavailablescreen
+8. Update Notice
 
 ##################################################################################################### */
 
@@ -349,7 +346,7 @@ svg[name="Activity"] {
 	border-radius: 5px;
 }
 
-/* ###############################[ 7. Scrollbars ]############################### */
+/* c. Scrollbar */
 #autocomplete-popout .scroller::-webkit-scrollbar,
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
 #bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar {
@@ -447,7 +444,7 @@ svg[name="Activity"] {
   width: 12px;
 }
 
-/* ###############################[ 8. Shadows ]############################### */
+/* ###############################[ 6. Shadows ]############################### */
 .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
 .title-31SJ6t,
 .headerBar-UHpsPw,
@@ -492,7 +489,7 @@ svg[name="Activity"] {
 }
 
 
-/* ###############################[ 9. Unavailablescreen ]############################### */
+/* ###############################[ 7. Unavailablescreen ]############################### */
 .category-2haXBH,
 .channelIcon-1TvDoP,
 .channelName-2wrHHc {
@@ -502,7 +499,7 @@ svg[name="Activity"] {
 	opacity: 0.7;
 }
 
-/* ###############################[ 10. Update Notice ]############################### */
+/* ###############################[ 8. Update Notice ]############################### */
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	content: "Ashuramaru Theme is outdated, please download the latest one." !important;
 	display: var(--updatenotice, block) !important;
