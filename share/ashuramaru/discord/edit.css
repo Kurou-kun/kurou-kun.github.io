@@ -4,7 +4,7 @@
 }
 
 .titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::before {
-  content: "Ashuramaru Theme" " v."var(--theme-version);
+  content: "𝓐𝓼𝓱𝓾𝓻𝓪𝓶𝓪𝓻𝓾 𝓣𝓱𝓮𝓶𝓮" " v."var(--theme-version);
   position: absolute;
   top: 5px;
   left: 10px;
