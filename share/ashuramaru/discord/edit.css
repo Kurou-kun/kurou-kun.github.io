@@ -182,6 +182,44 @@ svg[name="Activity"] {
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
 
+/* ###############################[ 2. Home Icon ]############################### */
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
+  -webkit-mask-position: center;
+}
+
+#app-mount .tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg path {
+  display: none;
+}
+
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
+  background-color: var(--color-tertiary);
+  -webkit-mask: var(--homeImage);
+  -webkit-mask-size: var(--homeImageSize);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg defs,
+.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg g {
+  display: none;
+}
+
+.base-2jDfDU {
+  border-radius: 0 !important;
+}
+
+.platform-osx .base-2jDfDU {
+  margin-top: 32px;
+}
+
+.guilds-2JjMmN {
+  border-radius: 0;
+}
+
+#app-mount .wrapper-28eC3z .childWrapper-1j_1ub {
+  background-color: transparent;
+}
+
 /* ###############################[ 3. Colors ]############################### */
 /* a. URl color */
 .markup-eYLPri a {
