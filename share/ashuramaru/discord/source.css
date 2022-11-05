@@ -1,142 +1,29 @@
-/* Imports */
 @import url("https://codedotspectra.github.io/themes/core/badges.css");
 @import url("https://codedotspectra.github.io/themes/core/custom-font.css");
 @import url("https://codedotspectra.github.io/themes/core/hljs.css");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans');			/* 'Open Sans' */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');	/* 'Roboto', sans-serif */
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');		/* 'Lato', sans-serif */
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');	/* 'Inter', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
-/* Config */
 :root {
-	/* Colors */
-	--maincolor: #ff0000ff;
-	--secondarycolor: #900000ff;
-	--accentcolor: #ff0000;
-	--linkcolor: #ff0000;
-	--mentioncolor: #ff0000;
-	--ch-icon-color: #ff0000;
-	--ch-name-color: #ff0000;
-	
-	/* Other Colors */
-	--textbrightest: 255,255,255;
-	--textbrighter: 222,222,222;
-	--textbright: 200,200,200;
-	--textdark: 160,160,160;
-	--textdarker: 125,125,125;
-	--textdarkest: 90,90,90;
-	--successcolor: 59,165,92;
-	--warningcolor: 250,166,26;
-	--dangercolor: 237,66,69;
-	--home-color: #ffffff;
-	--online: #43b581;
-	--idle: #faa61a;
-	--dnd: #f04747;
-	--offline: #636b75;
-	--invisible: #747f8d;
-	--streaming: #643da7;
-	
-	/* Fonts */
-	--font-chat: 'Roboto', sans-serif;
-	--font-channellist: 'Inter', sans-serif;
-	--font-other: 'Open Sans';
-	--font-display: var(--font-other);
-	
-	/* Home Icon */
-	--homeImage: url(https://monstrousdev.github.io/themes/assets/svgs/home.svg);
-	--homeImageSize: cover;
-	
-	/* Background */
-	--backgroundColor: #0d0d0d;
-	--backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
-	--backgroundPosition: center;
-	--backgroundSize: cover;
-	--backgroundRepeat: no-repeat;
-	--backgroundBlur: 5px;
-	--backgroundOpacity: .3;
-	--backgroundCode: rgba(0,0,0,.5);
-	--backgroundName: rgba(0,0,0,.5);
-	
-	/* Chat */
-	--usechatbubbles: calc(var(--messagetransparency) / (var(--messagetransparency) + 0.00000000000000000000001));
-	--guildchanneltransparency: 0.15;
-	--chatinputtransparency: 0.0;
-	--memberlisttransparency: 0.0;
-	--messagetransparency: 0.5;
-	--transparencycolor: 0,0,0;
-	--transparencyalpha: 0.15;
-	
-	/* Updates */
-	--updatenotice_v1_0_5: none;
-	
-	/* Plugin Support */
-	--popout:	var(--backgroundImage);
-	--popoutposition: var(--backgroundPosition);
-	--popoutsize: var(--backgroundSize);
-	--popoutblur: var(--backgroundBlur);
-	--backdrop: rgba(0,0,0,0.85);
-	--backdropposition:	center;
-	--backdropsize: cover;
-	--backdropblur: unset;
-	--bdfdb-green:	rgb(var(--successcolor));
-	--bdfdb-yellow: rgb(var(--warningcolor));
-	--bdfdb-red: rgb(var(--dangercolor));
+    --themeColor1: #36D1DC;
+    --themeColor2: #5B86E5;
+    --customFont: 'Roboto', sans-serif;
+    --font-display: var(--customFont);
+    --homeImage: url('https://limeshark.dev/img/n/icon.png');
+    --homeImageSize: cover;
+    --backgroundColor: #0d0d0d;
+    --backgroundImage: url('https://kurou-kun.github.io/share/discord/ashuramaru/Ashuramaru-Background.png');
+    --backgroundPosition: center;
+    --backgroundSize: cover;
+    --backgroundRepeat: no-repeat;
+    --backgroundBlur: 100px;
+    --backgroundOpacity: .65;
+    --backgroundCode: rgba(0,0,0,.5);
+    --backgroundName: rgba(0,0,0,.5);
 }
 
-.theme-light, .theme-dark, .theme-amoled {
-	--text-positive: rgb(var(--successcolor));
-	--text-warning: rgb(var(--warningcolor));
-	--text-danger: rgb(var(--dangercolor));
-	--info-positive-background: rgba(var(--successcolor),.1);
-	--info-positive-foreground: rgb(var(--successcolor));
-	--info-positive-text: #fff;
-	--info-warning-background: rgba(var(--warningcolor),.1);
-	--info-warning-foreground: rgb(var(--warningcolor));
-	--info-warning-text: #fff;
-	--info-danger-background: rgba(var(--dangercolor),.1);
-	--info-danger-foreground: rgb(var(--dangercolor));
-	--info-danger-text: #fff;
-	--status-positive: rgb(var(--successcolor));
-	--status-positive-background: rgb(var(--successcolor));
-	--status-positive-text: #fff;
-	--status-warning: rgb(var(--warningcolor));
-	--status-warning-background: rgb(var(--warningcolor));
-	--status-warning-text: #fff;
-	--status-danger: rgb(var(--dangercolor));
-	--status-danger-background: rgb(var(--dangercolor));
-	--status-danger-text: #fff;
-	--header-primary: rgb(var(--textbrightest));
-	--header-secondary: rgb(var(--textbright));
-	--text-normal: rgb(var(--textbrighter));
-	--text-muted: rgb(var(--textdarker));
-	--channels-default: rgb(var(--textdark));
-	--interactive-normal: rgb(var(--textbright));
-	--interactive-hover: rgb(var(--textbrighter));
-	--interactive-active: rgb(var(--textbrightest));
-	--interactive-muted: rgb(var(--textdarkest));
-	--logo-primary: rgb(var(--textbrightest));
-	--modal-background: rgba(var(--transparencycolor), .2);
-	--background-accent: rgba(var(--transparencycolor), .1);
-	--background-primary: rgba(var(--transparencycolor), .2);
-	--background-secondary: rgba(var(--transparencycolor), .3);
-	--background-secondary-alt: rgba(var(--transparencycolor), .35);
-	--background-tertiary: rgba(var(--transparencycolor), .4);
-	--background-floating: rgba(var(--transparencycolor), .5);
-	--background-mobile-primary: rgba(var(--transparencycolor), .2);
-	--background-mobile-secondary: rgba(var(--transparencycolor), .3);
-	--background-modifier-accent: rgba(var(--textbrightest),.1);
-	--background-message-automod: rgba(var(--dangercolor),.05);
-	--background-message-automod-hover: rgba(var(--dangercolor),.1);
-	--channeltextarea-background: rgba(var(--transparencycolor), .3);
-	--input-background: rgba(var(--transparencycolor), .1);
-	--elevation-low: 0 1px 5px 0 rgba(var(--transparencycolor), .3);
-	--elevation-high: 0 2px 10px 0 rgba(var(--transparencycolor), .3);
-}
-
-/* Background */
 .appMount-2yBXZl,
 body {
     background-color: var(--backgroundColor) !important
@@ -202,40 +89,24 @@ body {
     box-shadow: none !important
 }
 
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg {
-  background-color: var(--home-color);
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/home.svg);
-  -webkit-mask-size: var(--home-size);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub {
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--homeImage);
+    background-size: var(--homeImageSize);
+    background-clip: border-box
 }
 
 .tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background-color: var(--maincolor) !important;
+    background-color: var(--themeColor1) !important;
 }
 
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg defs,
-.tutorialContainer-1pL9QS>.listItem-3SmSlK .wrapper-28eC3z svg g {
-  display: none;
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub > svg,
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub .homeIcon-tEMBK1 {
+    display: none
 }
-
-.base-2jDfDU {
-  border-radius: 0 !important;
-}
-
-.platform-osx .base-2jDfDU {
-  margin-top: 32px;
-}
-
-.guilds-2JjMmN {
-  border-radius: 0;
-}
-
-#app-mount .wrapper-28eC3z .childWrapper-1j_1ub {
-  background-color: transparent;
-}
-
 
 ::-webkit-scrollbar {
     border: none !important;
@@ -265,24 +136,24 @@ body {
 
 .guildsError-b7zR5H {
     background-color: rgba(0, 0, 0, .5);
-    color: var(--maincolor)
+    color: var(--themeColor1)
 }
 
 .childWrapper-1j_1ub {
     background-color: rgba(0, 0, 0, .5);
-    color: var(--secondarycolor)
+    color: var(--themeColor2)
 }
 .childWrapper-1j_1ub:hover {
-    background-color: var(--secondarycolor) !important;
+    background-color: var(--themeColor2) !important;
     color: #fff;
 }
 
 .circleIconButton-1QV--U {
     background-color: rgba(0, 0, 0, .5);
-    color: var(--maincolor)
+    color: var(--themeColor1)
 }
 .circleIconButton-1QV--U:hover {
-    background-color: var(--maincolor);
+    background-color: var(--themeColor1);
     color: #fff;
 }
 
@@ -307,8 +178,8 @@ body {
 }
 
 .iconBadge-2wi9r4.participating-NBGDkr {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     animation-name: pulseVoiceChat;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
@@ -317,15 +188,15 @@ body {
 
 @keyframes pulseVoiceChat {
     0% {
-        box-shadow: 0 0 0 0 var(--maincolor)
+        box-shadow: 0 0 0 0 var(--themeColor1)
     }
 
     50% {
-        box-shadow: 0 0 10px 0 var(--maincolor)
+        box-shadow: 0 0 10px 0 var(--themeColor1)
     }
 
     100% {
-        box-shadow: 0 0 0 0 var(--maincolor)
+        box-shadow: 0 0 0 0 var(--themeColor1)
     }
 }
 
@@ -344,7 +215,7 @@ body {
 
 .searchPage-3tt6dh .search-25t1e9 .searchBox-31Zv9h:focus,
 .searchPage-3tt6dh .search-25t1e9 .searchBox-31Zv9h:focus-within {
-    border-color: var(--maincolor)
+    border-color: var(--themeColor1)
 }
 
 .categoryItem-3zFJns .itemInner-3gVXMG,
@@ -369,7 +240,7 @@ body {
     height: 100%;
     width: 20px;
     border-radius: 4px 0 0 4px;
-    background: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     -webkit-mask: linear-gradient(to right, #000, Transparent);
     opacity: .6;
     z-index: 0
@@ -383,7 +254,7 @@ body {
     height: 100%;
     width: 5px;
     border-radius: 4px 0 0 4px;
-    background: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     z-index: 1
 }
 
@@ -397,7 +268,7 @@ body {
 }
 
 .categoryPill-1zjNrr.selected-bLcqYK {
-    background-color: var(--maincolor);
+    background-color: var(--themeColor1);
     color: #fff;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .5)
 }
@@ -426,7 +297,7 @@ body {
 
 .pageControlContainer-3czZwE .activeButton-1BJAiN,
 .pageControlContainer-3czZwE .activeButton-1BJAiN:hover {
-    background-color: var(--maincolor);
+    background-color: var(--themeColor1);
     box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .5)
 }
 
@@ -452,7 +323,7 @@ body {
 .slideBody-2nMrnU .header-3ZP1MY {
     margin: 0 0 24px 0;
     width: 100%;
-    color: var(--maincolor)
+    color: var(--themeColor1)
 }
 
 .actions-pBaxX6 .action-1lSjCi {
@@ -478,7 +349,7 @@ body {
 .wrapper-NhbLHG.muted-1NRuDm:hover .name-IbjUBS,
 .wrapper-NhbLHG:hover .icon-WnO6o2,
 .wrapper-NhbLHG:hover .name-IbjUBS {
-    color: var(--maincolor);
+    color: var(--themeColor1);
     text-shadow: 0 1.5px 3px rgba(0, 0, 0, .75)
 }
 
@@ -505,7 +376,7 @@ body {
     height: 100%;
     width: 20px;
     border-radius: 4px 0 0 4px;
-    background: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     -webkit-mask: linear-gradient(to right, #000, Transparent);
     opacity: .6;
     z-index: 0
@@ -519,7 +390,7 @@ body {
     height: 100%;
     width: 5px;
     border-radius: 4px 0 0 4px;
-    background: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     z-index: 1
 }
 
@@ -601,16 +472,16 @@ body {
 }
 
 .avatarSpeaking-3MqCHL {
-    box-shadow: 0 0 0 2px var(--maincolor), 0 0 10px 3px var(--secondarycolor)
+    box-shadow: 0 0 0 2px var(--themeColor1), 0 0 10px 3px var(--themeColor2)
 }
 
 .border-2Vy6FN.speaking-7QZEkv {
-    box-shadow: inset 0 0 0 2px var(--maincolor)
+    box-shadow: inset 0 0 0 2px var(--themeColor1)
 }
 
 .liveBadge-3E8LQj {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     animation-name: pulseVoiceChat;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
@@ -619,15 +490,15 @@ body {
 
 @keyframes pulseVoiceChat {
     0% {
-        box-shadow: 0 0 0 0 var(--maincolor)
+        box-shadow: 0 0 0 0 var(--themeColor1)
     }
 
     50% {
-        box-shadow: 0 0 10px 0 var(--maincolor)
+        box-shadow: 0 0 10px 0 var(--themeColor1)
     }
 
     100% {
-        box-shadow: 0 0 0 0 var(--maincolor)
+        box-shadow: 0 0 0 0 var(--themeColor1)
     }
 }
 
@@ -650,7 +521,7 @@ body {
     left: 0;
     width: 100%;
     height: 25px;
-    background: radial-gradient(var(--maincolor), var(--secondarycolor), transparent 70%);
+    background: radial-gradient(var(--themeColor1), var(--themeColor2), transparent 70%);
     opacity: .1
 }
 
@@ -702,7 +573,7 @@ body {
 }
 
 .localBot-GrCgVt:before {
-    background-color: var(--maincolor)
+    background-color: var(--themeColor1)
 }
 
 .localBot-GrCgVt {
@@ -724,23 +595,23 @@ body {
 }
 
 .operations-3q3u6E>a {
-    color: var(--maincolor) !important
+    color: var(--themeColor1) !important
 }
 
 .hasMore-3e72_v {
     color: #fff;
     font-weight: 700;
-    background-color: var(--secondarycolor);
+    background-color: var(--themeColor2);
     transition: background-color .2s ease;
     box-shadow: none
 }
 
 .hasMore-3e72_v:hover {
-    background-color: var(--maincolor)
+    background-color: var(--themeColor1)
 }
 
 .newMessagesBar-1hF-9G {
-    background-color: var(--maincolor)
+    background-color: var(--themeColor1)
 }
 
 .jumpToPresentBar-9P20AM {
@@ -749,11 +620,11 @@ body {
 }
 
 .isUnread-3Lojb- .content-3spvdd {
-    color: var(--maincolor)
+    color: var(--themeColor1)
 }
 
 .wanderingCubesItem-3Us-UG {
-    background-color: var(--maincolor)
+    background-color: var(--themeColor1)
 }
 
 .wrapper-1FP9YQ {
@@ -769,7 +640,7 @@ body {
 .mediaBarProgress-38I317,
 .mediaBarProgress-38I317:after,
 .mediaBarProgress-38I317:before {
-    background-image: linear-gradient(to top right, var(--maincolor), var(--secondarycolor))
+    background-image: linear-gradient(to top right, var(--themeColor1), var(--themeColor2))
 }
 
 .attachment-1PZZB2,
@@ -820,7 +691,7 @@ body {
 
 .cancelButton-oOSTov:hover,
 .downloadButton-2HLFWN:hover {
-    color: var(--maincolor)
+    color: var(--themeColor1)
 }
 
 .embedSuppressButton-1rZHq6 {
@@ -839,7 +710,7 @@ body {
 
 .reactionMe-3I9gFK .reactionCount-1zkLcN,
 .reactionMe-3I9gFK:hover .reactionCount-1zkLcN {
-    color: var(--maincolor)
+    color: var(--themeColor1)
 }
 
 .reaction-2A2y9y.reactionMe-3I9gFK::after {
@@ -849,7 +720,7 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--secondarycolor);
+    background-color: var(--themeColor2);
     opacity: .15;
     border-radius: 4px;
     pointer-events: none
@@ -865,7 +736,7 @@ body {
 .clickable-11uBi-:hover,
 .selected-BYpGTS {
     color: #fff;
-    background-color: var(--secondarycolor)
+    background-color: var(--themeColor2)
 }
 
 .button-1I8KM5 {
@@ -874,24 +745,24 @@ body {
 }
 
 .button-1I8KM5:hover {
-    background-color: var(--maincolor)
+    background-color: var(--themeColor1)
 }
 
 .isUnread-3Lojb- {
-    border-color: var(--maincolor)
+    border-color: var(--themeColor1)
 }
 
 .unreadPill-3nEWYM {
-    background-color: var(--maincolor)
+    background-color: var(--themeColor1)
 }
 
 .unreadPillCap-2-iI4h .unreadPillCapStroke-1nE1Q8 {
-    color: var(--maincolor);
-    fill: var(--maincolor)
+    color: var(--themeColor1);
+    fill: var(--themeColor1)
 }
 
 .newMessagesBar-mujexs {
-    background-color: var(--secondarycolor)
+    background-color: var(--themeColor2)
 }
 
 .channelTextArea-1FufC0,
@@ -912,7 +783,7 @@ body {
     color: #e6e6e6;
     border-bottom-width: 2px;
     border-style: solid;
-    border-image: linear-gradient(to right, transparent, var(--maincolor), var(--secondarycolor), transparent) 1
+    border-image: linear-gradient(to right, transparent, var(--themeColor1), var(--themeColor2), transparent) 1
 }
 
 .membersGroup-2eiWxl::after,
@@ -928,12 +799,12 @@ body {
 
 .membersGroup-2eiWxl::before {
     left: 0;
-    box-shadow: 80px 50px 30px 0 var(--secondarycolor)
+    box-shadow: 80px 50px 30px 0 var(--themeColor2)
 }
 
 .membersGroup-2eiWxl::after {
     right: 0;
-    box-shadow: -80px 50px 30px 0 var(--maincolor)
+    box-shadow: -80px 50px 30px 0 var(--themeColor1)
 }
 
 .membersGroup-2eiWxl span {
@@ -992,7 +863,7 @@ body {
     position: absolute;
     left: 0;
     top: calc(50% - 1px);
-    background-image: linear-gradient(to right, transparent, var(--maincolor), var(--secondarycolor), transparent);
+    background-image: linear-gradient(to right, transparent, var(--themeColor1), var(--themeColor2), transparent);
     z-index: -1
 }
 
@@ -1012,7 +883,7 @@ body {
 }
 
 .row-1Ib2uD.selected-1IWCoj {
-    background-image: linear-gradient(90deg, var(--secondarycolor) -90%, var(--backgroundColor)) !important
+    background-image: linear-gradient(90deg, var(--themeColor2) -90%, var(--backgroundColor)) !important
 }
 
 .row-1Ib2uD.selected-1IWCoj span,
@@ -1074,7 +945,7 @@ body {
 }
 
 .colorDefault-CDqZdO.focused-3qFvc8 {
-    background-color: var(--secondarycolor)
+    background-color: var(--themeColor2)
 }
 
 .bd-search-wrapper,
@@ -1087,7 +958,7 @@ body {
 
 .content-1DpZYB,
 .tooltipBrand-20XsMA {
-    background: var(--maincolor) !important
+    background: var(--themeColor1) !important
 }
 
 .noticeBrand-3nQBC_,
@@ -1100,11 +971,11 @@ body {
 }
 
 .tooltipBrand-20XsMA .tooltipPointer-3L49xb {
-    border-top-color: var(--maincolor) !important
+    border-top-color: var(--themeColor1) !important
 }
 
 .unread-2wipsx {
-    background-color: var(--secondarycolor)
+    background-color: var(--themeColor2)
 }
 
 .bd-addon-list .bd-card-footer button,
@@ -1141,8 +1012,8 @@ body {
 .lookGhost-2Fn_0-.colorBrand-I6CyqQ,
 .lookGhost-2Fn_0-.colorGrey-2iAG-B,
 .lookOutlined-3yKVGo.colorBrand-I6CyqQ {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     border: none;
     color: #fff
 }
@@ -1156,12 +1027,12 @@ body {
 .lookGhost-2Fn_0-.colorBrand-I6CyqQ:hover,
 .lookGhost-2Fn_0-.colorGrey-2iAG-B:hover,
 .lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover {
-    background-color: var(--maincolor) !important;
+    background-color: var(--themeColor1) !important;
     box-shadow: inset 0 0 0 1000000px rgba(255, 255, 255, .15) !important
 }
 
 .lookInverted-2mDUMi .contents-3ca1mk {
-    background: -webkit-linear-gradient(var(--maincolor), var(--secondarycolor));
+    background: -webkit-linear-gradient(var(--themeColor1), var(--themeColor2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
@@ -1192,13 +1063,13 @@ body {
 .content-1DpZYB .button-2sk-Wq:hover {
     color: #fff;
     text-shadow: 0 1px 5px rgba(0, 0, 0, .8);
-    background-color: var(--secondarycolor);
+    background-color: var(--themeColor2);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .4)
 }
 
 .button-1MICoQ {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     border: none
 }
 
@@ -1223,7 +1094,7 @@ body {
 }
 
 .sidebarRegion-1VBisG {
-    background-color: rgba(0, 0, 0, .30)
+    background-color: rgba(0, 0, 0, .25)
 }
 
 .contentRegion-3HkfJJ {
@@ -1286,7 +1157,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     height: 100%;
     width: 5px;
     border-radius: 4px 0 0 4px;
-    background: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     z-index: 1
 }
 
@@ -1301,7 +1172,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     color: #e6e6e6 !important;
     border-bottom-width: 2px;
     border-style: solid;
-    border-image: linear-gradient(to right, transparent, var(--maincolor), var(--secondarycolor), transparent) 1
+    border-image: linear-gradient(to right, transparent, var(--themeColor1), var(--themeColor2), transparent) 1
 }
 
 #bd-settings-sidebar .ui-tab-bar-header::after,
@@ -1338,13 +1209,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 #bd-settings-sidebar .ui-tab-bar-header::before,
 .side-2ur1Qk .header-2Kx1US::before {
     left: 0;
-    box-shadow: 80px 50px 30px 0 var(--secondarycolor)
+    box-shadow: 80px 50px 30px 0 var(--themeColor2)
 }
 
 #bd-settings-sidebar .ui-tab-bar-header::after,
 .side-2ur1Qk .header-2Kx1US::after {
     right: 0;
-    box-shadow: -80px 50px 30px 0 var(--maincolor)
+    box-shadow: -80px 50px 30px 0 var(--themeColor1)
 }
 
 .detailsBlock-FoDTGA,
@@ -1405,16 +1276,16 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .wrapper-SdcMKg {
-    border-color: var(--maincolor)
+    border-color: var(--themeColor1)
 }
 
 .selected-18Wszc.option-1QI4c9 {
-    border-color: var(--maincolor);
-    background-color: var(--maincolor)
+    border-color: var(--themeColor1);
+    background-color: var(--themeColor1)
 }
 
 .option-1QI4c9:hover {
-    background-color: var(--secondarycolor)
+    background-color: var(--themeColor2)
 }
 
 .option-1QI4c9 {
@@ -1436,24 +1307,24 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .container-2nx-BQ[style*="rgb(59, 165, 92)"] {
-    background-image: linear-gradient(to top right, var(--maincolor), var(--secondarycolor)) !important
+    background-image: linear-gradient(to top right, var(--themeColor1), var(--themeColor2)) !important
 }
 
 .colorDefault-CDqZdO .checkbox-hADx5o,
 .colorDefault-CDqZdO .radioSelection-1UHp0b,
 .colorDefault-CDqZdO.focused-3qFvc8 .check-3HZJs4 {
-    color: var(--maincolor)
+    color: var(--themeColor1)
 }
 
 .checkboxWrapper-2fDzaA .checkbox-f1HnKB.checked-1pZh2h {
-    background-color: var(--maincolor) !important;
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1) !important;
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     border: 1px solid rgba(0, 0, 0, .5) !important
 }
 
 .item-2idW98[style*="rgb(114, 137, 218)"] {
-    background-color: var(--maincolor) !important;
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1) !important;
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     border: 1px solid rgba(0, 0, 0, .5) !important
 }
 
@@ -1464,7 +1335,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .item-2idW98[style*="rgb(114, 137, 218)"] .checkboxWrapper-2fDzaA .checkbox-f1HnKB.checked-1pZh2h svg g polyline {
-    stroke: var(--maincolor) !important
+    stroke: var(--themeColor1) !important
 }
 
 .cardPrimaryEditable-2mz_3i[style*="rgb(67, 181, 129)"] {
@@ -1520,8 +1391,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .barFill-2Bh7CX {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to right, var(--maincolor), var(--secondarycolor))
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2))
 }
 
 .accountBtn-1YkMgV .accountBtnInner-3XK70s {
@@ -1535,7 +1406,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .premiumIndicator-22GgcZ {
     background-color: var(--backgroundColor) !important;
-    background-image: linear-gradient(to right, var(--maincolor), var(--secondarycolor));
+    background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2));
     padding: 5px 10px
 }
 
@@ -1570,7 +1441,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .button-1yVL_7 {
     background-color: var(--backgroundColor) !important;
-    box-shadow: 0 0 0 1px var(--maincolor), 0 1px 5px 0 var(--secondarycolor) !important
+    box-shadow: 0 0 0 1px var(--themeColor1), 0 1px 5px 0 var(--themeColor2) !important
 }
 
 .lastPlayed-3aHvxk,
@@ -1632,13 +1503,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .popout-2sKjHu {
     background-color: var(--backgroundColor) !important;
-    border-color: var(--maincolor) !important
+    border-color: var(--themeColor1) !important
 }
 
 .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,
 .lookFilled-1h1y05.selectOpen-hQuR6b,
 .select-1Pkeg4:focus {
-    border-color: var(--maincolor) !important
+    border-color: var(--themeColor1) !important
 }
 
 .guildHeader-3nh5RK,
@@ -1652,8 +1523,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .bd-switch input:checked+.bd-switch-body,
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
 }
 .bd-switch {
     border-radius: 50px !important;
@@ -1671,7 +1542,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .bda-name {
     text-transform: uppercase;
-    background: -webkit-linear-gradient(80deg, var(--maincolor), var(--secondarycolor));
+    background: -webkit-linear-gradient(80deg, var(--themeColor1), var(--themeColor2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
@@ -1686,7 +1557,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .bd-addon-list .bd-addon-card a {
-    color: var(--secondarycolor)
+    color: var(--themeColor2)
 }
 
 .plugin-settings {
@@ -1709,7 +1580,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .input-2g-os5.focused-1AtTHC,
 .input-2g-os5:focus {
-    border-color: var(--maincolor)
+    border-color: var(--themeColor1)
 }
 
 .headerClickable-2IVFo9,
@@ -1757,7 +1628,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .inner-rBP-MS {
-    border-color: var(--maincolor) !important
+    border-color: var(--themeColor1) !important
 }
 
 .attachPopoutRow-3uEL0J:hover {
@@ -1793,8 +1664,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .jumpButton-1ZwI_j {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor))
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2))
 }
 
 .messageContainer-3VTXBC {
@@ -1823,8 +1694,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .emojiItem-277VFM.emojiItemSelected-2Lg50V,
 .navButtonActive-1EqC5l {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to bottom right, var(--maincolor), var(--secondarycolor))
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2))
 }
 
 .categoryItemDefaultCategory-3haEDq:hover {
@@ -1842,14 +1713,14 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .wrapper-1ZcZW- {
-    background: var(--maincolor) !important;
-    color: var(--maincolor);
+    background: var(--themeColor1) !important;
+    color: var(--themeColor1);
     box-shadow: inset 0 0 0 1000000px rgba(0, 0, 0, .65);
     border-radius: 8px !important
 }
 
 .wrapper-1ZcZW-:hover {
-    color: var(--secondarycolor) !important
+    color: var(--themeColor2) !important
 }
 
 .backgroundFlash-1X5jVs .wrapper-1ZcZW- {
@@ -1886,25 +1757,27 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
     z-index: -1;
     opacity: .15
 }
 
 .mentioned-Tre-dv:before {
-    background-color: transparent;
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2))
 }
 
 .botTagInvert-1nKcq_,
 .botTagRegular-kpctgU {
-    background-color: var(--maincolor);
+    background-color: var(--themeColor1);
     border-radius: 50px !important;
     color: #fff
 }
 
 .tabBar-ra-EuL .item-3mHhwr[style*="rgb(67, 181, 129)"] {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2));
     color: #fff !important
 }
 
@@ -1972,7 +1845,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .foreground-2JnqVD {
-    stroke: var(--maincolor) !important
+    stroke: var(--themeColor1) !important
 }
 
 .quickswitcher-pKcM9U {
@@ -1989,7 +1862,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .input-3r5zZY:focus {
-    border-color: var(--maincolor)
+    border-color: var(--themeColor1)
 }
 
 .scroller-2qwVWY {
@@ -2010,8 +1883,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .keybindShortcut-3zF1P9 span {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to right, var(--maincolor), var(--secondarycolor));
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2));
     border: 1px solid rgba(0, 0, 0, .5) !important
 }
 
@@ -2082,8 +1955,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover,
 .calendarPicker-sDhzdi .react-datepicker__day:hover,
 .datePicker-70cO23 .datePickerHint-17MnA8 .hintValue-1x-flY {
-    background-color: var(--maincolor);
-    background-image: linear-gradient(to right, var(--maincolor), var(--secondarycolor))
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2))
 }
 
 .searchResultsWrap-5RVOkx {
@@ -2096,8 +1969,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .tab-EiCZG6.selected-3gXBLQ {
-    border-bottom-color: var(--maincolor);
-    color: var(--maincolor)
+    border-bottom-color: var(--themeColor1);
+    color: var(--themeColor1)
 }
 
 .searchResultsWrap-5RVOkx div[role=group] .channelSeparator-dTqJ4K:before {
@@ -2121,7 +1994,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .jumpButton-1ol35X {
-    background-color: var(--secondarycolor);
+    background-color: var(--themeColor2);
     color: #fff
 }
 
@@ -2138,13 +2011,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .categoryFadeBlurple-1HuV1x {
-    background-color: var(--maincolor);
-    background: linear-gradient(to right, var(--maincolor), var(--secondarycolor)) !important
+    background-color: var(--themeColor1);
+    background: linear-gradient(to right, var(--themeColor1), var(--themeColor2)) !important
 }
 
 .focused-q9B2e4:after,
 .result-3OpoO7:hover:after {
-    box-shadow: inset 0 0 0 2px var(--maincolor), inset 0 0 0 3px var(--backgroundColor) !important
+    box-shadow: inset 0 0 0 2px var(--themeColor1), inset 0 0 0 3px var(--backgroundColor) !important
 }
 
 .perksModal-fSYqOq {
@@ -2228,7 +2101,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .iconContainer-GFfNaA svg circle {
-    fill: var(--maincolor)
+    fill: var(--themeColor1)
 }
 
 .spoilerText-27bIiA {
@@ -2255,7 +2128,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .blockquoteDivider-363utW {
-    background-color: var(--maincolor)
+    background-color: var(--themeColor1)
 }
 
 .blockquoteContainer-3VtvI1 blockquote {
@@ -2273,7 +2146,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .active-136ioF,
 .hover-3OQb9Y:hover {
-    background-color: var(--maincolor);
+    background-color: var(--themeColor1);
     border-radius: 50% !important
 }
 
@@ -2286,7 +2159,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .bf-toolbar .format:hover {
-    background: linear-gradient(to right, var(--maincolor), var(--secondarycolor)) !important;
+    background: linear-gradient(to right, var(--themeColor1), var(--themeColor2)) !important;
     color: #fff !important
 }
 
@@ -2304,7 +2177,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     border: none !important;
 }
 .focused-qp-W9B, .item-1BCeuB:hover {
-    background-color: var(--secondarycolor);
+    background-color: var(--themeColor2);
     color: #fff;
 }
 
@@ -2313,7 +2186,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 .circleIconButton-3lUBQk {
     background-color: rgba(0, 0, 0, .5);
-    color: var(--secondarycolor);
+    color: var(--themeColor2);
 }
 
 .avatar-3mTjvZ,
@@ -2340,7 +2213,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .circleIconButton-1VxDrg {
     background-color: rgba(0,0,0,.25) !important;
-    color: var(--maincolor) !important;
+    color: var(--themeColor1) !important;
 }
 
 .header-3OsQeK {
@@ -2383,7 +2256,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .theme-dark .container-2qVG6q.isOpen-2OXbFs {
     background-color: var(--backgroundColor);
-    border: 3px solid var(--maincolor)
+    border: 3px solid var(--themeColor1)
 }
 
 .container-3YcgdM {
@@ -2423,11 +2296,11 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 .container-2rzKKA{
     background-color:  var(--backgroundColor);
-    border: 2px solid var(--maincolor);
+    border: 2px solid var(--themeColor1);
 }
 
 .messageContainer-3VTXBC{
-    border: 2px solid var(--maincolor);
+    border: 2px solid var(--themeColor1);
 }
 
 .reaction-3vwAF2{
@@ -2509,24 +2382,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.userProfileInnerWithBanner-3CJ1Og{
+.userProfileInnerThemedNonPremium-1gT-zY{
     background: var(--backgroundColor);
-}
-
-.overlayBackground-1KgwVi{
-    background: var(--backgroundColor) !important;
-}
-
-.userProfileInnerPremiumWithoutBanner-37uB4Q{
-    background: var(--backgroundColor) !important;
-}
-
-.userProfileInnerNonPremium-1XjSjn{
-    background: var(--backgroundColor);
-}
-
-.userPopoutInner-1hXSeY:before{
-    background-color: transparent !important;
 }
 
 .profileBadges-31rDHI{
@@ -2547,3 +2404,4 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .member-2gU6Ar{
     background: transparent;
 }
+
