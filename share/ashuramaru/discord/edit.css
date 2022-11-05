@@ -484,7 +484,7 @@ svg[name="Activity"] {
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg::before {
 	content: "Ashuramaru Theme is outdated, please download the latest one." !important;
 	display: var(--updatenotice, block) !important;
-	background-color: var(--backgroundColor) !important;
+	background-color: transparent !important;
 	box-shadow: 0 1px 5px 0 rgba(var(--transparencycolor), .3) !important;
 	color: var(--color-main) !important;
 	flex-grow: 0 !important;
