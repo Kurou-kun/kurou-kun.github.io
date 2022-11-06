@@ -1,4 +1,4 @@
-/* Neutron Imports */
+/* Imports */
 @import url("https://codedotspectra.github.io/themes/core/badges.css");
 @import url("https://codedotspectra.github.io/themes/core/custom-font.css");
 @import url("https://codedotspectra.github.io/themes/core/hljs.css");
@@ -185,6 +185,10 @@ body {
 .searchBar-3TnChZ {
     box-shadow: none !important
 }
+
+/* 
+Deleted Home Icon
+*/
 
 ::-webkit-scrollbar {
     border: none !important;
@@ -592,16 +596,9 @@ body {
     background-color: var(--backgroundColor)
 }
 
-.typeWindows-2-g3UY::after {
-    content: "";
-    position: absolute;
-    top: -14px;
-    left: 0;
-    width: 100%;
-    height: 25px;
-    background: radial-gradient(var(--color-main), var(--color-secondary), transparent 70%);
-    opacity: .1
-}
+/*
+TitleBar Background Color
+*/
 
 .winButton-3UMjdg svg * {
     display: none
@@ -1162,14 +1159,9 @@ body {
     color: #fff
 }
 
-.closeButton-PCZcma {
-    border-color: var(--backgroundColor) !important;
-    background: 0 0 !important
-}
-
-.keybind-13vtq8 {
-    color: var(--backgroundColor) !important
-}
+/*
+Close Button
+*/
 
 .sidebarRegion-1VBisG {
     background-color: rgba(0, 0, 0, .25)
@@ -1790,16 +1782,9 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: rgba(0, 0, 0, .5)
 }
 
-.wrapper-1ZcZW- {
-    background: var(--color-main) !important;
-    color: var(--color-main);
-    box-shadow: inset 0 0 0 1000000px rgba(0, 0, 0, .65);
-    border-radius: 8px !important
-}
-
-.wrapper-1ZcZW-:hover {
-    color: var(--color-secondary) !important
-}
+/*
+Mention
+*/
 
 .backgroundFlash-1X5jVs .wrapper-1ZcZW- {
     box-shadow: none
@@ -2294,18 +2279,9 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     color: var(--color-main) !important;
 }
 
-.header-3OsQeK {
-    box-shadow: none !important;
-}
-
-.folder-241Joy {
-    background-color: transparent !important;
-}
-.expandedFolderBackground-1kSAf6,
-.container-3EtAkD,
-.emptyCard-KDifrB {
-    background-color: rgba(0,0,0,.25) !important;
-}
+/*
+Server Groups
+*/
 
 .tabBody-2dgbAs:before,
 .homeIcon-r0w4ny > * {

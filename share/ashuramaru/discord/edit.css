@@ -31,7 +31,7 @@ TABLE OF CONTENTS
 
 /* b. Custome text */
 .titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::before {
-  content: "Ashuramaru Theme" " v."var(--theme-version);
+  content: "Ashuramaru Theme";
   position: absolute;
   top: 5px;
   left: 10px;
