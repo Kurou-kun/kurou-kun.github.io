@@ -54,36 +54,6 @@ TABLE OF CONTENTS
   transition: .2s ease !important;
 }
 
-.winButton-3UMjdg:hover {
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-  background-color: transparent !important;
-  border-radius: 3px;
-  opacity: 1 !important;
-}
-
-.titleBar-1it3bQ .winButtonClose-3Q8ZH5 {
-	background-image: url(https://monstrousdev.github.io/themes/assets/svgs/cancel.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 24px;
-}
-
-.titleBar-1it3bQ .winButton-3UMjdg:nth-child(3) {
-	background-image: url(https://monstrousdev.github.io/themes/assets/svgs/fullscreen.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 24px;
-}
-
-.titleBar-1it3bQ .winButton-3UMjdg:nth-child(4) {
-	background-image: url(https://monstrousdev.github.io/themes/assets/svgs/minimize.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center 7px;
-	background-size: 24px;
-	top: -13px;
-}
-
 .titleBar-1it3bQ rect,
 .wordmark-2u86JB,
 .winButton-3UMjdg svg,
