@@ -1060,6 +1060,7 @@ TitleBar Background Color
 .button-f2h6uQ,
 .lookFilled-yCfaCM,
 .lookInverted-2mDUMi {
+    border-radius: 10px;
     transition: all .2s ease
 }
 
@@ -1070,7 +1071,7 @@ TitleBar Background Color
 .button-f2h6uQ:hover,
 .lookFilled-yCfaCM:hover,
 .lookInverted-2mDUMi:hover {
-    border-radius: 8px
+    border-radius: 10px
 }
 
 /*
