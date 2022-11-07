@@ -29,8 +29,22 @@ TABLE OF CONTENTS
   display: none;
 }
 
-  /* c. Windows buttons swap */
+/* b. Custome text */
+.titleBar-1it3bQ:not(.typeMacOS-3V4xXE)::before {
+  content: "Ashuramaru Theme";
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: var(--color-main);
+  display: block;
+  height: 16px;
+  width: fit-content;
+  pointer-events: none;
+  font-size: 14px;
+  font-weight: bold;
+}
 
+  /* c. Windows buttons swap */
 .titleBar-1it3bQ rect,
 .wordmark-2u86JB,
 .winButton-3UMjdg svg,
