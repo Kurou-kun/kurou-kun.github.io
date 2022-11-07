@@ -45,14 +45,6 @@ TABLE OF CONTENTS
 }
 
   /* c. Windows buttons swap */
-  .winButton-3UMjdg {
-  top: -8px;
-  height: 30px;
-  width: 30px;
-  background-position: center;
-  opacity: .6;
-  transition: .2s ease !important;
-}
 
 .titleBar-1it3bQ rect,
 .wordmark-2u86JB,
