@@ -1074,9 +1074,9 @@ TitleBar Background Color
     border-radius: 8px
 }
 
-.button-12Fmur.enabled-9OeuTA:hover {
-    background-color: rgba(0, 0, 0, .5)
-}
+/*
+User Channel Info Buttons
+*/
 
 .bd-addon-list .bd-card-footer button,
 .bd-button,
@@ -2274,10 +2274,9 @@ Mention
     background-color: transparent !important;
 }
 
-.circleIconButton-1VxDrg {
-    background-color: rgba(0,0,0,.25) !important;
-    color: var(--color-main) !important;
-}
+/*
+Add/Browse Servers Button
+*/
 
 /*
 Server Groups
