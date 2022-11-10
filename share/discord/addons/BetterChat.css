@@ -9,7 +9,9 @@ Website: https://kurou-kun.github.io/
 :root {
 	/* Message */
 	--message-color-background: 25, 25, 30;
+	--message-color-background-hover: 35, 35, 40;
 	--message-color-mention: 250, 0, 0;
+	--message-color-mention-hover: 250, 0, 0;
 	--message-color-link: 0, 250, 250;
 	--message-color-bot: 0, 0, 250;
 	--message-shadow: 3px;
@@ -48,7 +50,7 @@ Website: https://kurou-kun.github.io/
 }
 
 .messageListItem-ZZ7v6g:hover {
-	background-color: rgba(0, 0, 0, 0.6) !important;
+	background-color: rgba(var(--message-color-background-hover), 1) !important;
 }
 
 /* ####################[ Avatar ]#################### */
