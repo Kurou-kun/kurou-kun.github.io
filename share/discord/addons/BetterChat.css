@@ -16,6 +16,7 @@ Website: https://kurou-kun.github.io/
 	--message-color-bot: 0, 0, 250;
 	--message-shadow: 3px;
 	--message-transparency: 1;
+	--message-hover-transparency: 0.3;
 	
 	/* Avatar */
 	--avatar-shadow: 4px;
@@ -100,13 +101,13 @@ Website: https://kurou-kun.github.io/
 
 /* ####################[ Mention & Reply ]#################### */
 .replying-eZ7p5z, .mentioned-Tre-dv {
-	background-color: rgba(var(--message-color-mention), 0.15);
+	background-color: rgba(var(--message-color-mention), var(--message-transparency));
 	box-shadow: 0px 0px var(--message-shadow) rgba(var(--message-color-mention), 0.2);
 	transition: all .2s ease
 }
 
 .messageListItem-ZZ7v6g .replying-eZ7p5z:hover, .mentioned-Tre-dv:hover{
-	background-color: rgba(var(--message-color-mention), 0.3) !important;
+	background-color: rgba(var(--message-color-mention-hover), var(--message-hover-transparency)) !important;
 }
 
 .mentioned-Tre-dv::before, .replying-eZ7p5z::before {
